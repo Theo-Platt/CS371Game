@@ -1,2 +1,2 @@
-# CS372Game
+# CS371Game
 The repo for our CS371 game.
