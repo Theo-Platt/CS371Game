@@ -9,7 +9,7 @@
 //     private BaseCharacter Char1 = new BaseFire();
 //     private BaseCharacter Char2 = new BaseAir();
 //     private BaseCharacter Char3 = new BaseWater();
-//     private BaseCharacter Char4 = new BaseEarth();
+//     privaadded te BaseCharacter Char4 = new BaseEarth();
 //     private void Start()
 //     {
 //     }
