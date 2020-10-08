@@ -11,7 +11,7 @@ public class GameHandler : MonoBehaviour
         Debug.Log("GameHandler.Start");
         int i=0;
         FunctionPeriodic.Create(() => { 
-            CMDebug.TextPopupMouse("testing" + i + "!"); 
+            CMDebug.TextPopupMouse("Waffles" + i + "!"); 
             i++;
         }, .5f);
     }
