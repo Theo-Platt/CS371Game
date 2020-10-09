@@ -1,0 +1,50 @@
+Index: poop/Characters.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- poop/Characters.meta	(date 1602010466390)
++++ poop/Characters.meta	(date 1602010466390)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 5a0994230174c468f8a5c390b744edca
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: poop/Scenes.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- poop/Scenes.meta	(date 1602006491147)
++++ poop/Scenes.meta	(date 1602006491147)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 22aaae9b1176c854895870ce550a5fd8
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: .idea/.idea.The_Game/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelUserStore\">\n    <attachedFolders />\n    <explicitIncludes>\n      <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>\n      <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>\n      <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.5</Path>\n      <Path>Library/PackageCache/com.unity.2d.spriteshape@3.0.13</Path>\n      <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>\n      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>\n      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>\n      <Path>Library/PackageCache/com.unity.ide.vscode@1.2.1</Path>\n      <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>\n      <Path>Library/PackageCache/com.unity.test-framework@1.1.16</Path>\n      <Path>Library/PackageCache/com.unity.textmeshpro@2.1.1</Path>\n      <Path>Library/PackageCache/com.unity.timeline@1.2.16</Path>\n      <Path>Packages</Path>\n      <Path>ProjectSettings</Path>\n    </explicitIncludes>\n    <explicitExcludes>\n      <Path>.idea</Path>\n      <Path>Library</Path>\n      <Path>Logs</Path>\n      <Path>Temp</Path>\n      <Path>obj</Path>\n    </explicitExcludes>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.The_Game/.idea/indexLayout.xml	(revision b86093b7584aa52e04033834b751da39e2b1c90d)
++++ .idea/.idea.The_Game/.idea/indexLayout.xml	(date 1602118579647)
+@@ -26,6 +26,7 @@
+       <Path>Logs</Path>
+       <Path>Temp</Path>
+       <Path>obj</Path>
++      <Path>poop</Path>
+     </explicitExcludes>
+   </component>
+ </project>
+\ No newline at end of file

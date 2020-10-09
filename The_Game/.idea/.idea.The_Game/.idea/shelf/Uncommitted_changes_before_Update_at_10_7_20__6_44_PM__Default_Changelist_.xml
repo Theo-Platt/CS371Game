@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_7_20,_6_44_PM_[Default_Changelist]" date="1602117846949" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_6_44_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/7/20, 6:44 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Library/ArtifactDB" />
+    <option name="AFTER_PATH" value="Library/ArtifactDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_6_44_PM_[Default_Changelist]/ArtifactDB" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/SourceAssetDB" />
+    <option name="AFTER_PATH" value="Library/SourceAssetDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_6_44_PM_[Default_Changelist]/SourceAssetDB" />
+  </binary>
+</changelist>

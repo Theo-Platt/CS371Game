@@ -1,0 +1,476 @@
+Index: ../.idea/.idea.CS371Game.dir/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/workspace.xml	(date 1602019326979)
++++ ../.idea/.idea.CS371Game.dir/.idea/workspace.xml	(date 1602019326979)
+@@ -0,0 +1,62 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="ef0cee3e-23cd-4f32-96e1-837e628aaafc" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/The_Game/Assets/TestGUI.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/The_Game/Assets/TestGUI.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/contentModel.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseAir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseAir.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseEarth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseEarth.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/BasedWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseWater.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/BasedWater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/BaseWater.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/ef44eb-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/ef44eb-mainStage.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/24009e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/24009e-mainStage.json" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/.gitignore" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectId" id="1iThequLghTMH7MYjezdGOTVFk2" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="ef0cee3e-23cd-4f32-96e1-837e628aaafc" name="Default Changelist" comment="" />
++      <created>1601937594132</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1601937594132</updated>
++      <workItem from="1601937608595" duration="997000" />
++      <workItem from="1602019271518" duration="5000" />
++      <workItem from="1602019326736" duration="1000" />
++    </task>
++    <servers />
++  </component>
++  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
++  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
++  <component name="VcsManagerConfiguration">
++    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .collabignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .collabignore	(date 1602117847172)
++++ .collabignore	(date 1602117847172)
+@@ -0,0 +1,33 @@
++# ===========================
++# Default Collab Ignore Rules
++# ===========================
++
++# OS Generated
++# ============
++.DS_Store
++._*
++.Spotlight-V100
++.Trashes
++Icon?
++ehthumbs.db
++[Tt]humbs.db
++[Dd]esktop.ini
++
++# Visual Studio / MonoDevelop generated
++# =====================================
++[Ee]xported[Oo]bj/
++*.userprefs
++*.csproj
++*.pidb
++*.suo
++*.sln
++*.user
++*.unityproj
++*.booproj
++
++# Unity generated
++# ===============
++[Oo]bj/
++[Bb]uild
++sysinfo.txt
++*.stackdump
+Index: ../.idea/.idea.CS371Game.dir/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/indexLayout.xml	(date 1601937694845)
++++ ../.idea/.idea.CS371Game.dir/.idea/indexLayout.xml	(date 1601937694845)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ContentModelUserStore">
++    <attachedFolders />
++    <explicitIncludes />
++    <explicitExcludes />
++  </component>
++</project>
+\ No newline at end of file
+Index: Assets/Characters.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters.meta	(date 1602119684843)
++++ Assets/Characters.meta	(date 1602119684843)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 5a0994230174c468f8a5c390b744edca
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Scenes.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scenes.meta	(date 1602119684706)
++++ Assets/Scenes.meta	(date 1602119684706)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 22aaae9b1176c854895870ce550a5fd8
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Library/StateCache/Hierarchy/ef44eb-mainStage.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"m_ExpandedPrefabGameObjectFileIDs\":[],\"m_ExpandedSceneGameObjectInstanceIDs\":[-1624,-1598,-1250],\"m_ScrollY\":0.0,\"m_LastClickedFileID\":0,\"m_LastClickedInstanceID\":-4086}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Library/StateCache/Hierarchy/ef44eb-mainStage.json	(revision b86093b7584aa52e04033834b751da39e2b1c90d)
++++ Library/StateCache/Hierarchy/ef44eb-mainStage.json	(date 1602119808859)
+@@ -1,1 +1,1 @@
+-{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-1624,-1598,-1250],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":-4086}
+\ No newline at end of file
++{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-1624,-1598,-1250],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":0}
+\ No newline at end of file
+Index: Assets/Characters/player.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/player.cs.meta	(date 1601937580105)
++++ Assets/Characters/player.cs.meta	(date 1601937580105)
+@@ -0,0 +1,11 @@
++fileFormatVersion: 2
++guid: 5ea77f3f794b95b4cb75825510ca9d51
++MonoImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  defaultReferences: []
++  executionOrder: 0
++  icon: {instanceID: 0}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Library/StateCache/SceneView/24009e-mainStage.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"cameraMode\":{\"drawMode\":0,\"name\":\"Shaded\",\"section\":\"Shading Mode\"},\"sceneLighting\":true,\"audioPlay\":false,\"sceneViewState\":{\"showFog\":true,\"showMaterialUpdate\":false,\"showSkybox\":true,\"showFlares\":true,\"showImageEffects\":true,\"showParticleSystems\":true},\"in2DMode\":true,\"pivot\":{\"x\":482.27569580078127,\"y\":194.33676147460938,\"z\":0.0},\"rotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"size\":10.0,\"orthographic\":true}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Library/StateCache/SceneView/24009e-mainStage.json	(revision b86093b7584aa52e04033834b751da39e2b1c90d)
++++ Library/StateCache/SceneView/24009e-mainStage.json	(date 1602119809154)
+@@ -1,1 +1,1 @@
+-{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":482.27569580078127,"y":194.33676147460938,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":10.0,"orthographic":true}
+\ No newline at end of file
++{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":19.15080451965332,"y":-19.548629760742189,"z":-252.84552001953126},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":533.2267456054688,"orthographic":true}
+\ No newline at end of file
+Index: Assets/Characters/BaseFire.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/BaseFire.cs	(date 1602013990641)
++++ Assets/Characters/BaseFire.cs	(date 1602013990641)
+@@ -0,0 +1,24 @@
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++
++namespace Characters
++{
++//inherites base character class
++    public class BaseFire : BaseCharacter
++    {
++        public BaseFire()
++        {
++            CharacterElementType = "Fire";
++            CharacterDescription = "it's lit.";
++            level = 1;
++            hp = 10;
++            attack = 2;
++            defense = 4;
++            speed = 5;
++            accuracy = 5;
++        } //end of Fire
++
++    } //end of BaseFire
++    
++}
+\ No newline at end of file
+Index: Assets/Characters/BaseCharacter.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/BaseCharacter.cs.meta	(date 1602003195909)
++++ Assets/Characters/BaseCharacter.cs.meta	(date 1602003195909)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: b61f3f42d8354c61aff6b7f169e949b7
++timeCreated: 1602003195
+\ No newline at end of file
+Index: Assets/Characters/player.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/player.cs	(date 1602012880331)
++++ Assets/Characters/player.cs	(date 1602012880331)
+@@ -0,0 +1,25 @@
++// using System.Collections;
++// using System.Collections.Generic;
++// using UnityEngine;
++//
++// public class player : MonoBehaviour
++// {
++//     public CharacterController2D controller; //idk why it's mad Theo :( 
++//
++//     float horizontalMove = 0f;
++//
++//     public float runSpeed=40f;
++//
++//     // Update is called once per frame
++//     void Update()
++//     {
++//         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
++//     }
++//
++//     void FixedUpdate()
++//     {
++//         //move character
++//         controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
++//
++//     }
++// }
+Index: Assets/Characters/BaseCharacter.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/BaseCharacter.cs	(date 1602006150431)
++++ Assets/Characters/BaseCharacter.cs	(date 1602006150431)
+@@ -0,0 +1,68 @@
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++
++public class BaseCharacter
++{
++    //element type
++    private string characterElementType;
++    private string characterDescription;
++    //stats
++    private int Level;
++    private int HP;       //cap at 1000? 
++    private int Attack;   //cap at 200?
++    private int Defense;  //        |
++    private int Speed;    //        |
++    private int Accuracy; //        V
++    
++    //getters and setters for BaseCharacter
++    public string CharacterElementType
++    {
++        get => characterElementType;
++        set => characterElementType = value;
++    }//end of CharacterElementType
++    
++    public string CharacterDescription
++    {
++        get => characterDescription;
++        set => characterDescription = value;
++    }//end of CharacterElementType
++    
++    public int level
++    {
++        get => Level;
++        set => Level = value;
++    }//end of level
++    public int hp
++    {
++        get => HP;
++        set => HP = value;
++    }//end of hp
++
++    public int attack
++    {
++        get => Attack;
++        set => Attack = value;
++    }//end of attack
++    
++    public int defense
++    {
++        get => Defense;
++        set => Defense = value;
++    }//end of defense
++    
++    public int speed
++    {
++        get => Speed;
++        set => Speed = value;
++    }//end of speed
++    
++    public int accuracy
++    {
++        get => Accuracy;
++        set => Accuracy = value;
++    }//end of accuracy
++    
++    
++}//end of class BaseCharacterClass
++    
+\ No newline at end of file
+Index: ../.idea/.idea.CS371Game.dir/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/contentModel.xml	(date 1601937694828)
++++ ../.idea/.idea.CS371Game.dir/.idea/contentModel.xml	(date 1601937694828)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ContentModelStore">
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
++    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
++    <e p="$PROJECT_DIR$" t="IncludeFlat" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.The_Game/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelUserStore\">\n    <attachedFolders />\n    <explicitIncludes>\n      <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>\n      <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>\n      <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.5</Path>\n      <Path>Library/PackageCache/com.unity.2d.spriteshape@3.0.13</Path>\n      <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>\n      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>\n      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>\n      <Path>Library/PackageCache/com.unity.ide.vscode@1.2.1</Path>\n      <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>\n      <Path>Library/PackageCache/com.unity.test-framework@1.1.16</Path>\n      <Path>Library/PackageCache/com.unity.textmeshpro@2.1.1</Path>\n      <Path>Library/PackageCache/com.unity.timeline@1.2.16</Path>\n      <Path>Packages</Path>\n      <Path>ProjectSettings</Path>\n    </explicitIncludes>\n    <explicitExcludes>\n      <Path>.idea</Path>\n      <Path>Library</Path>\n      <Path>Logs</Path>\n      <Path>Temp</Path>\n      <Path>obj</Path>\n    </explicitExcludes>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.The_Game/.idea/indexLayout.xml	(revision b86093b7584aa52e04033834b751da39e2b1c90d)
++++ .idea/.idea.The_Game/.idea/indexLayout.xml	(date 1602119700716)
+@@ -3,6 +3,7 @@
+   <component name="ContentModelUserStore">
+     <attachedFolders />
+     <explicitIncludes>
++      <Path>Assets</Path>
+       <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>
+       <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>
+       <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>
+Index: Assets/Characters/BaseFire.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Characters/BaseFire.cs.meta	(date 1602005039492)
++++ Assets/Characters/BaseFire.cs.meta	(date 1602005039492)
+@@ -0,0 +1,11 @@
++fileFormatVersion: 2
++guid: 4668ed35117224b3c8416fe0ae9d360b
++MonoImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  defaultReferences: []
++  executionOrder: 0
++  icon: {instanceID: 0}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: ../.idea/.idea.CS371Game.dir/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/projectSettingsUpdater.xml	(date 1601937694892)
++++ ../.idea/.idea.CS371Game.dir/.idea/projectSettingsUpdater.xml	(date 1601937694892)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RiderProjectSettingsUpdater">
++    <option name="vcsConfiguration" value="2" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../.idea/.idea.CS371Game.dir/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/modules.xml	(date 1601937694863)
++++ ../.idea/.idea.CS371Game.dir/.idea/modules.xml	(date 1601937694863)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.CS371Game.dir/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/riderModule.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../.idea/.idea.CS371Game.dir/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/vcs.xml	(date 1601937694900)
++++ ../.idea/.idea.CS371Game.dir/.idea/vcs.xml	(date 1601937694900)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../.idea/.idea.CS371Game.dir/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../.idea/.idea.CS371Game.dir/.idea/encodings.xml	(date 1601937587489)
++++ ../.idea/.idea.CS371Game.dir/.idea/encodings.xml	(date 1601937587489)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
++</project>
+\ No newline at end of file

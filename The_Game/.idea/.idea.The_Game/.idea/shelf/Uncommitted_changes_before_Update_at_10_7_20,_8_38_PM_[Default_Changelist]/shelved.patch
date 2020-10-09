@@ -1,0 +1,29 @@
+Index: Library/EditorInstance.json
+===================================================================
+--- Library/EditorInstance.json	(revision 11e851e1c403d308bf226ea9797980ce896875e8)
++++ Library/EditorInstance.json	(revision 11e851e1c403d308bf226ea9797980ce896875e8)
+@@ -1,6 +0,0 @@
+-{
+-	"process_id" : 12448,
+-	"version" : "2019.4.11f1",
+-	"app_path" : "C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Unity.exe",
+-	"app_contents_path" : "C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data"
+-}
+\ No newline at end of file
+Index: .idea/.idea.The_Game/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelUserStore\">\n    <attachedFolders />\n    <explicitIncludes>\n      <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>\n      <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>\n      <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.5</Path>\n      <Path>Library/PackageCache/com.unity.2d.spriteshape@3.0.13</Path>\n      <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>\n      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>\n      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>\n      <Path>Library/PackageCache/com.unity.ide.vscode@1.2.1</Path>\n      <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>\n      <Path>Library/PackageCache/com.unity.test-framework@1.1.16</Path>\n      <Path>Library/PackageCache/com.unity.textmeshpro@2.1.1</Path>\n      <Path>Library/PackageCache/com.unity.timeline@1.2.16</Path>\n      <Path>Packages</Path>\n      <Path>ProjectSettings</Path>\n    </explicitIncludes>\n    <explicitExcludes>\n      <Path>.idea</Path>\n      <Path>Library</Path>\n      <Path>Logs</Path>\n      <Path>Temp</Path>\n      <Path>obj</Path>\n    </explicitExcludes>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.The_Game/.idea/indexLayout.xml	(revision 11e851e1c403d308bf226ea9797980ce896875e8)
++++ .idea/.idea.The_Game/.idea/indexLayout.xml	(date 1602124654150)
+@@ -24,7 +24,6 @@
+       <Path>.idea</Path>
+       <Path>Library</Path>
+       <Path>Logs</Path>
+-      <Path>Temp</Path>
+       <Path>obj</Path>
+     </explicitExcludes>
+   </component>
