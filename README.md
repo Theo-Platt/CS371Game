@@ -7,3 +7,6 @@ empty :(
 
 # Milanote Thingy
 https://app.milanote.com/1KqibT18mj9nbV/element-wars-development?p=h5KPhIp0xAy
+
+# BDC
+https://docs.google.com/spreadsheets/d/1L1c2ZHo0ONNW2w2_zCivbOERfkV9ssRb5rzYLHHutqI/edit?usp=sharing
