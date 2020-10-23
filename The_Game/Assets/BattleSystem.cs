@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum BattleState {START, MIDDLE, PLAYERTURN, ENEMYTURN, WIN, LOSS}
-public class GameSys : MonoBehavior
+public class GameSys : MonoBehaviour
 {
     public GameObject player;
     public GameObject enemy;
