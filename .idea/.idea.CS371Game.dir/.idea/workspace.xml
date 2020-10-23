@@ -24,32 +24,210 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Fire Heavy Attack sprite sheet and attack">
+    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Created BattleSystem that will hold game states">
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Rock.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Rock.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/BattleHud.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/BattleHud.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/BattleSpot.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/BattleSpot.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/DialoguePanel.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/DialoguePanel.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/05/053aab7645cd7082becebcb824655ca1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/16/161182c88c334404746542390f771722" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/18/1896217b10a24d45787c8816d6de45c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/2e/2e5358896d6ee1b36a381ed1fa1c57a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/33/3369574d8b6c34375364018768aa5b1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/37/373810369dfec529e3178cbdc8d38c41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/59/59c8b34542f2eeb07d5fa9a79689970a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/5d/5d513ec080b7527bcf0c69d87412117a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/61/61e39e099db5434055c701205e2c7893" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/62/62946bdaf99ae7b40d70201c8bbc399d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/6a/6a19050973152cd757a4b782c28206e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/72/72890a5252fa226a16a62b95c6abbeea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/83/833707d7c62019883242c74a6e6b43f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/83/835ffd132d01abd112da80c1534a0e19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/86/86f92f96502b5388d9e5088c983370af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/99/9971a2a1a0d4420768fec177ab6bc4fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ae/aecdd2b28d203558494ac99260ddf512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ae/aee496eff01513613f6e229eafd32df4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/b8/b8ed1041542583a7e1075d21e9117b79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/c4/c4b25fccc781963d8444b3d2ab4154f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/e5/e5bf8b4a99db83a3368d1b170c092f36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fa/fa144df8422a65fda8ab6c79b047e88d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityLockfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-02a04e38f47f34061859317d3d290c83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-04d8d29c6d0e24eae9a1904280501f83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-09a2b8cc267254f3fa41e44607243f94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-09dd33faa9d784f8ca7f6fe9c40f8b8f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-0f6a3054afd4d4882a7698a617193148" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-183bbfc2a420c4037b75ea32e4a55b10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-1a964dcec9e704ab0b32d3326149a7cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-1db0f28d5fd6442a5921f463d7f218a2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-240ed0a5dad894176b1b6db31a7e9310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-2cd638edc4e54442a9ecbd3adee80701" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-370f20a6c815e4cd5873b0d440b65d51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-3bb0c40a97eb4400a9f368d6c3e0b0a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-3bd1007021555479d9ec385a9913bfb7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-43fd80150da6747648a655786b1c7137" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-48ea5842742e04180a7a91a6839fc412" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-49233246b23674988b5750df189cf825" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-4c99169bbdc824d7ba3ac4f93f8504cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-591a6a6d1b1454e5eb59310e8cf0171e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-5c62196a76e114b85a5022c65d5d6e97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-71c2d793b64504a77ae8f16ab37de1c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-757c4620e13884892a6475d0e23ac767" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-77444449410dd411bbc5c0bf1a2b17aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-7adc4ab162aff4d7c877a1c957de0f42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-7f7b9a4b1df5545b19b64eaae2e7184f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-84ffaca09122146d0bf156b1d580eb8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-8a0d137de5b2a454eb714b40fab7af26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-93d327726ace2499cb637118bf82be31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-99a0601b15a174d6c9706c74af33b6a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a3ffbff990bc64b5dae78d0ca8b79054" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a9b41cf88e7104d91b3752391da5062c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-abf17fda353fc436691084a2150124da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-afdc211bb41b5448eb52c791d7bdb584" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-b866bc99fc81e46bbb45b43fa2b5a00e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-bfbba939762924a91b144574bba74d01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-c2cbcc0017a004389b7a0fde99ba6391" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-c66c53984b0ca40a59785c033d73adb9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-cced292bef52c466594881f80ffab5dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-e23c966fb20ed47a69a6aec3e4545bd7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-e29725f269562401682410c307dce0c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-edcba81bf841043c79cfa254ce7867f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-f04cf865225994543b9de3ae56bafc36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-f36092ea57c8040d19a539be7fb9b208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-f7e670cbf72124ceeb8b3ec9ee25b705" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-fbcb9494998fa46a881b45800fc23812" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/ArtifactDB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/Assembly-CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/SourceAssetDB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20__8_47_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets/White_1x1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets/White_1x1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets/White_1x1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Assets/White_1x1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/CMDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/CMDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Resources/CodeMonkeyAssets.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Resources/CodeMonkeyAssets.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/Button_Sprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/Button_Sprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/Button_UI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/Button_UI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionPeriodic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionPeriodic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionUpdater.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/FunctionUpdater.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_Bar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_Bar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_BarMultiple.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_BarMultiple.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_Sprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_Sprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_TextComplex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UI_TextComplex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UtilsClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/UtilsClass.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Bar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Bar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Mesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Mesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Sprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/CodeMonkey/Utils/World_Sprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Game States.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Scripts/GameHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Scripts/GameHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/TestGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/TestGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/35/351dd647e537adc721e2a551e5d5f1d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/5d/5db9a86822eac5ef826fe83c59c211f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/86/8682fedb682ba318925ad61690cdbca1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/9c/9c519766ca674947012e3922278efe1d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/a4/a4100af9a342918b76cfab0a2fda81a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/f2/f2286dad1b2e598e5df0d15b777198fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fb2d973233375b3082ffd3feaa9c4d0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/1c/1c47bf02edfe0307c9e0ad9c3df58d97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/1c/1cb6395c78e9f33bef72ffe6e1d4df87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/1c/1cfb0eb12684ff2b058e46bd39f418ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/22/227d3ce9d1d50b8333c6b4a948933060" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/43/436314d2aa07e587f4cee3fac5a676bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/4c/4c6a85ca29568ffc02b95c829adae141" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/5c/5c0413f0c3924b554e6644509ca316cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/61/61f72fdbe6dc2d01e7f50b155d3b5598" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/6a/6a35d8281ff270619581126846340452" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/6b/6bed464dce9fdd80027006e1503c58d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/6d/6d520a1de9dfde8f8fae67ea06a35118" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/75/75480055a9e1a65de883d30b657cd81e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/7d/7da80020361370197b504994f045518a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/92/9239d1dc9aeb60f02a67c12bfd3a180a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/95/9579d593ec41287ccc08ec3c379e1ea0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ad/adcb4b6ea5a3440d074e405e5ed293ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/c0/c0d1e1d2406e11b39678789f1a152289" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/cb/cbe38a4644709349411e831707174a26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ee/ee01e72cc8514eb76a6f1c494048a439" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/fc/fcde9bc62018f6b0a62fc905905f42c0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/PsdPlugin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/PsdPlugin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Mathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Mathematics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-3733e02cf5adb49c9a1562665fdd6929" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-61fed749a957c4528b773e7a6205ad3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-70949962c7b414d559fd9bc99bb09359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-97d05078f939b4bcba4ab592f713a375" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-9e5a0cdadbcad48ceaa46c1b264a13e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a084773f3f0d84f62b0f024cd4416517" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a46a3d2ae04b84631bb6a44a820bdecc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-c98f548ea2b434f69bf2d4cc36b748a6" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +238,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/The_Game/Assets/Characters/BaseAir.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/The_Game/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/The_Game/Assets/Unit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/The_Game/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/The_Game/Assets/Characters/Character.cs" />
         <option value="$PROJECT_DIR$/The_Game/Assets/Game States/GameSys.cs" />
+        <option value="$PROJECT_DIR$/The_Game/Assets/Battle System.cs" />
         <option value="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1if4iZVzFJDUgt3nP8rmAaE7tF5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
@@ -95,7 +277,7 @@
       <workItem from="1602285456351" duration="377000" />
       <workItem from="1602297949436" duration="260000" />
       <workItem from="1603412160958" duration="6659000" />
-      <workItem from="1603422668183" duration="2478000" />
+      <workItem from="1603422668183" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
       <created>1602285502612</created>
@@ -118,7 +300,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602285789343</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created BattleSystem that will hold game states">
+      <created>1603430054233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603430054234</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created BattleSystem that will hold game states">
+      <created>1603430133531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603430133531</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created BattleSystem that will hold game states">
+      <created>1603430253378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603430253378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created BattleSystem that will hold game states">
+      <created>1603430258857</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603430258857</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -136,22 +346,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added Fire Heavy Attack sprite sheet and attack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Fire Heavy Attack sprite sheet and attack" />
+    <MESSAGE value="Created BattleSystem that will hold game states" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created BattleSystem that will hold game states" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="276" y="173" key="MultipleFileMergeDialog" timestamp="1603430166104">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="276" y="173" key="MultipleFileMergeDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603430166104" />
     <state x="148" y="50" key="SettingsEditor" timestamp="1603420034732">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
-    <state x="242" y="147" key="Vcs.Push.Dialog.v2" timestamp="1602285799769">
+    <state x="242" y="147" key="Vcs.Push.Dialog.v2" timestamp="1603430270818">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1602285799769" />
-    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603429465060">
+    <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603430270818" />
+    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603431113502">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603429465060" />
+    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603431113502" />
   </component>
 </project>
