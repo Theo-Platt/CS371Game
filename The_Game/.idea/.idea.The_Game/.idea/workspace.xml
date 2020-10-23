@@ -6,9 +6,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48e01e7-7a72-4625-b892-bfbe5ee532bb" name="Default Changelist" comment="Added fire, AGAIN">
+      <change afterPath="$PROJECT_DIR$/Assets/Game States/GameSys.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/ArtifactDB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/Assembly-CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/SourceAssetDB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/351dd647e537adc721e2a551e5d5f1d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5db9a86822eac5ef826fe83c59c211f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/8682fedb682ba318925ad61690cdbca1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c519766ca674947012e3922278efe1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a4/a4100af9a342918b76cfab0a2fda81a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f2286dad1b2e598e5df0d15b777198fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fb/fb2d973233375b3082ffd3feaa9c4d0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

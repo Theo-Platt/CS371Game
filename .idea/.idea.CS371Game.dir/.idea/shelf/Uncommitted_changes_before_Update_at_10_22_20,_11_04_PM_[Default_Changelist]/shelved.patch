@@ -1,0 +1,1013 @@
+Index: The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20__8_47_PM__Default_Changelist_.xml
+===================================================================
+--- The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20__8_47_PM__Default_Changelist_.xml	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20__8_47_PM__Default_Changelist_.xml	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
+@@ -1,19 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]" date="1602125259482" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/7/20, 8:47 PM [Default Changelist]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="Library/ArtifactDB" />
+-    <option name="AFTER_PATH" value="Library/ArtifactDB" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/ArtifactDB" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="Library/ScriptAssemblies/Assembly-CSharp.dll" />
+-    <option name="AFTER_PATH" value="Library/ScriptAssemblies/Assembly-CSharp.dll" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/Assembly-CSharp.dll" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="Library/SourceAssetDB" />
+-    <option name="AFTER_PATH" value="Library/SourceAssetDB" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/SourceAssetDB" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: The_Game/Library/ProtocolInstance.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[{\"Port\":59908,\"SolutionName\":\"The_Game\"}]
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/ProtocolInstance.json	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/Library/ProtocolInstance.json	(date 1603414650950)
+@@ -1,1 +1,1 @@
+-[{"Port":59908,"SolutionName":"The_Game"}]
+\ No newline at end of file
++[{"Port":60564,"SolutionName":"The_Game"}]
+\ No newline at end of file
+Index: The_Game/.idea/.idea.The_Game/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand />\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f48e01e7-7a72-4625-b892-bfbe5ee532bb\" name=\"Default Changelist\" comment=\"Added fire, AGAIN\">\n      <change beforePath=\"$PROJECT_DIR$/Library/ArtifactDB\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Library/ArtifactDB\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Library/SourceAssetDB\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Library/SourceAssetDB\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/Assets/Scenes/BaseCharacter.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/BaseCharacterClass.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/player.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/BaseFire.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/BaseCharacter.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BasedWater.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/player.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BaseEarth.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BaseAir.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/BattleSystem.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BaseFire.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/TestGUI.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BaseFIre.cs\" />\n        <option value=\"$PROJECT_DIR$/Assets/Characters/BaseWater.cs\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1iVmpoV7GzRUi1LYr2tqr8A9HXb\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"Discover.Launch.Via.Unity\" value=\"true\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propDebugger\" />\n  </component>\n  <component name=\"RunManager\" selected=\"Attach to Unity Editor.Attach to Unity Editor\">\n    <configuration name=\"Attach to Unity Editor &amp; Play\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"UNITY_ATTACH_AND_PLAY\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\n      <option name=\"allowRunningInParallel\" value=\"false\" />\n      <option name=\"listenPortForConnections\" value=\"false\" />\n      <option name=\"pid\" />\n      <option name=\"selectedOptions\">\n        <set />\n      </option>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Attach to Unity Editor\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"Unity Debug\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\n      <option name=\"allowRunningInParallel\" value=\"false\" />\n      <option name=\"listenPortForConnections\" value=\"false\" />\n      <option name=\"pid\" />\n      <option name=\"selectedOptions\">\n        <set />\n      </option>\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f48e01e7-7a72-4625-b892-bfbe5ee532bb\" name=\"Default Changelist\" comment=\"\" />\n      <created>1602001327671</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1602001327671</updated>\n      <workItem from=\"1602001359030\" duration=\"2602000\" />\n      <workItem from=\"1602005386129\" duration=\"7458000\" />\n      <workItem from=\"1602019350021\" duration=\"390000\" />\n      <workItem from=\"1602019845168\" duration=\"6351000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Created a BaseCharacter class for base stats, Based Element classes for elements\">\n      <created>1602011870884</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602011870884</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Added GUI Tester and updated Element classes\">\n      <created>1602020029148</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602020029148</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Random fixes for files\">\n      <created>1602119923993</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602119923993</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Added Something?\">\n      <created>1602124653508</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602124653508</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Added fire, AGAIN\">\n      <created>1602125209246</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602125209246</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"true\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"EditMode\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\n                <map>\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\n                </map>\n              </option>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"RECENT_FILTERS\">\n      <map>\n        <entry key=\"Branch\">\n          <value>\n            <list>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"master\" />\n                </option>\n              </RecentGroup>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"Created a BaseCharacter class for base stats, Based Element classes for elements\" />\n    <MESSAGE value=\"Changed syntax of element classes and created a GUI tester to see how GUIs work\" />\n    <MESSAGE value=\"Added GUI Tester and updated Element classes\" />\n    <MESSAGE value=\"Random fixes for files\" />\n    <MESSAGE value=\"Added Something?\" />\n    <MESSAGE value=\"Added fire, AGAIN\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added fire, AGAIN\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"130\" y=\"90\" key=\"MergeDialog\" timestamp=\"1602124900855\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"130\" y=\"90\" key=\"MergeDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602124900855\" />\n    <state x=\"276\" y=\"172\" key=\"MultipleFileMergeDialog\" timestamp=\"1602124900931\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"276\" y=\"172\" key=\"MultipleFileMergeDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602124900931\" />\n    <state x=\"327\" y=\"140\" key=\"RollbackChangesDialog\" timestamp=\"1602004967792\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"327\" y=\"140\" key=\"RollbackChangesDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602004967792\" />\n    <state x=\"136\" y=\"50\" key=\"SettingsEditor\" timestamp=\"1602013604320\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"136\" y=\"50\" key=\"SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602013604320\" />\n    <state x=\"349\" y=\"52\" key=\"VCS.ChangeListViewerDialog\" timestamp=\"1602117970356\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"349\" y=\"52\" key=\"VCS.ChangeListViewerDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602117970356\" />\n    <state x=\"227\" y=\"147\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1602125314610\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"-1579\" y=\"-88\" key=\"Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057\" timestamp=\"1602020036124\" />\n    <state x=\"227\" y=\"147\" key=\"Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602125314610\" />\n    <state x=\"557\" y=\"179\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1602124914917\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"557\" y=\"179\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602124914917\" />\n    <state x=\"292\" y=\"124\" width=\"670\" height=\"676\" key=\"search.everywhere.popup\" timestamp=\"1602012567710\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"292\" y=\"124\" width=\"670\" height=\"676\" key=\"search.everywhere.popup/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1602012567710\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/.idea/.idea.The_Game/.idea/workspace.xml	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/.idea/.idea.The_Game/.idea/workspace.xml	(date 1603422655837)
+@@ -6,9 +6,27 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f48e01e7-7a72-4625-b892-bfbe5ee532bb" name="Default Changelist" comment="Added fire, AGAIN">
++      <change afterPath="$PROJECT_DIR$/Assets/Game States/GameSys.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/ArtifactDB" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/Assembly-CSharp.dll" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/SourceAssetDB" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/351dd647e537adc721e2a551e5d5f1d7" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5db9a86822eac5ef826fe83c59c211f3" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/8682fedb682ba318925ad61690cdbca1" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c519766ca674947012e3922278efe1d" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a4/a4100af9a342918b76cfab0a2fda81a6" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f2286dad1b2e598e5df0d15b777198fe" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fb/fb2d973233375b3082ffd3feaa9c4d0b" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ContentModelUserStore\">\n    <attachedFolders />\n    <explicitIncludes>\n      <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>\n      <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>\n      <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.0.4</Path>\n      <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.5</Path>\n      <Path>Library/PackageCache/com.unity.2d.spriteshape@3.0.13</Path>\n      <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>\n      <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>\n      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>\n      <Path>Library/PackageCache/com.unity.ide.vscode@1.2.1</Path>\n      <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>\n      <Path>Library/PackageCache/com.unity.test-framework@1.1.16</Path>\n      <Path>Library/PackageCache/com.unity.textmeshpro@2.1.1</Path>\n      <Path>Library/PackageCache/com.unity.timeline@1.2.16</Path>\n      <Path>Packages</Path>\n      <Path>ProjectSettings</Path>\n    </explicitIncludes>\n    <explicitExcludes>\n      <Path>.idea</Path>\n      <Path>Library</Path>\n      <Path>Logs</Path>\n      <Path>Temp</Path>\n      <Path>obj</Path>\n    </explicitExcludes>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml	(date 1603422657215)
+@@ -3,6 +3,7 @@
+   <component name="ContentModelUserStore">
+     <attachedFolders />
+     <explicitIncludes>
++      <Path>Assets</Path>
+       <Path>Library/PackageCache/com.unity.2d.animation@3.2.4</Path>
+       <Path>Library/PackageCache/com.unity.2d.common@2.0.2</Path>
+       <Path>Library/PackageCache/com.unity.2d.path@2.0.6</Path>
+Index: The_Game/Library/EditorInstance.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n\t\"process_id\" : 48010,\n\t\"version\" : \"2019.4.11f1\",\n\t\"app_path\" : \"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app\",\n\t\"app_contents_path\" : \"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents\"\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/EditorInstance.json	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/Library/EditorInstance.json	(date 1603412152980)
+@@ -1,5 +1,5 @@
+ {
+-	"process_id" : 48010,
++	"process_id" : 16796,
+ 	"version" : "2019.4.11f1",
+ 	"app_path" : "/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app",
+ 	"app_contents_path" : "/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents"
+Index: The_Game/Library/SceneVisibilityState.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\u0000\u0000\r\u0019\u0000\u0000\u0010�\u0000\u0000\u0000\u0015\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u00002019.4.11f1\u0000����\u0001\u0001\u0000\u0000\u0000���D\u0000���`�ߩ����l��\u000B\u0019)�\\\u0000\u0000\u00009\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u00007\u0000\u0000�����\u0000\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000�\u0003\u0000��\u0001\u0000�\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0015\u0000\u0000\u0000(\u0000\u0000\u0000����\u0002\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0002\u0000�\u0000\u0000�>\u0000\u0000\u0000����\u0003\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u00011\u0000\u0000�1\u0000\u0000�����\u0004\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u001F\u0002\u0000�j\u0000\u0000�����\u0006\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000J\u0000\u0000\u0000�\u0000\u0000�\u0014\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�Z\u0000\u0000\u0000\u0010\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u0000\f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�\u007F\u0000\u0000\u0000\u0004\u0000\u0000\u0000\r\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000�\u0000\u0000\u0000\n\u0003\u0000�����\u000E\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000��\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u000F\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����\u0014\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����\u0015\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000\u0016\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u0000\u0017\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000\u0019\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����\u001A\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����\u001B\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000\u001C\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u0000\u001D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000\u001E\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000\u001F\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0015\u0000\u0000\u0000\b\u0001\u0000\u0000���� \u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0002\u0000�\u0000\u0000�>\u0000\u0000\u0000����!\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u00011\u0000\u0000�1\u0000\u0000�����\"\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000#\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u001F\u0002\u0000�j\u0000\u0000�����$\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000J\u0000\u0000\u0000�\u0000\u0000�\u0014\u0000\u0000\u0000%\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�Z\u0000\u0000\u0000\u0010\u0000\u0000\u0000&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000'\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000(\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u0000)\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u0000*\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�\u007F\u0000\u0000\u0000\u0004\u0000\u0000\u0000+\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000�\u0000\u0000\u0000\n\u0003\u0000�����,\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000��\u0000\u0000\u0000\u0010\u0000\u0000\u0000-\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000.\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u00000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u00001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����2\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����3\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u00004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u00005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u00006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u00007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����8\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����9\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000:\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u0000;\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000<\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000=\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0015\u0000\u0000\u0000&\u0001\u0000\u0000����>\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0002\u0000�\u0000\u0000�>\u0000\u0000\u0000����?\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0003\u00011\u0000\u0000�1\u0000\u0000�����@\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000A\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u001F\u0002\u0000�j\u0000\u0000�����B\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000J\u0000\u0000\u0000�\u0000\u0000�\u0014\u0000\u0000\u0000C\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�Z\u0000\u0000\u0000\u0010\u0000\u0000\u0000D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000E\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000F\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u0000G\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u0000H\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000�\u007F\u0000\u0000\u0000\u0004\u0000\u0000\u0000I\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0005\u0000�\u0000\u0000\u0000\n\u0003\u0000�����J\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0000\u0000��\u0000\u0000\u0000\u0010\u0000\u0000\u0000K\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�_\u0000\u0000\u0000\u0004\u0000\u0000\u0000L\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�g\u0000\u0000\u0000\u0004\u0000\u0000\u0000M\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�o\u0000\u0000\u0000\u0004\u0000\u0000\u0000N\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u0000�\u0003\u0000�w\u0000\u0000\u0000\u0004\u0000\u0000\u0000O\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����P\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����Q\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u0000S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000T\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000U\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0006\u0000�\u0003\u0000��\u0000\u0000\u0000����V\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0007\u00011\u0000\u0000�1\u0000\u0000�����W\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000�\u001B\u0003\u0000�\u0004\u0000\u0000\u0000X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\b\u0000�\u0000\u0000\u0000j\u0000\u0000�\u0010\u0000\u0000\u0000Y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000Z\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0000.\u0003\u0000��\u0000\u0000\u0000\b\u0000\u0000\u0000[\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000SceneVisibilityState\u0000SceneDataContainer\u0000m_SceneVisibilityData\u0000m_SceneData\u0000SceneIdentifier\u0000guid\u0000data[0]\u0000data[1]\u0000data[2]\u0000data[3]\u0000handle\u0000HierarchicalSceneData\u0000m_SceneGUID\u0000m_GameObjectsPersistent\u0000SceneObjectIdentifier\u0000targetObject\u0000targetPrefab\u0000m_HierarchiesPersistent\u0000m_SceneVisibilityDataIsolated\u0000m_ScenePickingData\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u00AD��B2�O��V\t�Pv�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/SceneVisibilityState.asset	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/Library/SceneVisibilityState.asset	(date 1603413021846)
+@@ -4,4 +4,4 @@
+                  �   
+  �����    �            �  ��                       � �_                       � �g                       � �o                       � �w                       � ��   ����    �           1  �1  �����    @            �  � �                    �   j  �                   	 . ��                      	 . ��                       � ��   ����    �           1  �1  �����    @            �  � �                    �   j  �                   	 . ��                      	 . ��                            ����     �            �  �>   ����!    �           1  �1  �����"    �            �  � �   #                  �j  �����$    �            J   �  �   %                 �  �Z      &                 � �_      '                 � �g      (                 � �o      )                 � �w      *                 �  �      +                 �   
+  �����,    �            �  ��      -                 � �_      .                 � �g      /                 � �o      0                 � �w      1                 � ��   ����2    �           1  �1  �����3    @            �  � �   4                 �   j  �   5                	 . ��      6                	 . ��      7                 � ��   ����8    �           1  �1  �����9    @            �  � �   :                 �   j  �   ;                	 . ��      <                	 . ��      =                    &  ����>    �            �  �>   ����?    �           1  �1  �����@    �            �  � �   A                  �j  �����B    �            J   �  �   C                 �  �Z      D                 � �_      E                 � �g      F                 � �o      G                 � �w      H                 �  �      I                 �   
+- �����J    �            �  ��      K                 � �_      L                 � �g      M                 � �o      N                 � �w      O                 � ��   ����P    �           1  �1  �����Q    @            �  � �   R                 �   j  �   S                	 . ��      T                	 . ��      U                 � ��   ����V    �           1  �1  �����W    @            �  � �   X                 �   j  �   Y                	 . ��      Z                	 . ��      [               SceneVisibilityState SceneDataContainer m_SceneVisibilityData m_SceneData SceneIdentifier guid data[0] data[1] data[2] data[3] handle HierarchicalSceneData m_SceneGUID m_GameObjectsPersistent SceneObjectIdentifier targetObject targetPrefab m_HierarchiesPersistent m_SceneVisibilityDataIsolated m_ScenePickingData                      �                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�           ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�           ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�        
+\ No newline at end of file
++ �����J    �            �  ��      K                 � �_      L                 � �g      M                 � �o      N                 � �w      O                 � ��   ����P    �           1  �1  �����Q    @            �  � �   R                 �   j  �   S                	 . ��      T                	 . ��      U                 � ��   ����V    �           1  �1  �����W    @            �  � �   X                 �   j  �   Y                	 . ��      Z                	 . ��      [               SceneVisibilityState SceneDataContainer m_SceneVisibilityData m_SceneData SceneIdentifier guid data[0] data[1] data[2] data[3] handle HierarchicalSceneData m_SceneGUID m_GameObjectsPersistent SceneObjectIdentifier targetObject targetPrefab m_HierarchiesPersistent m_SceneVisibilityDataIsolated m_ScenePickingData                      �                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ����                        ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�           ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�                           ����                        ­��B2�O��V	�Pv�    ­��B2�O��V	�Pv�        
+\ No newline at end of file
+Index: The_Game/Library/shadercompiler-UnityShaderCompiler0.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'\nCmd: initializeCompiler\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/shadercompiler-UnityShaderCompiler0.log	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/Library/shadercompiler-UnityShaderCompiler0.log	(date 1603424318510)
+@@ -1,2 +1,14 @@
+ Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'
+ Cmd: initializeCompiler
++Cmd: compileSnippet
++  api=14 type=0 insize=1302 outsize=2957 kw=UNITY_PASS_SHADOWCASTER SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
++Cmd: compileSnippet
++  api=14 type=1 insize=1302 outsize=539 kw=UNITY_PASS_SHADOWCASTER SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
++Cmd: compileSnippet
++  api=14 type=0 insize=1602 outsize=3918 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
++Cmd: compileSnippet
++  api=14 type=1 insize=1602 outsize=14819 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
++Cmd: compileSnippet
++  api=14 type=0 insize=1460 outsize=3576 kw=UNITY_PASS_FORWARDADD DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
++Cmd: compileSnippet
++  api=14 type=1 insize=1460 outsize=6729 kw=UNITY_PASS_FORWARDADD DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Index: The_Game/Library/CurrentLayout-default.dwlt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\n%TAG !u! tag:unity3d.com,2011:\n--- !u!114 &1\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_PixelRect:\n    serializedVersion: 2\n    x: 0\n    y: 45\n    width: 1280\n    height: 755\n  m_ShowMode: 4\n  m_Title: \n  m_RootView: {fileID: 6}\n  m_MinSize: {x: 875, y: 300}\n  m_MaxSize: {x: 10000, y: 10000}\n  m_Maximized: 0\n--- !u!114 &2\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 9}\n  - {fileID: 3}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 30\n    width: 1280\n    height: 705\n  m_MinSize: {x: 579, y: 492}\n  m_MaxSize: {x: 14002, y: 14042}\n  vertical: 0\n  controlID: 110\n--- !u!114 &3\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: InspectorWindow\n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 886\n    y: 0\n    width: 394\n    height: 705\n  m_MinSize: {x: 276, y: 71}\n  m_MaxSize: {x: 4001, y: 4021}\n  m_ActualView: {fileID: 16}\n  m_Panes:\n  - {fileID: 16}\n  - {fileID: 13}\n  m_Selected: 0\n  m_LastSelected: 1\n--- !u!114 &4\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 271\n    height: 320\n  m_MinSize: {x: 201, y: 221}\n  m_MaxSize: {x: 4001, y: 4021}\n  m_ActualView: {fileID: 17}\n  m_Panes:\n  - {fileID: 17}\n  m_Selected: 0\n  m_LastSelected: 0\n--- !u!114 &5\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: ProjectBrowser\n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 320\n    width: 886\n    height: 385\n  m_MinSize: {x: 231, y: 271}\n  m_MaxSize: {x: 10001, y: 10021}\n  m_ActualView: {fileID: 15}\n  m_Panes:\n  - {fileID: 15}\n  - {fileID: 19}\n  m_Selected: 0\n  m_LastSelected: 1\n--- !u!114 &6\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 7}\n  - {fileID: 2}\n  - {fileID: 8}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1280\n    height: 755\n  m_MinSize: {x: 875, y: 300}\n  m_MaxSize: {x: 10000, y: 10000}\n--- !u!114 &7\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1280\n    height: 30\n  m_MinSize: {x: 0, y: 0}\n  m_MaxSize: {x: 0, y: 0}\n  m_LastLoadedLayoutName: \n--- !u!114 &8\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 735\n    width: 1280\n    height: 20\n  m_MinSize: {x: 0, y: 0}\n  m_MaxSize: {x: 0, y: 0}\n--- !u!114 &9\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 10}\n  - {fileID: 5}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 886\n    height: 705\n  m_MinSize: {x: 303, y: 492}\n  m_MaxSize: {x: 10001, y: 14042}\n  vertical: 1\n  controlID: 71\n--- !u!114 &10\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 4}\n  - {fileID: 11}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 886\n    height: 320\n  m_MinSize: {x: 303, y: 221}\n  m_MaxSize: {x: 8003, y: 4021}\n  vertical: 0\n  controlID: 51\n--- !u!114 &11\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: GameView\n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 271\n    y: 0\n    width: 615\n    height: 320\n  m_MinSize: {x: 102, y: 121}\n  m_MaxSize: {x: 4002, y: 4021}\n  m_ActualView: {fileID: 12}\n  m_Panes:\n  - {fileID: 18}\n  - {fileID: 14}\n  - {fileID: 12}\n  m_Selected: 2\n  m_LastSelected: 1\n--- !u!114 &12\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Game\n    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 271\n    y: 75\n    width: 613\n    height: 299\n  m_ViewDataDictionary: {fileID: 0}\n  m_SerializedViewNames: []\n  m_SerializedViewValues: []\n  m_SerializedCustomFieldsNames: []\n  m_SerializedCustomFieldsValues: []\n  m_PlayModeViewName: GameView\n  m_ShowGizmos: 0\n  m_TargetDisplay: 0\n  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}\n  m_TargetSize: {x: 613, y: 278}\n  m_TextureFilterMode: 0\n  m_TextureHideFlags: 61\n  m_RenderIMGUI: 1\n  m_MaximizeOnPlay: 0\n  m_UseMipMap: 0\n  m_VSyncEnabled: 0\n  m_Gizmos: 0\n  m_Stats: 0\n  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000\n  m_ZoomArea:\n    m_HRangeLocked: 0\n    m_VRangeLocked: 0\n    hZoomLockedByDefault: 0\n    vZoomLockedByDefault: 0\n    m_HBaseRangeMin: -153.25\n    m_HBaseRangeMax: 153.25\n    m_VBaseRangeMin: -69.5\n    m_VBaseRangeMax: 69.5\n    m_HAllowExceedBaseRangeMin: 1\n    m_HAllowExceedBaseRangeMax: 1\n    m_VAllowExceedBaseRangeMin: 1\n    m_VAllowExceedBaseRangeMax: 1\n    m_ScaleWithWindow: 0\n    m_HSlider: 0\n    m_VSlider: 0\n    m_IgnoreScrollWheelUntilClicked: 0\n    m_EnableMouseInput: 1\n    m_EnableSliderZoomHorizontal: 0\n    m_EnableSliderZoomVertical: 0\n    m_UniformScale: 1\n    m_UpDirection: 1\n    m_DrawArea:\n      serializedVersion: 2\n      x: 0\n      y: 21\n      width: 613\n      height: 278\n    m_Scale: {x: 2, y: 2}\n    m_Translation: {x: 306.5, y: 139}\n    m_MarginLeft: 0\n    m_MarginRight: 0\n    m_MarginTop: 0\n    m_MarginBottom: 0\n    m_LastShownAreaInsideMargins:\n      serializedVersion: 2\n      x: -153.25\n      y: -69.5\n      width: 306.5\n      height: 139\n    m_MinimalGUI: 1\n  m_defaultScale: 2\n  m_LastWindowPixelSize: {x: 1226, y: 598}\n  m_ClearInEditMode: 1\n  m_NoCameraWarning: 1\n  m_LowResolutionForAspectRatios: 01000000000000000000\n  m_XRRenderMode: 0\n  m_RenderTexture: {fileID: 0}\n--- !u!114 &13\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 275, y: 50}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Services\n    m_Image: {fileID: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 1326\n    y: 73\n    width: 593\n    height: 926\n  m_ViewDataDictionary: {fileID: 0}\n  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub\n  m_GlobalObjectTypeName: \n  m_RegisteredViewURLs:\n  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub\n  m_RegisteredViewInstances:\n  - {fileID: 0}\n--- !u!114 &14\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 400, y: 100}\n  m_MaxSize: {x: 2048, y: 2048}\n  m_TitleContent:\n    m_Text: Asset Store\n    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 280\n    y: 81\n    width: 631\n    height: 405\n  m_ViewDataDictionary: {fileID: 0}\n--- !u!114 &15\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 230, y: 250}\n  m_MaxSize: {x: 10000, y: 10000}\n  m_TitleContent:\n    m_Text: Project\n    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 0\n    y: 395\n    width: 885\n    height: 364\n  m_ViewDataDictionary: {fileID: 0}\n  m_SearchFilter:\n    m_NameFilter: \n    m_ClassNames: []\n    m_AssetLabels: []\n    m_AssetBundleNames: []\n    m_VersionControlStates: []\n    m_SoftLockControlStates: []\n    m_ReferencingInstanceIDs: \n    m_SceneHandles: \n    m_ShowAllHits: 0\n    m_SkipHidden: 0\n    m_SearchArea: 1\n    m_Folders:\n    - Assets\n  m_ViewMode: 1\n  m_StartGridSize: 64\n  m_LastFolders:\n  - Assets\n  m_LastFoldersGridSize: -1\n  m_LastProjectPath: /Users/devin_thaker/RiderProjects/CS371Game/The_Game\n  m_LockTracker:\n    m_IsLocked: 0\n  m_FolderTreeState:\n    scrollPos: {x: 0, y: 0}\n    m_SelectedIDs: c8390000\n    m_LastClickedID: 14792\n    m_ExpandedIDs: 00000000c839000000ca9a3b\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 0}\n    m_SearchString: \n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n  m_AssetTreeState:\n    scrollPos: {x: 0, y: 0}\n    m_SelectedIDs: \n    m_LastClickedID: 0\n    m_ExpandedIDs: 00000000c8390000\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 0}\n    m_SearchString: \n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n  m_ListAreaState:\n    m_SelectedInstanceIDs: \n    m_LastClickedInstanceID: 0\n    m_HadKeyboardFocusLastEvent: 0\n    m_ExpandedInstanceIDs: c6230000\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 5}\n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n    m_NewAssetIndexInList: -1\n    m_ScrollPosition: {x: 0, y: 0}\n    m_GridSize: 64\n  m_SkipHiddenPackages: 0\n  m_DirectoriesAreaWidth: 115\n--- !u!114 &16\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 275, y: 50}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Inspector\n    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 886\n    y: 75\n    width: 393\n    height: 684\n  m_ViewDataDictionary: {fileID: 0}\n  m_OpenAddComponentMenu: 0\n  m_ObjectsLockedBeforeSerialization: []\n  m_InstanceIDsLockedBeforeSerialization: \n  m_LockTracker:\n    m_IsLocked: 0\n  m_PreviewResizer:\n    m_CachedPref: 160\n    m_ControlHash: -371814159\n    m_PrefName: Preview_InspectorPreview\n  m_PreviewWindow: {fileID: 0}\n  m_LastInspectedObjectInstanceID: -1\n  m_LastVerticalScrollValue: 0\n--- !u!114 &17\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 200, y: 200}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Hierarchy\n    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 0\n    y: 75\n    width: 270\n    height: 299\n  m_ViewDataDictionary: {fileID: 0}\n  m_SceneHierarchy:\n    m_TreeViewState:\n      scrollPos: {x: 0, y: 0}\n      m_SelectedIDs: \n      m_LastClickedID: 0\n      m_ExpandedIDs: e0faffff\n      m_RenameOverlay:\n        m_UserAcceptedRename: 0\n        m_Name: \n        m_OriginalName: \n        m_EditFieldRect:\n          serializedVersion: 2\n          x: 0\n          y: 0\n          width: 0\n          height: 0\n        m_UserData: 0\n        m_IsWaitingForDelay: 0\n        m_IsRenaming: 0\n        m_OriginalEventType: 11\n        m_IsRenamingFilename: 0\n        m_ClientGUIView: {fileID: 4}\n      m_SearchString: \n    m_ExpandedScenes: []\n    m_CurrenRootInstanceID: 0\n    m_LockTracker:\n      m_IsLocked: 0\n    m_CurrentSortingName: TransformSorting\n  m_WindowGUID: ef44eb1e44ce761449f5274930dc3fd1\n--- !u!114 &18\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 200, y: 200}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Scene\n    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 280\n    y: 81\n    width: 631\n    height: 405\n  m_ViewDataDictionary: {fileID: 0}\n  m_ShowContextualTools: 0\n  m_WindowGUID: 24009e952544c7342950c3ef739af859\n  m_Gizmos: 1\n  m_SceneIsLit: 1\n  m_SceneLighting: 1\n  m_2DMode: 1\n  m_isRotationLocked: 0\n  m_PlayAudio: 0\n  m_AudioPlay: 0\n  m_Position:\n    m_Target: {x: -1.8116424, y: -0.6486389, z: -377.10184}\n    speed: 2\n    m_Value: {x: -1.8116424, y: -0.6486389, z: -377.10184}\n  m_RenderMode: 0\n  m_CameraMode:\n    drawMode: 0\n    name: Shaded\n    section: Shading Mode\n  m_ValidateTrueMetals: 0\n  m_DoValidateTrueMetals: 0\n  m_ExposureSliderValue: 0\n  m_ExposureSliderMax: 10\n  m_SceneViewState:\n    showFog: 1\n    showMaterialUpdate: 0\n    showSkybox: 1\n    showFlares: 1\n    showImageEffects: 1\n    showParticleSystems: 1\n  m_Grid:\n    xGrid:\n      m_Fade:\n        m_Target: 0\n        speed: 2\n        m_Value: 0\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 0, y: 0}\n    yGrid:\n      m_Fade:\n        m_Target: 0\n        speed: 2\n        m_Value: 1\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 1, y: 1}\n    zGrid:\n      m_Fade:\n        m_Target: 1\n        speed: 2\n        m_Value: 1\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 1, y: 1}\n    m_ShowGrid: 1\n    m_GridAxis: 1\n    m_gridOpacity: 0.5\n  m_Rotation:\n    m_Target: {x: 0, y: 0, z: 0, w: 1}\n    speed: 2\n    m_Value: {x: 0, y: 0, z: 0, w: 1}\n  m_Size:\n    m_Target: 4.245751\n    speed: 2\n    m_Value: 4.245751\n  m_Ortho:\n    m_Target: 1\n    speed: 2\n    m_Value: 1\n  m_CameraSettings:\n    m_Speed: 1\n    m_SpeedNormalized: 0.49748743\n    m_SpeedMin: 0.01\n    m_SpeedMax: 2\n    m_EasingEnabled: 1\n    m_EasingDuration: 0.4\n    m_AccelerationEnabled: 1\n    m_FieldOfViewHorizontalOrVertical: 60\n    m_NearClip: 0.03\n    m_FarClip: 10000\n    m_DynamicClip: 1\n    m_OcclusionCulling: 0\n  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}\n  m_LastSceneViewOrtho: 0\n  m_ReplacementShader: {fileID: 0}\n  m_ReplacementString: \n  m_SceneVisActive: 1\n  m_LastLockedObject: {fileID: 0}\n  m_ViewIsLockedToObject: 0\n--- !u!114 &19\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Console\n    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 0\n    y: 503\n    width: 1325\n    height: 496\n  m_ViewDataDictionary: {fileID: 0}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/CurrentLayout-default.dwlt	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ The_Game/Library/CurrentLayout-default.dwlt	(date 1602380796434)
+@@ -21,7 +21,7 @@
+   m_ShowMode: 4
+   m_Title: 
+   m_RootView: {fileID: 6}
+-  m_MinSize: {x: 875, y: 300}
++  m_MinSize: {x: 875, y: 542}
+   m_MaxSize: {x: 10000, y: 10000}
+   m_Maximized: 0
+ --- !u!114 &2
+@@ -45,10 +45,10 @@
+     y: 30
+     width: 1280
+     height: 705
+-  m_MinSize: {x: 579, y: 492}
+-  m_MaxSize: {x: 14002, y: 14042}
++  m_MinSize: {x: 679, y: 342}
++  m_MaxSize: {x: 12004, y: 8042}
+   vertical: 0
+-  controlID: 110
++  controlID: 1918
+ --- !u!114 &3
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -59,23 +59,22 @@
+   m_Enabled: 1
+   m_EditorHideFlags: 1
+   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: InspectorWindow
++  m_Name: 
+   m_EditorClassIdentifier: 
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 886
++    x: 981
+     y: 0
+-    width: 394
++    width: 299
+     height: 705
+   m_MinSize: {x: 276, y: 71}
+   m_MaxSize: {x: 4001, y: 4021}
+-  m_ActualView: {fileID: 16}
++  m_ActualView: {fileID: 14}
+   m_Panes:
+-  - {fileID: 16}
+-  - {fileID: 13}
++  - {fileID: 14}
+   m_Selected: 0
+-  m_LastSelected: 1
++  m_LastSelected: 0
+ --- !u!114 &4
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -93,13 +92,13 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 271
+-    height: 320
++    width: 241
++    height: 418
+   m_MinSize: {x: 201, y: 221}
+   m_MaxSize: {x: 4001, y: 4021}
+-  m_ActualView: {fileID: 17}
++  m_ActualView: {fileID: 15}
+   m_Panes:
+-  - {fileID: 17}
++  - {fileID: 15}
+   m_Selected: 0
+   m_LastSelected: 0
+ --- !u!114 &5
+@@ -112,23 +111,24 @@
+   m_Enabled: 1
+   m_EditorHideFlags: 1
+   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: ProjectBrowser
++  m_Name: AnimationWindow
+   m_EditorClassIdentifier: 
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+     x: 0
+-    y: 320
+-    width: 886
+-    height: 385
+-  m_MinSize: {x: 231, y: 271}
+-  m_MaxSize: {x: 10001, y: 10021}
+-  m_ActualView: {fileID: 15}
++    y: 418
++    width: 981
++    height: 287
++  m_MinSize: {x: 101, y: 121}
++  m_MaxSize: {x: 4001, y: 4021}
++  m_ActualView: {fileID: 12}
+   m_Panes:
+-  - {fileID: 15}
+-  - {fileID: 19}
+-  m_Selected: 0
+-  m_LastSelected: 1
++  - {fileID: 13}
++  - {fileID: 12}
++  - {fileID: 18}
++  m_Selected: 1
++  m_LastSelected: 0
+ --- !u!114 &6
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -151,7 +151,7 @@
+     y: 0
+     width: 1280
+     height: 755
+-  m_MinSize: {x: 875, y: 300}
++  m_MinSize: {x: 875, y: 542}
+   m_MaxSize: {x: 10000, y: 10000}
+ --- !u!114 &7
+ MonoBehaviour:
+@@ -174,7 +174,7 @@
+     height: 30
+   m_MinSize: {x: 0, y: 0}
+   m_MaxSize: {x: 0, y: 0}
+-  m_LastLoadedLayoutName: 
++  m_LastLoadedLayoutName: Default
+ --- !u!114 &8
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -215,12 +215,12 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 886
++    width: 981
+     height: 705
+-  m_MinSize: {x: 303, y: 492}
+-  m_MaxSize: {x: 10001, y: 14042}
++  m_MinSize: {x: 403, y: 342}
++  m_MaxSize: {x: 8003, y: 8042}
+   vertical: 1
+-  controlID: 71
++  controlID: 1919
+ --- !u!114 &10
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -240,12 +240,12 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 886
+-    height: 320
+-  m_MinSize: {x: 303, y: 221}
++    width: 981
++    height: 418
++  m_MinSize: {x: 403, y: 221}
+   m_MaxSize: {x: 8003, y: 4021}
+   vertical: 0
+-  controlID: 51
++  controlID: 1920
+ --- !u!114 &11
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -256,23 +256,22 @@
+   m_Enabled: 1
+   m_EditorHideFlags: 1
+   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: GameView
++  m_Name: SceneView
+   m_EditorClassIdentifier: 
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 271
++    x: 241
+     y: 0
+-    width: 615
+-    height: 320
+-  m_MinSize: {x: 102, y: 121}
++    width: 740
++    height: 418
++  m_MinSize: {x: 202, y: 221}
+   m_MaxSize: {x: 4002, y: 4021}
+-  m_ActualView: {fileID: 12}
++  m_ActualView: {fileID: 16}
+   m_Panes:
+-  - {fileID: 18}
+-  - {fileID: 14}
+-  - {fileID: 12}
+-  m_Selected: 2
++  - {fileID: 16}
++  - {fileID: 17}
++  m_Selected: 0
+   m_LastSelected: 1
+ --- !u!114 &12
+ MonoBehaviour:
+@@ -283,147 +282,27 @@
+   m_GameObject: {fileID: 0}
+   m_Enabled: 1
+   m_EditorHideFlags: 0
+-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
++  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+   m_Name: 
+   m_EditorClassIdentifier: 
+   m_MinSize: {x: 100, y: 100}
+   m_MaxSize: {x: 4000, y: 4000}
+   m_TitleContent:
+-    m_Text: Game
+-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
++    m_Text: Animation
++    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 271
+-    y: 75
+-    width: 613
+-    height: 299
++    x: 0
++    y: 493
++    width: 980
++    height: 266
+   m_ViewDataDictionary: {fileID: 0}
+-  m_SerializedViewNames: []
+-  m_SerializedViewValues: []
+-  m_SerializedCustomFieldsNames: []
+-  m_SerializedCustomFieldsValues: []
+-  m_PlayModeViewName: GameView
+-  m_ShowGizmos: 0
+-  m_TargetDisplay: 0
+-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+-  m_TargetSize: {x: 613, y: 278}
+-  m_TextureFilterMode: 0
+-  m_TextureHideFlags: 61
+-  m_RenderIMGUI: 1
+-  m_MaximizeOnPlay: 0
+-  m_UseMipMap: 0
+-  m_VSyncEnabled: 0
+-  m_Gizmos: 0
+-  m_Stats: 0
+-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+-  m_ZoomArea:
+-    m_HRangeLocked: 0
+-    m_VRangeLocked: 0
+-    hZoomLockedByDefault: 0
+-    vZoomLockedByDefault: 0
+-    m_HBaseRangeMin: -153.25
+-    m_HBaseRangeMax: 153.25
+-    m_VBaseRangeMin: -69.5
+-    m_VBaseRangeMax: 69.5
+-    m_HAllowExceedBaseRangeMin: 1
+-    m_HAllowExceedBaseRangeMax: 1
+-    m_VAllowExceedBaseRangeMin: 1
+-    m_VAllowExceedBaseRangeMax: 1
+-    m_ScaleWithWindow: 0
+-    m_HSlider: 0
+-    m_VSlider: 0
+-    m_IgnoreScrollWheelUntilClicked: 0
+-    m_EnableMouseInput: 1
+-    m_EnableSliderZoomHorizontal: 0
+-    m_EnableSliderZoomVertical: 0
+-    m_UniformScale: 1
+-    m_UpDirection: 1
+-    m_DrawArea:
+-      serializedVersion: 2
+-      x: 0
+-      y: 21
+-      width: 613
+-      height: 278
+-    m_Scale: {x: 2, y: 2}
+-    m_Translation: {x: 306.5, y: 139}
+-    m_MarginLeft: 0
+-    m_MarginRight: 0
+-    m_MarginTop: 0
+-    m_MarginBottom: 0
+-    m_LastShownAreaInsideMargins:
+-      serializedVersion: 2
+-      x: -153.25
+-      y: -69.5
+-      width: 306.5
+-      height: 139
+-    m_MinimalGUI: 1
+-  m_defaultScale: 2
+-  m_LastWindowPixelSize: {x: 1226, y: 598}
+-  m_ClearInEditMode: 1
+-  m_NoCameraWarning: 1
+-  m_LowResolutionForAspectRatios: 01000000000000000000
+-  m_XRRenderMode: 0
+-  m_RenderTexture: {fileID: 0}
++  m_LockTracker:
++    m_IsLocked: 0
++  m_LastSelectedObjectID: -4884
+ --- !u!114 &13
+-MonoBehaviour:
+-  m_ObjectHideFlags: 52
+-  m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInstance: {fileID: 0}
+-  m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 0}
+-  m_Enabled: 1
+-  m_EditorHideFlags: 0
+-  m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: 
+-  m_EditorClassIdentifier: 
+-  m_MinSize: {x: 275, y: 50}
+-  m_MaxSize: {x: 4000, y: 4000}
+-  m_TitleContent:
+-    m_Text: Services
+-    m_Image: {fileID: 0}
+-    m_Tooltip: 
+-  m_Pos:
+-    serializedVersion: 2
+-    x: 1326
+-    y: 73
+-    width: 593
+-    height: 926
+-  m_ViewDataDictionary: {fileID: 0}
+-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
+-  m_GlobalObjectTypeName: 
+-  m_RegisteredViewURLs:
+-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
+-  m_RegisteredViewInstances:
+-  - {fileID: 0}
+---- !u!114 &14
+-MonoBehaviour:
+-  m_ObjectHideFlags: 52
+-  m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInstance: {fileID: 0}
+-  m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 0}
+-  m_Enabled: 1
+-  m_EditorHideFlags: 1
+-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: 
+-  m_EditorClassIdentifier: 
+-  m_MinSize: {x: 400, y: 100}
+-  m_MaxSize: {x: 2048, y: 2048}
+-  m_TitleContent:
+-    m_Text: Asset Store
+-    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+-      type: 0}
+-    m_Tooltip: 
+-  m_Pos:
+-    serializedVersion: 2
+-    x: 280
+-    y: 81
+-    width: 631
+-    height: 405
+-  m_ViewDataDictionary: {fileID: 0}
+---- !u!114 &15
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -439,15 +318,15 @@
+   m_MaxSize: {x: 10000, y: 10000}
+   m_TitleContent:
+     m_Text: Project
+-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
++    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 0
+-    y: 395
+-    width: 885
+-    height: 364
++    x: -1900
++    y: 370
++    width: 1414
++    height: 374
+   m_ViewDataDictionary: {fileID: 0}
+   m_SearchFilter:
+     m_NameFilter: 
+@@ -462,20 +341,20 @@
+     m_SkipHidden: 0
+     m_SearchArea: 1
+     m_Folders:
+-    - Assets
++    - Assets/Textures
+   m_ViewMode: 1
+   m_StartGridSize: 64
+   m_LastFolders:
+-  - Assets
++  - Assets/Textures
+   m_LastFoldersGridSize: -1
+   m_LastProjectPath: /Users/devin_thaker/RiderProjects/CS371Game/The_Game
+   m_LockTracker:
+     m_IsLocked: 0
+   m_FolderTreeState:
+     scrollPos: {x: 0, y: 0}
+-    m_SelectedIDs: c8390000
+-    m_LastClickedID: 14792
+-    m_ExpandedIDs: 00000000c839000000ca9a3b
++    m_SelectedIDs: 9e390000
++    m_LastClickedID: 14750
++    m_ExpandedIDs: 000000009239000000ca9a3b
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+       m_Name: 
+@@ -503,7 +382,7 @@
+     scrollPos: {x: 0, y: 0}
+     m_SelectedIDs: 
+     m_LastClickedID: 0
+-    m_ExpandedIDs: 00000000c8390000
++    m_ExpandedIDs: 000000009239000000ca9a3b
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+       m_Name: 
+@@ -528,9 +407,9 @@
+       m_Icon: {fileID: 0}
+       m_ResourceFile: 
+   m_ListAreaState:
+-    m_SelectedInstanceIDs: 
+-    m_LastClickedInstanceID: 0
+-    m_HadKeyboardFocusLastEvent: 0
++    m_SelectedInstanceIDs: ececffff
++    m_LastClickedInstanceID: -4884
++    m_HadKeyboardFocusLastEvent: 1
+     m_ExpandedInstanceIDs: c6230000
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+@@ -547,7 +426,7 @@
+       m_IsRenaming: 0
+       m_OriginalEventType: 11
+       m_IsRenamingFilename: 1
+-      m_ClientGUIView: {fileID: 5}
++      m_ClientGUIView: {fileID: 0}
+     m_CreateAssetUtility:
+       m_EndAction: {fileID: 0}
+       m_InstanceID: 0
+@@ -558,8 +437,8 @@
+     m_ScrollPosition: {x: 0, y: 0}
+     m_GridSize: 64
+   m_SkipHiddenPackages: 0
+-  m_DirectoriesAreaWidth: 115
+---- !u!114 &16
++  m_DirectoriesAreaWidth: 207
++--- !u!114 &14
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -575,14 +454,14 @@
+   m_MaxSize: {x: 4000, y: 4000}
+   m_TitleContent:
+     m_Text: Inspector
+-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
++    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 886
++    x: 981
+     y: 75
+-    width: 393
++    width: 298
+     height: 684
+   m_ViewDataDictionary: {fileID: 0}
+   m_OpenAddComponentMenu: 0
+@@ -597,7 +476,7 @@
+   m_PreviewWindow: {fileID: 0}
+   m_LastInspectedObjectInstanceID: -1
+   m_LastVerticalScrollValue: 0
+---- !u!114 &17
++--- !u!114 &15
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -613,22 +492,22 @@
+   m_MaxSize: {x: 4000, y: 4000}
+   m_TitleContent:
+     m_Text: Hierarchy
+-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
++    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+     x: 0
+     y: 75
+-    width: 270
+-    height: 299
++    width: 240
++    height: 397
+   m_ViewDataDictionary: {fileID: 0}
+   m_SceneHierarchy:
+     m_TreeViewState:
+       scrollPos: {x: 0, y: 0}
+-      m_SelectedIDs: 
++      m_SelectedIDs: ececffff
+       m_LastClickedID: 0
+-      m_ExpandedIDs: e0faffff
++      m_ExpandedIDs: 42fbffff
+       m_RenameOverlay:
+         m_UserAcceptedRename: 0
+         m_Name: 
+@@ -644,15 +523,15 @@
+         m_IsRenaming: 0
+         m_OriginalEventType: 11
+         m_IsRenamingFilename: 0
+-        m_ClientGUIView: {fileID: 4}
++        m_ClientGUIView: {fileID: 0}
+       m_SearchString: 
+     m_ExpandedScenes: []
+     m_CurrenRootInstanceID: 0
+     m_LockTracker:
+       m_IsLocked: 0
+     m_CurrentSortingName: TransformSorting
+-  m_WindowGUID: ef44eb1e44ce761449f5274930dc3fd1
+---- !u!114 &18
++  m_WindowGUID: 4c969a2b90040154d917609493e03593
++--- !u!114 &16
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -668,18 +547,18 @@
+   m_MaxSize: {x: 4000, y: 4000}
+   m_TitleContent:
+     m_Text: Scene
+-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
++    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 280
+-    y: 81
+-    width: 631
+-    height: 405
++    x: 241
++    y: 75
++    width: 738
++    height: 397
+   m_ViewDataDictionary: {fileID: 0}
+   m_ShowContextualTools: 0
+-  m_WindowGUID: 24009e952544c7342950c3ef739af859
++  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+   m_Gizmos: 1
+   m_SceneIsLit: 1
+   m_SceneLighting: 1
+@@ -688,9 +567,9 @@
+   m_PlayAudio: 0
+   m_AudioPlay: 0
+   m_Position:
+-    m_Target: {x: -1.8116424, y: -0.6486389, z: -377.10184}
++    m_Target: {x: -0.005182787, y: -0.006056993, z: 0.00023716205}
+     speed: 2
+-    m_Value: {x: -1.8116424, y: -0.6486389, z: -377.10184}
++    m_Value: {x: -0.005182787, y: -0.006056993, z: 0.00023716205}
+   m_RenderMode: 0
+   m_CameraMode:
+     drawMode: 0
+@@ -726,13 +605,13 @@
+       m_Size: {x: 1, y: 1}
+     zGrid:
+       m_Fade:
+-        m_Target: 1
++        m_Target: 0
+         speed: 2
+         m_Value: 1
+       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+       m_Pivot: {x: 0, y: 0, z: 0}
+       m_Size: {x: 1, y: 1}
+-    m_ShowGrid: 1
++    m_ShowGrid: 0
+     m_GridAxis: 1
+     m_gridOpacity: 0.5
+   m_Rotation:
+@@ -740,17 +619,17 @@
+     speed: 2
+     m_Value: {x: 0, y: 0, z: 0, w: 1}
+   m_Size:
+-    m_Target: 4.245751
++    m_Target: 11.026876
+     speed: 2
+-    m_Value: 4.245751
++    m_Value: 11.026876
+   m_Ortho:
+     m_Target: 1
+     speed: 2
+     m_Value: 1
+   m_CameraSettings:
+     m_Speed: 1
+-    m_SpeedNormalized: 0.49748743
+-    m_SpeedMin: 0.01
++    m_SpeedNormalized: 0.5
++    m_SpeedMin: 0.001
+     m_SpeedMax: 2
+     m_EasingEnabled: 1
+     m_EasingDuration: 0.4
+@@ -767,7 +646,99 @@
+   m_SceneVisActive: 1
+   m_LastLockedObject: {fileID: 0}
+   m_ViewIsLockedToObject: 0
+---- !u!114 &19
++--- !u!114 &17
++MonoBehaviour:
++  m_ObjectHideFlags: 52
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 0}
++  m_Enabled: 1
++  m_EditorHideFlags: 1
++  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_MinSize: {x: 200, y: 200}
++  m_MaxSize: {x: 4000, y: 4000}
++  m_TitleContent:
++    m_Text: Game
++    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
++      type: 0}
++    m_Tooltip: 
++  m_Pos:
++    serializedVersion: 2
++    x: -1553
++    y: -205
++    width: 1066
++    height: 554
++  m_ViewDataDictionary: {fileID: 0}
++  m_SerializedViewNames: []
++  m_SerializedViewValues: []
++  m_SerializedCustomFieldsNames: []
++  m_SerializedCustomFieldsValues: []
++  m_PlayModeViewName: GameView
++  m_ShowGizmos: 0
++  m_TargetDisplay: 0
++  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
++  m_TargetSize: {x: 1066, y: 533}
++  m_TextureFilterMode: 0
++  m_TextureHideFlags: 61
++  m_RenderIMGUI: 1
++  m_MaximizeOnPlay: 0
++  m_UseMipMap: 0
++  m_VSyncEnabled: 0
++  m_Gizmos: 0
++  m_Stats: 0
++  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
++  m_ZoomArea:
++    m_HRangeLocked: 0
++    m_VRangeLocked: 0
++    hZoomLockedByDefault: 0
++    vZoomLockedByDefault: 0
++    m_HBaseRangeMin: -533
++    m_HBaseRangeMax: 533
++    m_VBaseRangeMin: -266.5
++    m_VBaseRangeMax: 266.5
++    m_HAllowExceedBaseRangeMin: 1
++    m_HAllowExceedBaseRangeMax: 1
++    m_VAllowExceedBaseRangeMin: 1
++    m_VAllowExceedBaseRangeMax: 1
++    m_ScaleWithWindow: 0
++    m_HSlider: 0
++    m_VSlider: 0
++    m_IgnoreScrollWheelUntilClicked: 0
++    m_EnableMouseInput: 0
++    m_EnableSliderZoomHorizontal: 0
++    m_EnableSliderZoomVertical: 0
++    m_UniformScale: 1
++    m_UpDirection: 1
++    m_DrawArea:
++      serializedVersion: 2
++      x: 0
++      y: 21
++      width: 1066
++      height: 533
++    m_Scale: {x: 2.4798124, y: 2.4798124}
++    m_Translation: {x: 533, y: 266.5}
++    m_MarginLeft: 0
++    m_MarginRight: 0
++    m_MarginTop: 0
++    m_MarginBottom: 0
++    m_LastShownAreaInsideMargins:
++      serializedVersion: 2
++      x: -214.93561
++      y: -107.467804
++      width: 429.87122
++      height: 214.93561
++    m_MinimalGUI: 1
++  m_defaultScale: 1
++  m_LastWindowPixelSize: {x: 1066, y: 554}
++  m_ClearInEditMode: 1
++  m_NoCameraWarning: 1
++  m_LowResolutionForAspectRatios: 01000000000000000000
++  m_XRRenderMode: 0
++  m_RenderTexture: {fileID: 0}
++--- !u!114 &18
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -783,13 +754,13 @@
+   m_MaxSize: {x: 4000, y: 4000}
+   m_TitleContent:
+     m_Text: Console
+-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
++    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+       type: 0}
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: 0
+-    y: 503
+-    width: 1325
+-    height: 496
++    x: 2249
++    y: 726.5
++    width: 920
++    height: 250
+   m_ViewDataDictionary: {fileID: 0}
+Index: .idea/.idea.CS371Game.dir/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"580c4fad-6071-4b1d-993e-d429863abe01\" name=\"Default Changelist\" comment=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <change beforePath=\"$PROJECT_DIR$/The_Game/Library/SourceAssetDB\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/The_Game/Library/SourceAssetDB\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1if4iZVzFJDUgt3nP8rmAaE7tF5\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"580c4fad-6071-4b1d-993e-d429863abe01\" name=\"Default Changelist\" comment=\"\" />\n      <created>1602285443733</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1602285443733</updated>\n      <workItem from=\"1602285456351\" duration=\"294000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <created>1602285502612</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602285502612</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <created>1602285649971</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602285649971</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"null\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"NUnit\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"Added Fire Heavy Attack sprite sheet and attack\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Fire Heavy Attack sprite sheet and attack\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.CS371Game.dir/.idea/workspace.xml	(revision 743c3e0eaac3b09c243ef92f341a56a65baae8cb)
++++ .idea/.idea.CS371Game.dir/.idea/workspace.xml	(date 1603429404175)
+@@ -1,8 +1,50 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Fire Heavy Attack sprite sheet and attack">
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/indexLayout.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/ArtifactDB" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/Assembly-CSharp.dll" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/SourceAssetDB" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20__8_47_PM__Default_Changelist_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/.idea/.idea.The_Game/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/35/351dd647e537adc721e2a551e5d5f1d7" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/5d/5db9a86822eac5ef826fe83c59c211f3" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/86/8682fedb682ba318925ad61690cdbca1" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/9c/9c519766ca674947012e3922278efe1d" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/a4/a4100af9a342918b76cfab0a2fda81a6" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/f2/f2286dad1b2e598e5df0d15b777198fe" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fb2d973233375b3082ffd3feaa9c4d0b" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -11,6 +53,20 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/The_Game/Assets/Characters/BaseAir.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/The_Game/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" root0="SKIP_HIGHLIGHTING" />
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/The_Game/Assets/Characters/Character.cs" />
++        <option value="$PROJECT_DIR$/The_Game/Assets/Game States/GameSys.cs" />
++        <option value="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" />
++      </list>
++    </option>
+   </component>
+   <component name="ProjectId" id="1if4iZVzFJDUgt3nP8rmAaE7tF5" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -21,6 +77,7 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -30,7 +87,10 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1602285443733</updated>
+-      <workItem from="1602285456351" duration="294000" />
++      <workItem from="1602285456351" duration="377000" />
++      <workItem from="1602297949436" duration="260000" />
++      <workItem from="1603412160958" duration="6659000" />
++      <workItem from="1603422668183" duration="1932000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
+       <created>1602285502612</created>
+@@ -46,10 +106,17 @@
+       <option name="project" value="LOCAL" />
+       <updated>1602285649971</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Added Fire Heavy Attack sprite sheet and attack">
++      <created>1602285789343</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1602285789343</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
++  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+@@ -61,10 +128,21 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+     <MESSAGE value="Added Fire Heavy Attack sprite sheet and attack" />
+     <option name="LAST_COMMIT_MESSAGE" value="Added Fire Heavy Attack sprite sheet and attack" />
+   </component>
++  <component name="WindowStateProjectService">
++    <state x="148" y="50" key="SettingsEditor" timestamp="1603420034732">
++      <screen x="0" y="23" width="1280" height="777" />
++    </state>
++    <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
++    <state x="242" y="147" key="Vcs.Push.Dialog.v2" timestamp="1602285799769">
++      <screen x="0" y="23" width="1280" height="777" />
++    </state>
++    <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1602285799769" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch The_Game/.idea/.idea.The_Game/.idea/shelf/Uncommitted_changes_before_Update_at_10_7_20,_8_47_PM_[Default_Changelist]/shelved.patch
+deleted file mode 100644
