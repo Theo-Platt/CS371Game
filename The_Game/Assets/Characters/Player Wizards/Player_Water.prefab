@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2330432878565193274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878968660211851932, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3983164563376283623, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: m_Name
+      value: Player_Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435551951507800252, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: unitName
+      value: Water Wizard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435551951507800252, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: isFireType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435551951507800252, guid: badc0ff17a4e10744a60af08f1bc72b9,
+        type: 3}
+      propertyPath: isWaterType
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: badc0ff17a4e10744a60af08f1bc72b9, type: 3}
