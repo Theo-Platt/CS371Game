@@ -1,29 +1,434 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public enum BattleState {START, MIDDLE, PLAYERTURN, ENEMYTURN, WIN, LOSS}
-public class GameSys : MonoBehaviour
+public enum BattleState {START, MIDDLE, PLAYERTURN, CALCULATING, ENEMYTURN, WIN, LOSS}
+public class BattleSystem : MonoBehaviour
 {
+    //player and enemy Game Objects
     public GameObject player;
     public GameObject enemy;
 
+    //spawn locations for player and enemy
     public Transform playerLocation;
     public Transform enemyLocation;
 
+    //Unit objects for player and enemy
+    Unit playerUnit;
+    Unit enemyUnit;
+
+    //Text for the Dialogue Box
+    public Text dialogueText;
+    public Text enchantText;
+    public Text curseText;
+    string curseType;
+    string enchantType;
+    
+    //Modifier calculation for which curse/enchant is given.
+    int enchantModifier;
+    int curseModifier;
+
+    //hepls keep track of middle
+    bool playerFirst;
+    bool enemyFirst;
+
+    //the player and enemy UI HUDs
+    public BattleHUD playerHUD;
+    public BattleHUD enemyHUD;
+
+    //Current Battle State
     public BattleState state;
     
     // Start called before the first frame update
     void Start()
     {
         state = BattleState.START;
-        SetupBattle();
+        StartCoroutine(SetupBattle());
+        // SetupBattle();
     }
 
-    void SetupBattle()
+    IEnumerator SetupBattle()
     {
-        Instantiate(player, playerLocation);
-        Instantiate(enemy, enemyLocation);
-            
+        GameObject playerGo  = Instantiate(player, playerLocation);
+        GameObject enemyGo = Instantiate(enemy, enemyLocation);
+        
+        playerUnit = playerGo.GetComponent<Unit>();
+        enemyUnit = enemyGo.GetComponent<Unit>();
+
+        dialogueText.text = "A wild " + enemyUnit.unitName + " appeared!";
+        playerHUD.SetHUD(playerUnit);
+        enemyHUD.SetHUD(enemyUnit);
+
+        yield return new WaitForSeconds(3f);
+ 
+        state = BattleState.MIDDLE;
+        Middle();
     }
+
+    //
+    //This function handles turn rotation
+    //
+    void Middle()
+    {   
+
+        if(playerUnit.speed > enemyUnit.speed)
+        {
+            state = BattleState.PLAYERTURN;
+            PlayerTurn(true);
+        }
+        else
+        {
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn(true));   
+        }
+    }
+
+    //
+    //These functions handle player and enemy turns.
+    //
+    void PlayerTurn(bool wentFirst)
+    {
+        playerFirst = wentFirst;
+        enchantModifier =Random.Range(0,6);
+        switch(enchantModifier)
+        {
+            case 0:
+                enchantText.text = "Enchant: Healing";
+                enchantType = "Health";
+                break;
+            case 1:
+                enchantText.text = "Enchant: Damage";
+                enchantType = "Damage";
+                break;
+            case 2:
+                enchantText.text = "Enchant: Defense";
+                enchantType = "Defense";
+                break;
+            case 3:
+                enchantText.text = "Enchant: Speed";
+                enchantType = "Speed";
+                break;
+            case 4:
+                enchantText.text = "Enchant: Accuracy";
+                enchantType = "Accuracy";
+                break;
+            case 5:
+                enchantText.text = "Enchant: Evasiveness";
+                enchantType = "Evasiveness";
+                break;
+        }
+
+        curseModifier =Random.Range(0,6);
+        switch(curseModifier)
+        {
+            case 0:
+                curseText.text = "Curse: Health";
+                curseType = "Health";
+                break;
+            case 1:
+                curseText.text = "Curse: Damage";
+                curseType = "Damage";
+                break;
+            case 2:
+                curseText.text = "Curse: Defense";
+                curseType = "Defense";
+                break;
+            case 3:
+                curseText.text = "Curse: Speed";
+                curseType = "Speed";
+                break;
+            case 4:
+                curseText.text = "Curse: Accuracy";
+                curseType = "Accuracy";
+                break;
+            case 5:
+                curseText.text = "Curse: Evasiveness";
+                curseType = "Evasiveness";
+                break;
+        }
+
+        dialogueText.text = "Choose an action: ";
+        
+    }
+
+    IEnumerator EnemyTurn(bool wentFirst)
+    {
+        enemyFirst = wentFirst;
+        int modifier =Random.Range(0,6);
+        string enemyStatChoice = "";
+        switch(modifier)
+        {
+            case 0:
+                enemyStatChoice = "Health";
+                break;
+            case 1:
+                enemyStatChoice = "Damage";
+                break;
+            case 2:
+                enemyStatChoice = "Defense";
+                break;
+            case 3:
+                enemyStatChoice = "Speed";
+                break;
+            case 4:
+                enemyStatChoice = "Accuracy";
+                break;
+            case 5:
+                enemyStatChoice = "Evasiveness";
+                break;
+        }
+        int whatToDo =Random.Range(0,4);
+        dialogueText.text = "It's " + enemyUnit.unitName +"'s turn!";
+        yield return new WaitForSeconds(3f);
+        bool hits = doesHit(enemyUnit.accuracy, playerUnit.evasiveness);
+        bool isDead = false;
+        switch(whatToDo)
+        {
+            //attack player
+            case 0:
+                dialogueText.text = enemyUnit.unitName + " attacks with a spell!";
+                yield return new WaitForSeconds(3f);
+                if(hits)
+                {
+                    //damage player
+                    isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
+                    playerHUD.SetHP(playerUnit.currentHP);
+                    dialogueText.text = "The attack hit!";
+                    yield return new WaitForSeconds(3f);
+                }else
+                {
+                    dialogueText.text = "The attack missed!";
+                    yield return new WaitForSeconds(3f);
+                }
+        
+                //if enemy dead
+                if(isDead)
+                {
+                    state = BattleState.LOSS;
+                    EndBattle();
+                }
+                break;
+                //attack player
+            case 1:
+                dialogueText.text = enemyUnit.unitName + " attacks with a spell!";
+                yield return new WaitForSeconds(3f);
+                if(hits)
+                {
+                    //damage player
+                    isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
+                    playerHUD.SetHP(playerUnit.currentHP);
+                    dialogueText.text = "The attack hit!";
+                    yield return new WaitForSeconds(3f);
+                }else
+                {
+                    dialogueText.text = "The attack missed!";
+                    yield return new WaitForSeconds(3f);
+                }
+        
+                //if enemy dead
+                if(isDead)
+                {
+                    state = BattleState.LOSS;
+                    EndBattle();
+                }
+                break;
+            //enchant self
+            case 2:
+                bool max = enemyUnit.enchant(modifier);
+                enemyHUD.SetHP(enemyUnit.currentHP);
+                if(max){
+                    dialogueText.text = enemyUnit.unitName + " raised their "+enemyStatChoice+" it to max with an enchantment!";
+                }else{
+                    dialogueText.text = enemyUnit.unitName + " raised their "+enemyStatChoice+" with an enchantment!";
+                }
+                yield return new WaitForSeconds(3f);
+                break;
+            //curse player
+            case 3:
+                bool min = playerUnit.curse(modifier, enemyUnit.unitLevel);
+                playerHUD.SetHP(playerUnit.currentHP);
+                if(min){
+                    dialogueText.text = enemyUnit.unitName + " cursed your "+enemyStatChoice+", lowering it to minimum!";
+                }else{
+                    dialogueText.text = enemyUnit.unitName + " cursed your "+enemyStatChoice+", lowering it!";
+                }
+                yield return new WaitForSeconds(3f);
+                break;
+        }
+        
+        
+        
+        if(enemyFirst)
+        {
+            enemyFirst = false;
+            state = BattleState.PLAYERTURN;
+            PlayerTurn(false);
+        }else
+        {
+            state = BattleState.MIDDLE;
+            Middle();
+        }
+    }
+
+
+
+
+
+    //
+    // These functions all handle the player attacks/enchants/curses
+    //
+
+    //spell button press
+    public void OnSpellButton()
+    {
+        if(state != BattleState.PLAYERTURN)
+            return;
+        state = BattleState.CALCULATING;
+        StartCoroutine(PlayerAttack());
+    }
+
+    //spell button resolution
+    IEnumerator PlayerAttack()
+    {
+        //calculate if attack hits
+        bool hits = doesHit(playerUnit.accuracy, enemyUnit.evasiveness);
+        bool isDead = false;
+        if(hits)
+        {
+            //damage enemy
+            isDead = enemyUnit.TakeDamage(playerUnit.attack, playerUnit.isEarthType, playerUnit.isWaterType, playerUnit.isFireType, playerUnit.isAirType);
+            enemyHUD.SetHP(enemyUnit.currentHP);
+            dialogueText.text = "The attack hit!";
+            yield return new WaitForSeconds(3f);
+        }else
+        {
+            dialogueText.text = "The attack missed!";
+            yield return new WaitForSeconds(3f);
+        }
+        
+        //if enemy dead
+        if(isDead)
+        {
+            state = BattleState.WIN;
+            EndBattle();
+        }else if(playerFirst)
+        {
+            playerFirst = false;
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn(false));
+        }else
+        {
+            state = BattleState.MIDDLE;
+            Middle();
+        }
+        //state handling
+
+    }
+
+    //Enchant button press
+    public void OnEnchantButton()
+    {
+        if(state != BattleState.PLAYERTURN)
+            return;
+        state = BattleState.CALCULATING;
+        StartCoroutine(PlayerEnchant());
+    }
+
+    //Enchant button resolution
+    IEnumerator PlayerEnchant()
+    {
+        //buff player stat
+        bool max = playerUnit.enchant(enchantModifier);
+        if(max){
+            playerHUD.SetHP(playerUnit.currentHP);
+            dialogueText.text = "You enchanted your " + enchantType + ", maxing it out!";
+        }else{
+            playerHUD.SetHP(playerUnit.currentHP);
+            dialogueText.text = "You enchanted your " + enchantType + ", raising it!";
+        }
+        yield return new WaitForSeconds(3f);
+        //if stat max
+
+        //state handling
+        if(playerFirst)
+        {
+            playerFirst = false;
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn(false));
+        }else
+        {
+            state = BattleState.MIDDLE;
+            Middle();
+        }
+    }
+
+    //Curse button press
+    public void OnCurseButton()
+    {
+        if(state != BattleState.PLAYERTURN)
+            return;
+        state = BattleState.CALCULATING;
+        StartCoroutine(PlayerCurse());
+    }
+
+    //Curse button resolution
+    IEnumerator PlayerCurse()
+    {
+        //debuff enemy stat
+        bool min = enemyUnit.curse(enchantModifier, playerUnit.unitLevel);
+        if(min){
+            enemyHUD.SetHP(enemyUnit.currentHP);
+            dialogueText.text = "You cursed " + enemyUnit.unitName + "'s " + curseType + ", lowering it completely!";
+        }else{
+            enemyHUD.SetHP(enemyUnit.currentHP);
+            dialogueText.text = "You cursed " + enemyUnit.unitName + "'s " + curseType + ", lowering it!";
+        }
+        yield return new WaitForSeconds(3f);
+        //if stat max
+
+        //state handling
+        if(playerFirst)
+        {
+            playerFirst = false;
+            state = BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn(false));
+        }else
+        {
+            state = BattleState.MIDDLE;
+            Middle();
+        }
+    }
+
+
+
+
+    bool doesHit(float accuracy, float evasiveness)
+    {
+        if(Random.Range(0, 101) <= accuracy && Random.Range(0,101) >= evasiveness)
+            return true;
+        return false;
+    }
+
+
+
+
+
+
+
+    //
+    //end battle
+    //
+    void EndBattle()
+    {
+        if(state == BattleState.LOSS)
+        {
+            dialogueText.text = "You lost the battle...";
+        }
+        else if(state == BattleState.WIN)
+        {
+            dialogueText.text = "You won the battle!";
+        }
+    }
+
 }
