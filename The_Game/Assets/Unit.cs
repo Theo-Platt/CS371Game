@@ -29,11 +29,11 @@ public class Unit : MonoBehaviour
     {
         bool weakness = isWeak(earth,water,fire,air);
         bool resist = isResist(earth,water,fire,air);
-        float damageModifier = 1.0;
+        float damageModifier = (float)1.0;
         if(weakness)
-            damageModifier += 0.25;
+            damageModifier += (float)0.25;
         if(resist)
-            damageModifier -= 0.25;
+            damageModifier -= (float)0.25;
         
         currentHP -= (dmg-((dmg*defense) / 100)) * damageModifier;
 
@@ -91,7 +91,7 @@ public class Unit : MonoBehaviour
         //0: heal (Max: maxHP)
         if(stat == 0)
         {
-            currentHP += maxHP * 0.15;
+            currentHP += maxHP * (float)0.15;
             if(currentHP >= maxHP)
             {
                 currentHP = maxHP;
@@ -103,9 +103,9 @@ public class Unit : MonoBehaviour
         if(stat == 1)
         {
             attack += 10 + unitLevel;
-            if(attack >= (100 + (unitLevel * 2.5)))
+            if(attack >= (100 + (unitLevel * (float)2.5)))
             {
-                attack = (100 + (unitLevel * 2.5));
+                attack = (100 + (unitLevel * (float)2.5));
                 return true;
             }
         }
@@ -163,7 +163,7 @@ public class Unit : MonoBehaviour
         //0: heal (Min: 1)
         if(stat == 0)
         {
-            currentHP -= level + 2.5;
+            currentHP -= level + (float)2.5;
             if(currentHP <= 1)
             {
                 currentHP = 1;

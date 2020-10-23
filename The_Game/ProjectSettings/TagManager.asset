@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - BackGround
+  - BattleSpot
   - 
   - 
   - 
@@ -38,12 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 3546330713
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: GameObjects
-    uniqueID: 3894017391
     locked: 0
