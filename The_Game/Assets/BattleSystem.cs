@@ -39,6 +39,15 @@ public class BattleSystem : MonoBehaviour
 
     //Current Battle State
     public BattleState state;
+
+    //sprite handling stuff
+    GameObject spellSpriteAnimation;
+    public GameObject fireAttackSprite;
+    public GameObject EarthAttackSprite;
+    public GameObject WaterAttackSprite;
+    public GameObject AirAttackSprite;
+    public GameObject enchantSprite;
+    public GameObject curseSprite;
     
     // Start called before the first frame update
     void Start()
@@ -183,6 +192,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(3f);
         bool hits = doesHit(enemyUnit.accuracy, playerUnit.evasiveness);
         bool isDead = false;
+        GameObject sprite;
         switch(whatToDo)
         {
             //attack player
@@ -193,9 +203,11 @@ public class BattleSystem : MonoBehaviour
                 {
                     //damage player
                     isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
-                    playerHUD.SetHP(playerUnit.currentHP);
+                    playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
                     dialogueText.text = "The attack hit!";
+                    sprite = spellSprite(playerLocation, enemyUnit, 0);
                     yield return new WaitForSeconds(3f);
+                    spellSpriteFinish(sprite);
                 }else
                 {
                     dialogueText.text = "The attack missed!";
@@ -217,9 +229,11 @@ public class BattleSystem : MonoBehaviour
                 {
                     //damage player
                     isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
-                    playerHUD.SetHP(playerUnit.currentHP);
+                    playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
                     dialogueText.text = "The attack hit!";
+                    sprite = spellSprite(playerLocation, enemyUnit, 0);
                     yield return new WaitForSeconds(3f);
+                    spellSpriteFinish(sprite);
                 }else
                 {
                     dialogueText.text = "The attack missed!";
@@ -236,24 +250,28 @@ public class BattleSystem : MonoBehaviour
             //enchant self
             case 2:
                 bool max = enemyUnit.enchant(modifier);
-                enemyHUD.SetHP(enemyUnit.currentHP);
+                enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
+                sprite = spellSprite(enemyLocation, enemyUnit, 1);
                 if(max){
                     dialogueText.text = enemyUnit.unitName + " raised their "+enemyStatChoice+" it to max with an enchantment!";
                 }else{
                     dialogueText.text = enemyUnit.unitName + " raised their "+enemyStatChoice+" with an enchantment!";
                 }
                 yield return new WaitForSeconds(3f);
+                spellSpriteFinish(sprite);
                 break;
             //curse player
             case 3:
                 bool min = playerUnit.curse(modifier, enemyUnit.unitLevel);
-                playerHUD.SetHP(playerUnit.currentHP);
+                playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
+                sprite = spellSprite(playerLocation, enemyUnit, 2);
                 if(min){
                     dialogueText.text = enemyUnit.unitName + " cursed your "+enemyStatChoice+", lowering it to minimum!";
                 }else{
                     dialogueText.text = enemyUnit.unitName + " cursed your "+enemyStatChoice+", lowering it!";
                 }
                 yield return new WaitForSeconds(3f);
+                spellSpriteFinish(sprite);
                 break;
         }
         
@@ -298,9 +316,11 @@ public class BattleSystem : MonoBehaviour
         {
             //damage enemy
             isDead = enemyUnit.TakeDamage(playerUnit.attack, playerUnit.isEarthType, playerUnit.isWaterType, playerUnit.isFireType, playerUnit.isAirType);
-            enemyHUD.SetHP(enemyUnit.currentHP);
+            enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
             dialogueText.text = "The attack hit!";
+            GameObject sprite = spellSprite(enemyLocation, playerUnit, 0);
             yield return new WaitForSeconds(3f);
+           spellSpriteFinish(sprite);
         }else
         {
             dialogueText.text = "The attack missed!";
@@ -341,13 +361,15 @@ public class BattleSystem : MonoBehaviour
         //buff player stat
         bool max = playerUnit.enchant(enchantModifier);
         if(max){
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
             dialogueText.text = "You enchanted your " + enchantType + ", maxing it out!";
         }else{
-            playerHUD.SetHP(playerUnit.currentHP);
+            playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
             dialogueText.text = "You enchanted your " + enchantType + ", raising it!";
         }
+        GameObject sprite = spellSprite(playerLocation, playerUnit, 1);
         yield return new WaitForSeconds(3f);
+        spellSpriteFinish(sprite);
         //if stat max
 
         //state handling
@@ -378,13 +400,15 @@ public class BattleSystem : MonoBehaviour
         //debuff enemy stat
         bool min = enemyUnit.curse(enchantModifier, playerUnit.unitLevel);
         if(min){
-            enemyHUD.SetHP(enemyUnit.currentHP);
+            enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
             dialogueText.text = "You cursed " + enemyUnit.unitName + "'s " + curseType + ", lowering it completely!";
         }else{
-            enemyHUD.SetHP(enemyUnit.currentHP);
+            enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
             dialogueText.text = "You cursed " + enemyUnit.unitName + "'s " + curseType + ", lowering it!";
         }
+        GameObject sprite = spellSprite(enemyLocation, playerUnit, 2);
         yield return new WaitForSeconds(3f);
+        spellSpriteFinish(sprite);
         //if stat max
 
         //state handling
@@ -431,4 +455,37 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+
+    //
+    //attack/spell/enchant sprite handling (this doesnt work right)
+    //
+
+    public GameObject spellSprite(Transform targetLocation, Unit attacker, int action)
+    {
+        //if action is 0: spell
+            if(action ==0){
+            if(attacker.isFireType)
+                spellSpriteAnimation = Instantiate(fireAttackSprite, targetLocation);
+            else if(attacker.isEarthType)
+                spellSpriteAnimation = Instantiate(EarthAttackSprite, targetLocation);
+            else if(attacker.isWaterType)
+                spellSpriteAnimation = Instantiate(WaterAttackSprite, targetLocation);
+            else if(attacker.isAirType)
+                spellSpriteAnimation = Instantiate(AirAttackSprite, targetLocation);
+        }
+        //if action is 1: enchant
+        else if(action ==1){
+            spellSpriteAnimation = Instantiate(enchantSprite, targetLocation);
+        }
+        //if action is 2: curse
+        else{
+            spellSpriteAnimation = Instantiate(curseSprite, targetLocation);
+        }
+        return spellSpriteAnimation;
+    }
+
+    void spellSpriteFinish(GameObject _spellSpriteAnimation)
+    {
+        Destroy(_spellSpriteAnimation);
+    }
 }
