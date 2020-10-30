@@ -24,6 +24,8 @@ public class BattleHUD : MonoBehaviour
     {
         hpSlider.value = hp;
         hpIndicator.text = "HP: " + Mathf.Ceil(hp) + "/" + (int)maxHP;
+        if(hp <= 0)
+            hpIndicator.text = "HP: " + 0 + "/" + (int)maxHP;
     }
 
 }
