@@ -68,7 +68,8 @@ public class BattleSystem : MonoBehaviour
         dialogueText.text = "A wild " + enemyUnit.unitName + " appeared!";
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
-
+        playerUnit.ensureStats();
+        enemyUnit.ensureStats();
         yield return new WaitForSeconds(3f);
  
         state = BattleState.MIDDLE;

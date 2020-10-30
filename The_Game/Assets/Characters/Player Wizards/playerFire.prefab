@@ -126,14 +126,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Fire Wizard
-  unitLevel: 1
-  maxHP: 10
-  currentHP: 10
-  attack: 15
-  defense: 35
-  speed: 12
-  accuracy: 45
-  evasiveness: 65
+  unitLevel: 3
+  maxHP: 20
+  currentHP: 20
+  attack: 16
+  defense: 42
+  speed: 13
+  accuracy: 60
+  evasiveness: 50
   isEarthType: 0
   isWaterType: 0
   isAirType: 0

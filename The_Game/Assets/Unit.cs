@@ -8,16 +8,16 @@ public class Unit : MonoBehaviour
     public string unitName; //name of the unit
     public int unitLevel; //level of the unit
 
-    public float maxHP;
-    public float currentHP;
+    public float maxHP;//max hp of the unit
+    public float currentHP; //current hp of the unit    (Min: 0)  (Max: maxHP)
 
-    public float attack; //base attack damage of the unit
-    public float defense; //base defense of the unit
+    public float attack; //base attack damage of the unit    (Min: 5 )  (Max: 100 + (level * 2.5) )
+    public float defense; //base defense of the unit    (Min: 0)  (Max: 80)
 
-    public int speed; //base speed of the unit
+    public int speed; //base speed of the unit    (Min: 0)  (Max: 20)
 
-    public float accuracy; //helps calculate chance to hit
-    public float evasiveness; //helps calculate chance to hit
+    public float accuracy; //helps calculate chance to hit    (Min: 20)  (Max: 80)
+    public float evasiveness; //helps calculate chance to hit    (Min: 20)  (Max: 80)
 
     public bool isEarthType; //Unit is or is not Earth type
     public bool isWaterType; //Unit is or is not Water type
@@ -193,7 +193,7 @@ public class Unit : MonoBehaviour
             }
         }
 
-        //3: speed (Max: 0)
+        //3: speed (Min: 0)
         if(stat == 3)
         {
             speed -= 3;
@@ -215,7 +215,7 @@ public class Unit : MonoBehaviour
             }
         }
 
-        //5: evasiveness (Max: 20)
+        //5: evasiveness (Min: 20)
         if(stat == 5)
         {
             evasiveness -= level + 5;
@@ -228,5 +228,40 @@ public class Unit : MonoBehaviour
         return false;
     }
 
+    //ensure the minimum and maximum stats are not out of bounds.
+    public void ensureStats()
+    {   
+        
+        if(currentHP > maxHP)
+            currentHP=maxHP;
+        else if(currentHP < 0)
+            //you shouldnt ever make it here, if somehow the code reaches this point, there are bigger problems somewhere else...
+        
+        if(attack > 100 + (unitLevel * 2.5))
+            attack = (float)(100 + (unitLevel * 2.5));
+        else if(attack < 5)
+            attack = 5;
 
+        if(defense > 80)
+            defense = 80;
+        else if(defense < 0)
+            defense = 0;
+
+        if(speed > 20)
+            speed = 20;
+        else if( speed < 0)
+            speed = 0;
+
+        if(accuracy > 80)
+            accuracy = 80;
+        else if(accuracy < 20)
+            accuracy = 20;
+
+        if(evasiveness > 80)
+            evasiveness = 80;
+        else if(evasiveness < 20)
+            evasiveness = 20;
+        
+
+    }
 }
