@@ -214,13 +214,6 @@ public class BattleSystem : MonoBehaviour
                     dialogueText.text = "The attack missed!";
                     yield return new WaitForSeconds(3f);
                 }
-        
-                //if enemy dead
-                if(isDead)
-                {
-                    state = BattleState.LOSS;
-                    EndBattle();
-                }
                 break;
                 //attack player
             case 1:
@@ -239,13 +232,6 @@ public class BattleSystem : MonoBehaviour
                 {
                     dialogueText.text = "The attack missed!";
                     yield return new WaitForSeconds(3f);
-                }
-        
-                //if enemy dead
-                if(isDead)
-                {
-                    state = BattleState.LOSS;
-                    EndBattle();
                 }
                 break;
             //enchant self
@@ -276,9 +262,13 @@ public class BattleSystem : MonoBehaviour
                 break;
         }
         
-        
-        
-        if(enemyFirst)
+        //if player dead
+        if(playerUnit.currentHP <= 0)
+        {
+            state = BattleState.LOSS;
+            EndBattle();
+        }
+        else if(enemyFirst)
         {
             enemyFirst = false;
             state = BattleState.PLAYERTURN;
@@ -449,10 +439,16 @@ public class BattleSystem : MonoBehaviour
         if(state == BattleState.LOSS)
         {
             dialogueText.text = "You lost the battle...";
+            //wait
+            //decrease moneys or something
+            //exits battle system into map or something
         }
         else if(state == BattleState.WIN)
         {
             dialogueText.text = "You won the battle!";
+            //wait
+            //increase xp/mones if needed or something
+            //exits battle system into map or something
         }
     }
 
