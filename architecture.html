@@ -14,19 +14,23 @@
 		<p><br>Theo Platt <br>Avery Lee <br>Devin Thaker <br>Maximino Robles</p>
 
 		<h2>Project Overview</h2>
-		<p></p>
+		<p>This project will be a turn-based combat system in which players can fight Non-Playable Characters. It will include a variety of players stats (such as health, speed, evasiveness, and accuracy) as well as different moves that can heal the player, attack the opponent, or manipulate stats. It will have a simple map, which leads the player into our pokemon-style combat encounters.<br></p>
 
 		<h2>Key Architecture Drivers</h2>
-		<p></p>
+		<p>We need our system to:<br>1. Have a turn-based battle system<br>2. Have a map/world to transition between battles<br>All other requirements fall under these two categories, so we decided to base our architecture designs off these key points.<br></p>
 
 		<h2>Architecture Style Choices</h2>
-		<p></p>
+		<p>For the battle system, we will implement a <i><b>factory architecture style.</b></i> We will create a factory function that will generate an enemy object with unique type/stats, then return a reference to that object. We also plan to use function overloading so that our factory can work with a variety of parameters (i.e., if we want the enemy to have a set type). We considered using a cloning architecture to create new enemies from existing prototypes, but we decided that the factory style would allow for more flexibility for creating enemies.<br>
+		   For our map, we will use an <i><b>observer architecture style.</b></i> When the user presses a button to move their character or start a battle, an observer will notify the appropriate objects of the change in state, which will trigger other actions (such as walking animations or a transition into the battle screen). We decided that this would be more efficient than a notification system, which would spend too much time polling.<br></p>
 
 		<h2>Our Architecture</h2>
-		<p></p>
+		<p><img src="Architecture.png" alt="Architecture Model" /></p>
 
 		<h2>Conclusion</h2>
-		<p></p>
+		<p>We will be using the factory architecture design to generate our fighters, and the observer architecture design to implement our map.<br>
+		One possible issue is that neither architecture works with storing player information. We want the players’ stats, attacks, and experience to be saved between battles, so we would have to find another way to store that data.<br>
+		A question that we have is, how we should connect the two architecture designs together so that they work together?<br>
+</p>
 
 
 		<p> <a href="index.html">back to index</a> <br> </p>
