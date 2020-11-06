@@ -414,26 +414,18 @@ public class BattleSystem : MonoBehaviour
             Middle();
         }
     }
-
-
-
-
+	/// needs work 
     bool doesHit(float accuracy, float evasiveness)
     {
-        if(Random.Range(0, 101) <= accuracy && Random.Range(0,101) >= evasiveness)
+        if(Random.Range(0, 101) <= accuracy || Random.Range(0,101) >= evasiveness)
             return true;
         return false;
     }
 
-
-
-
-
-
-
     //
     //end battle
     //
+
     void EndBattle()
     {
         if(state == BattleState.LOSS)
@@ -452,11 +444,9 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
-
     //
     //attack/spell/enchant sprite handling (this doesnt work right)
     //
-
     public GameObject spellSprite(Transform targetLocation, Unit attacker, int action)
     {
         //if action is 0: spell

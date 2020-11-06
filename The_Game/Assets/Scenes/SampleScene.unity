@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
-  enemy: {fileID: 478826527007364477, guid: 5a06e02e9368251479164c15de3d5113, type: 3}
+  enemy: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
   playerLocation: {fileID: 1795030084}
   enemyLocation: {fileID: 1620867729}
   dialogueText: {fileID: 55670525}
