@@ -45,13 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Earth Wizard
-  unitLevel: 1
-  maxHP: 10
-  currentHP: 10
+  unitLevel: 100
+  maxHP: 100
+  currentHP: 100
   attack: 15
   defense: 35
-  speed: 12
-  accuracy: 45
+  speed: 20
+  accuracy: 80
   evasiveness: 65
   type: 2
 --- !u!1 &7357836712749236957
