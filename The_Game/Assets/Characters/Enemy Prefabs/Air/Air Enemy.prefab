@@ -134,6 +134,7 @@ MonoBehaviour:
   speed: 17
   accuracy: 40
   evasiveness: 75
+  type: 3
   isEarthType: 0
   isWaterType: 0
   isAirType: 1

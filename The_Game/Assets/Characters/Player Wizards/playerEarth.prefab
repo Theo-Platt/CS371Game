@@ -53,10 +53,7 @@ MonoBehaviour:
   speed: 12
   accuracy: 45
   evasiveness: 65
-  isEarthType: 1
-  isWaterType: 0
-  isAirType: 0
-  isFireType: 0
+  type: 2
 --- !u!1 &7357836712749236957
 GameObject:
   m_ObjectHideFlags: 0

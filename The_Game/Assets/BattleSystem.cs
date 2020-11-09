@@ -203,7 +203,7 @@ public class BattleSystem : MonoBehaviour
                 if(hits)
                 {
                     //damage player
-                    isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
+                    isDead = playerUnit.TakeDamage(enemyUnit);
                     playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
                     dialogueText.text = "The attack hit!";
                     sprite = spellSprite(playerLocation, enemyUnit, 0);
@@ -222,7 +222,7 @@ public class BattleSystem : MonoBehaviour
                 if(hits)
                 {
                     //damage player
-                    isDead = playerUnit.TakeDamage(enemyUnit.attack, enemyUnit.isEarthType, enemyUnit.isWaterType, enemyUnit.isFireType, enemyUnit.isAirType);
+                    isDead = playerUnit.TakeDamage(enemyUnit);
                     playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
                     dialogueText.text = "The attack hit!";
                     sprite = spellSprite(playerLocation, enemyUnit, 0);
@@ -249,7 +249,7 @@ public class BattleSystem : MonoBehaviour
                 break;
             //curse player
             case 3:
-                bool min = playerUnit.curse(modifier, enemyUnit.unitLevel);
+                bool min = playerUnit.curse(modifier, enemyUnit);
                 playerHUD.SetHP(playerUnit.currentHP, playerUnit.maxHP);
                 sprite = spellSprite(playerLocation, enemyUnit, 2);
                 if(min){
@@ -306,7 +306,7 @@ public class BattleSystem : MonoBehaviour
         if(hits)
         {
             //damage enemy
-            isDead = enemyUnit.TakeDamage(playerUnit.attack, playerUnit.isEarthType, playerUnit.isWaterType, playerUnit.isFireType, playerUnit.isAirType);
+            isDead = enemyUnit.TakeDamage(playerUnit);
             enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
             dialogueText.text = "The attack hit!";
             GameObject sprite = spellSprite(enemyLocation, playerUnit, 0);
@@ -389,7 +389,7 @@ public class BattleSystem : MonoBehaviour
     IEnumerator PlayerCurse()
     {
         //debuff enemy stat
-        bool min = enemyUnit.curse(enchantModifier, playerUnit.unitLevel);
+        bool min = enemyUnit.curse(enchantModifier, playerUnit);
         if(min){
             enemyHUD.SetHP(enemyUnit.currentHP, enemyUnit.maxHP);
             dialogueText.text = "You cursed " + enemyUnit.unitName + "'s " + curseType + ", lowering it completely!";
@@ -451,13 +451,13 @@ public class BattleSystem : MonoBehaviour
     {
         //if action is 0: spell
             if(action ==0){
-            if(attacker.isFireType)
+            if(attacker.type == Unit.typeList.fire)
                 spellSpriteAnimation = Instantiate(fireAttackSprite, targetLocation);
-            else if(attacker.isEarthType)
+            else if(attacker.type == Unit.typeList.earth)
                 spellSpriteAnimation = Instantiate(EarthAttackSprite, targetLocation);
-            else if(attacker.isWaterType)
+            else if(attacker.type == Unit.typeList.water)
                 spellSpriteAnimation = Instantiate(WaterAttackSprite, targetLocation);
-            else if(attacker.isAirType)
+            else if(attacker.type == Unit.typeList.air)
                 spellSpriteAnimation = Instantiate(AirAttackSprite, targetLocation);
         }
         //if action is 1: enchant

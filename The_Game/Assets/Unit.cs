@@ -19,66 +19,68 @@ public class Unit : MonoBehaviour
     public float accuracy; //helps calculate chance to hit    (Min: 20)  (Max: 80)
     public float evasiveness; //helps calculate chance to hit    (Min: 20)  (Max: 80)
 
-    public bool isEarthType; //Unit is or is not Earth type
-    public bool isWaterType; //Unit is or is not Water type
-    public bool isAirType; //Unit is or is not Air type
-    public bool isFireType; //Unit is or is not Fire type
+    public enum typeList {fire, water, earth, air}
+    public typeList type;
+    // public bool isEarthType; //Unit is or is not Earth type
+    // public bool isWaterType; //Unit is or is not Water type
+    // public bool isAirType; //Unit is or is not Air type
+    // public bool isFireType; //Unit is or is not Fire type
 
 
-    public bool TakeDamage(float dmg, bool earth, bool water, bool fire, bool air)
+    public bool TakeDamage(Unit attacker)
     {
-        bool weakness = isWeak(earth,water,fire,air);
-        bool resist = isResist(earth,water,fire,air);
+        bool weakness = isWeak(attacker);
+        bool resist = isResist(attacker);
         float damageModifier = (float)1.0;
         if(weakness)
             damageModifier += (float)0.25;
         if(resist)
             damageModifier -= (float)0.25;
         
-        currentHP -= (dmg-((dmg*defense) / 100)) * damageModifier;
+        currentHP -= (attacker.attack-((attacker.attack*defense) / 100)) * damageModifier;
 
         if(currentHP <= 0)
             return true;
         return false;
     }
 
-    private bool isWeak(bool earth, bool water, bool fire, bool air)
+    private bool isWeak(Unit attacker)
     {
-        if(isFireType)
-            if(water)
+        if(type == typeList.fire)
+            if(attacker.type == typeList.water)
                 return true;
         
-        if(isWaterType)
-            if(earth)
+        if(type == typeList.water)
+            if(attacker.type == typeList.earth)
                 return true;
         
-        if(isEarthType)
-            if(air)
+        if(type == typeList.earth)
+            if(attacker.type == typeList.air)
                 return true;
         
-        if(isAirType)
-            if(fire)
+        if(type == typeList.air)
+            if(attacker.type == typeList.fire)
                 return true;
         
         return false;
     }
 
-    private bool isResist(bool earth, bool water, bool fire, bool air)
+    private bool isResist(Unit attacker)
     {
-        if(isFireType)
-            if(air)
+        if(type == typeList.fire)
+            if(attacker.type == typeList.air)
                 return true;
         
-        if(isWaterType)
-            if(fire)
+        if(type == typeList.water)
+            if(attacker.type == typeList.fire)
                 return true;
         
-        if(isEarthType)
-            if(water)
+        if(type == typeList.earth)
+            if(attacker.type == typeList.water)
                 return true;
         
-        if(isAirType)
-            if(earth)
+        if(type == typeList.air)
+            if(attacker.type == typeList.earth)
                 return true;
         
         return false;
@@ -158,12 +160,12 @@ public class Unit : MonoBehaviour
     
 
     // if true: stat min has been met
-    public bool curse(int stat, float level)
+    public bool curse(int stat, Unit attacker)
     {
         //0: heal (Min: 1)
         if(stat == 0)
         {
-            currentHP -= level + (float)2.5;
+            currentHP -= attacker.unitLevel + (float)2.5;
             if(currentHP <= 1)
             {
                 currentHP = 1;
@@ -174,7 +176,7 @@ public class Unit : MonoBehaviour
         //1: attack (Min: 5 )
         if(stat == 1)
         {
-            attack -= 10 + level;
+            attack -= 10 + attacker.unitLevel;
             if(attack <= 5)
             {
                 attack = 5;
@@ -185,7 +187,7 @@ public class Unit : MonoBehaviour
         //2: defense (Min: 0)
         if(stat == 2)
         {
-            defense -= 10 + level;
+            defense -= 10 + attacker.unitLevel;
             if(defense <= 0)
             {
                 defense = 0;
@@ -207,7 +209,7 @@ public class Unit : MonoBehaviour
         //4: accuracy (Min: 20)
         if(stat == 4)
         {
-            accuracy -= level + 5;
+            accuracy -= attacker.unitLevel + 5;
             if(accuracy <= 20)
             {
                 accuracy = 20;
@@ -218,7 +220,7 @@ public class Unit : MonoBehaviour
         //5: evasiveness (Min: 20)
         if(stat == 5)
         {
-            evasiveness -= level + 5;
+            evasiveness -= attacker.unitLevel + 5;
             if(evasiveness <= 20)
             {
                 evasiveness = 20;
