@@ -1545,7 +1545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -183}
+  m_AnchoredPosition: {x: 0, y: -289}
   m_SizeDelta: {x: 671.4323, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997071332
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
-  enemy: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
+  enemy: {fileID: 8058732077169314535, guid: 6e8322c8877b6fa4f9b24f3f8450f92a, type: 3}
   playerLocation: {fileID: 1795030084}
   enemyLocation: {fileID: 1620867729}
   dialogueText: {fileID: 55670525}
@@ -2399,7 +2399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -70}
+  m_AnchoredPosition: {x: 181, y: -189}
   m_SizeDelta: {x: 230.48126, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1774874591

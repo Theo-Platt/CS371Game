@@ -24,138 +24,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Created BattleSystem that will hold game states">
-      <change afterPath="$PROJECT_DIR$/The_Game/Air_Attack_Spritesheet.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack_Spritesheet.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack_Spritesheet.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack_Spritesheet_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Air_Attack_Spritesheet_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack_Spritesheet.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Attack_Spritesheet.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/0a/0af497b2f5d9dabc8e128a816308d4da" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/11/11a7b7f8c07416dff7ae1acd5441e8aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/27/270106aa6c0ee3eeb2640ebc9ea529d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/2b/2bf3854539e7bca855550d67447a3ba5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/2f/2fdf2848a1c084add2564ad981ac3377" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/36/366270b333a41d15e2dea125554dd943" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/41/411aff911759b0f59b8b11422fbd3334" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/44/44392a6d50b24e1ac06d6219f6e1701e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/4e/4ef5febd7060023b4a99be139006d23f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/51/519cb0c06fb43533c840246e95a93877" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/58/588b59b4a91d2bd93c99bd8468399bd9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/5a/5ae06d8b333161e2b0403e3929ea7772" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/63/63bbcec2f38c3bd1e819c4e0b13855c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/66/66b1ace57a5995c71ba06a3298710b91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/73/7332e22576e93cd0e86121496086e707" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/82/82e56c0ae0428203be3a0415cbf08bf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/88/88e5e3f7cb77b14f76e11c360e651907" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/89/89d4546ee53ae3192f868cebacb63770" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/97/974caf052ca6a76e02096a44157ed185" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/9b/9b65e21540b4b3b4f2302c5bd0766e4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/9c/9c933e2ede809b7127884dd9136df145" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/a6/a6945b02fc25c7cec8a4592715803913" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ab/ab7e4c5273771dd21df2c997a711cd2b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/b6/b67300fca5aad61d30db041fbbf28d05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/bc/bcebd97544b6ed272d1236578b51fa5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/c3/c3abdf7288845ac83fecee4ee98ee32d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ca/cabee4dadf454a2e4cd01da5e198056e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/dc/dcb39b1430d03616f2af219ba1c182db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ea/eaabfd972fe9987232779925c14b70e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/eb/eb87194bef31a482fbc76ee4d36833c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ee/eedd42ed28f4a137774788142d22a950" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/f7/f7f32ff0d22adea6f4fd189f45202ae8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fb29fb04576ca5b1363d642a8dc2273d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-b51fb462561c04b8c89f282e85b9b1f3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-b8001e4880f5e40d296ae5203575d917" afterDir="false" />
+    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Edited does hit so player and enemy hit more frequently and added air attack animation">
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/92/92adbdd511800749c79477371079afc2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/Enemy Prefabs/Water/Water Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/Enemy Prefabs/Water/Water Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/airAttackSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/airAttackSprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/fireAttackSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/fireAttackSprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Attack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Attack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_2.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_2.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_3.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_3.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_4.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire_Heavy_Spritesheet_4.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/New Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/New Animation.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/14/14695f226a576860fd4803db76f31723" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/1c/1c2957510a8940c04ce6bee1c1d2cd44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/2c/2c8fa49a5d13e7a5a48b7a450faf634f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/2f/2feea64c586409663f0a2b3f878d877d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/44/44225b619a58721ca140608ad63f5dcd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/4e/4e97fd49d2e3cc70d2cd568ffdc7c6f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/55/55bd7456ae03289bd8c0908d09498e4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/69/69f59d8c92f7a30bcf67eec40f118f68" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/7d/7d5ecced6c303d8786e265e7e9bdedd4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/9c/9c7b678d711473d4c0b6f2416817d124" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ce/ce60c2f2afb9d7b6fbdba68e0fe7b82a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/d7/d766395ccf7676662e6e0ca0c1fad583" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/e0/e04713973f1ea7bb927714c5068cdce1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/eb/eb91ca3eaba874a4032c4027f6eb8013" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-1f6b13c146166ff4ab.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-1f6b13c146166ff4ab.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-2385b2eb26ceedc4da.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-2385b2eb26ceedc4da.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-5fefbe4bd7b5803489.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-5fefbe4bd7b5803489.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-2385b2eb26ceedc4da.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-2385b2eb26ceedc4da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-5fefbe4bd7b5803489.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-5fefbe4bd7b5803489.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-08a655d7cf3bc48a6a36c473ae0e6af8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-0c8d7ff66249f441bb0ad3a78ec40fd1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-0fe35b814642145e19655f578f20ccbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-10d246487042b4cb39fdc2878dc2e979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-12e786870a31644ffbaf0270b3d7ae40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-14b0e55cdde1247fdbb810856319b9fd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-16ef8530e42bc433d829e18f50e65287" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-1f4de4cb436514d399fdc8fe7f020940" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-2048bc289a6a74529ae8ce1a5448083b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-2664da604688046079850b1822e13b6a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-2936f6c2cf87940d198c3c2c1c0f88a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-38f37c202410144ec8e8604c6e449c46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-3c39fa4b9eb85472091ceb81fa7c0621" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-4d001e77a4bbf44d88a2f2713360b21f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-58c0bac44baff4098a5dea16a5c18150" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-598aee05ec6344517825cc900ac523e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-5e626c5738c254748b106f817f2c247c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-5f74d938ca0e74cdc8ac221193f37331" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-64c65011bbbc541be9083f9987470aa3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-7aa00ec7ce3bb48eaa76fc0cb5e3fb78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-7e531ea1946ca4a04b19a74c876d937a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-7ffbcc7de5c9441c3982db78b23035cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-95bb492ad4903428592626b9ce20548f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-98464a8f15b8547d6a4fc59f334df0c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-98613595f6b7c4a87b584d19a4e46ca9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a71de245e410f44aaa0147531567662a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-aae4781866b6c49e9abce7ba8f7fab87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-bd138973e8a9243d59b2c0007c06aba6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-bd589bb34aedf4f48a47f1e79f5f3b1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-d6b04a25ca3f64431b01b88a243cbeea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-f9d8cc15494514d8c85bbc37265b52b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +85,7 @@
       <workItem from="1603412160958" duration="6659000" />
       <workItem from="1603422668183" duration="7480000" />
       <workItem from="1604093205313" duration="1954000" />
-      <workItem from="1604692233539" duration="4222000" />
+      <workItem from="1604692233539" duration="5493000" />
     </task>
     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
       <created>1602285502612</created>
@@ -260,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603430258857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Edited does hit so player and enemy hit more frequently and added air attack animation">
+      <created>1604702965432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604702965432</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -282,7 +165,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added Fire Heavy Attack sprite sheet and attack" />
     <MESSAGE value="Created BattleSystem that will hold game states" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created BattleSystem that will hold game states" />
+    <MESSAGE value="Edited does hit so player and enemy hit more frequently and added air attack animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited does hit so player and enemy hit more frequently and added air attack animation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="173" key="MultipleFileMergeDialog" timestamp="1603430166104">
@@ -293,15 +177,19 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1604094551281">
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1604702968977">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1604094551281" />
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1604702968977" />
     <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603430270818" />
     <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604515375210">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
     <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1604515375210" />
     <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603431113502" />
+    <state x="-1224" y="-35" width="670" height="676" key="search.everywhere.popup" timestamp="1604702928752">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1224" y="-35" width="670" height="676" key="search.everywhere.popup/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1604702928752" />
   </component>
 </project>
