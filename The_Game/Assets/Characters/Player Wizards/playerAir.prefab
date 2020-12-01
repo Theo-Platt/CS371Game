@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edeed6c0fe0e2914b83698111431daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Air Wizard
+  unitName: Aang
   unitLevel: 1
   maxHP: 10
   currentHP: 10

@@ -132,6 +132,6 @@ MonoBehaviour:
   attack: 15
   defense: 35
   speed: 12
-  accuracy: 45
+  accuracy: 55
   evasiveness: 65
   type: 1

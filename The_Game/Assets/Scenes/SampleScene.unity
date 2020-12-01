@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fa99f6bd11b436f87aa9cc6a5eaeed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1564325416358618672, guid: a92b75860126131458273c63b9c7152b, type: 3}
+  player: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
   enemy: {fileID: 8058732077169314535, guid: 6e8322c8877b6fa4f9b24f3f8450f92a, type: 3}
   playerLocation: {fileID: 1795030084}
   enemyLocation: {fileID: 1620867729}
