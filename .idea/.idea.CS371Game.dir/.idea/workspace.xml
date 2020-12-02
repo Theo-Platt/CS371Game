@@ -24,128 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Earth spritesheet, animation, and controller.">
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack_Spritesheet.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack_Spritesheet.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack_Spritesheet_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Water_Attack_Spritesheet_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/01/01e1ebd9194dfe4b23566b1107d2022a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/14/1496184a22eb8e796338b95098a9a15b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/19/1952ad97d972ff9c41d14e69d02fafc0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/2f/2fc65a95058609a2d4b6cfdfe35828c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/34/34a412c0e2a36d9a4126c9dee2339b44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/37/37f07694fc17954eef7680ae9af96c18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/3d/3daf75df86ceb31b6ef7c9494656b35c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/3d/3dfc7787c1b9e3ac68450392cb119a34" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/52/52abc023e3b633508360de81036be1c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/60/60d15c267d1045fed21bdcce34b5c99f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/63/63b41299fd547da7e2c0af13213e302a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/66/669dff5e22b33ddcaafbb0f9c9ddf4b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/73/732679cfe6828ea3a801c759c6914c13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/7c/7c50e53c655c2338280baa2081d85333" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/7f/7f2beab2823c83ff8780f68654a7c409" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/7f/7ff86b826cdafb46118349630650c795" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/86/867fa7dc18e9ad7589281cc641663324" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/92/92011e4a6984de5d3f72cdbe99ffaa01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/a5/a5757828a85bb81df99765da20c3209e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/b0/b0a5d05290361dffbf1334cbf4114b7a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/c3/c3b458a39421704ce5b3c30b9b0e6a2f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/cb/cb7e0f83d068973736990b627fee8579" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/d3/d3e873755d5e61017e5a1afc032c6c9f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/d5/d519c98603c541015a4e08c22f6c4cb2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/db/dbb6685195dcd6650ba9f06f4c14ba77" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/dc/dccf4544b5a6cc79602aa14f15ee7004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/e3/e350505b665daca1f51ff37b8079ec8f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/f2/f2ad8fe52ac6d6d90d8a938b0535827b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fb03626b8c95208d13f477fc2383ee8c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fbab9a378c73cd59f072ee62a99391f0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fc/fc969c0f722184084378ca9cd09ea1d3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/fe/fedf0f15d6ecb14a597d09b5cabe18f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/ff/ff78f3ccd8dc564be27bcb3b8d4d10e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/EditorInstance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityLockfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-a64fa9b2d2a2b451d9acb8b525f65c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/UnityTempFile-d974edc24e23b47e28886a876af83112" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Water_Attack_Spritesheet.psd" afterDir="false" />
+    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Water Attack Spritesheet and animation.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerAir.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerAir.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerFire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerFire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerWater.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/Player Wizards/playerWater.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/waterAttackSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/waterAttackSprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Earth_Attack_Spritesheet.psd" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Earth_Attack_Spritesheet.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/01/01dca0869bfaceff72e4d6c91b177403" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/03/038f9ad5d41bda40c73a79f354a70a61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/04/04062f1cc931999c3c2ac89d8a904591" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/07/07359d08735c3764a4bd1ead4c771f8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/09/09247d629e2b3aa5eaade4fa9a3b7934" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/09/0959b910c1668226db880f31e7cd78e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/0b/0b02246b8e909b79953a2a32114198f9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/0b/0b95616abcdd775ffca60f5bc6ae20a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/11/11372a54f19bcfa3e17913d0040ec0b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/28/28c81abafc7f4cddac7a24e726e79989" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/2d/2d62f4bdf19c059f75b75f468b638ce1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/32/32263cff2aa36971b5b5299dc3749c78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/37/3763fc5b4b56c7c963eb50d22a06f8ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/3d/3d85b65d4de1deb27a1de547c3e25679" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/41/418a33c0173019b97cf9aa4bf3a305dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/43/4353343d3040cc9966e29256833a6505" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/4b/4b131943b6abc84d2b52422f5bcbc711" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/4d/4d2b757e2cb11ccb77cfdf8c963c7c63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/5e/5e7c120dae0ffa042e0d3d1046f60d75" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/61/6109145b800afd0a999dcffc5e337ee1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/61/612d2daa2747b2a59db8d6fc0b28ca1b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/62/6240a5d501e2c862bccb48af4a73bf44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/6e/6eee223b67126a7f0c15dceaa561e356" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/77/775c7668b6f8ad6b87876e650ac7e961" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/7b/7bce6424de6d0235fc94edf39847cb42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/7c/7cb8bc490be0ed88a7144789539a3e76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/84/84fa888b10511bd10e7cf38564573f6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/89/89c050c04e71b76612421a89b3c87545" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/96/963997021db8da22dc4be6e149b09364" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/9e/9ecfa1a9aeebe3cc0b1b57a903652535" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/a7/a7bb629d9a1220ad0c9d1d1dfb0d4dd0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ad/adb9f50aa9d9a2fd9f862386c37e1ebd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ae/ae3fb4668ba90caf128915844963dafe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ae/aef3735af32fb5c2fbcb7953d4c2e274" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/b0/b01d78c491eb480604479946ae966ab0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/b2/b2dcdddc9c834961363c64eb98182c71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ba/baf8e0361cc704f5f656f7b7092a9b42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/bd/bd64b08df200b8b0cbac99017cd5b00f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/c4/c478a3b5a2a4628bc6b2d2586241cff7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/c6/c6ec5a0eb44962b84e832945c8441cb3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/d2/d261c20ed553aaad03c8b6bb42512c10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/da/dace8f3d23676629e101775f106ddc3a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/db/dbbf34c18e8bd5d40a615d592a1147af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/e0/e0d0f372dc1521227537c306e812a782" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/e4/e433b483cddd625121a7bb0f71245456" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/e5/e5545508dc7c1ae55908176656ec6cd9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/eb/eb4b0e748856b243e21eee7936bbe08e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/ec/ece00b958b9b93ec8f736989471cb1d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/f5/f55688f61f3c9c5b6c02dc25625bb155" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/fa/faceb36acefbd2619443fff839cf5409" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/Artifacts/fb/fb5324c2a49950f55109573871becd84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-2385b2eb26ceedc4da.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-2385b2eb26ceedc4da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4af86da961156994cb.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4af86da961156994cb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-5fefbe4bd7b5803489.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-5fefbe4bd7b5803489.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-6e8322c8877b6fa4f9.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-6e8322c8877b6fa4f9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-a1942d3b789a21a4b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-a1942d3b789a21a4b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-4af86da961156994cb.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-4af86da961156994cb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/SceneView/cc2798-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4db5d5f9dc091794ab.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4db5d5f9dc091794ab.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +83,7 @@
       <workItem from="1603422668183" duration="7480000" />
       <workItem from="1604093205313" duration="1954000" />
       <workItem from="1604692233539" duration="9207000" />
-      <workItem from="1606767565571" duration="2102000" />
+      <workItem from="1606767565571" duration="3350000" />
     </task>
     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
       <created>1602285502612</created>
@@ -273,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604953150102</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Water Attack Spritesheet and animation.">
+      <created>1606797179336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606797179336</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -298,7 +187,8 @@
     <MESSAGE value="Edited does hit so player and enemy hit more frequently and added air attack animation" />
     <MESSAGE value="Tweaked HUD slightly, retouched fire and air animations. HP now will not go past 0." />
     <MESSAGE value="Added Earth spritesheet, animation, and controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Earth spritesheet, animation, and controller." />
+    <MESSAGE value="Added Water Attack Spritesheet and animation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Water Attack Spritesheet and animation." />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="173" key="MultipleFileMergeDialog" timestamp="1603430166104">
@@ -309,10 +199,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
-    <state x="242" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604953154734">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1606797189518">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1604907086658" />
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1606797189518" />
     <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1604953154734" />
     <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606796226631">
       <screen x="-1920" y="-257" width="1920" height="1057" />
