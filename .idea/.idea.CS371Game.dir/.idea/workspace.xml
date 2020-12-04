@@ -24,10 +24,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Water Attack Spritesheet and animation.">
+    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Added Enchant Spritesheet and animations.">
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/07/078fb1973cace9c9dd4b87c7f7312801" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/4d/4ddd1e7858c33c8e681a5f5913da6f43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/6e/6e3b56f29bf376037dfa6e1fb8488505" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/9f/9fec764e5b279309a8b65e9f94aa7147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/d7/d713edd0d7060f5678677d9ace552158" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/enchantSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/enchantSprite.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/waterAttackSprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Assets/Characters/spell Sprites/waterAttackSprite.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4db5d5f9dc091794ab.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4db5d5f9dc091794ab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/SourceAssetDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4af86da961156994cb.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/StateCache/Hierarchy/4c969a-4af86da961156994cb.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +48,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/The_Game/Assets/BattleHUD.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,6 +95,7 @@
       <workItem from="1604093205313" duration="1954000" />
       <workItem from="1604692233539" duration="9207000" />
       <workItem from="1606767565571" duration="3350000" />
+      <workItem from="1606883970586" duration="2474000" />
     </task>
     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
       <created>1602285502612</created>
@@ -162,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606797179336</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Enchant Spritesheet and animations.">
+      <created>1606884039979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606884039979</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -188,7 +207,8 @@
     <MESSAGE value="Tweaked HUD slightly, retouched fire and air animations. HP now will not go past 0." />
     <MESSAGE value="Added Earth spritesheet, animation, and controller." />
     <MESSAGE value="Added Water Attack Spritesheet and animation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Water Attack Spritesheet and animation." />
+    <MESSAGE value="Added Enchant Spritesheet and animations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Enchant Spritesheet and animations." />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="173" key="MultipleFileMergeDialog" timestamp="1603430166104">
@@ -199,16 +219,16 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1606797189518">
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1606884302701">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1606797189518" />
+    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1606884302701" />
     <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1604953154734" />
-    <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606796226631">
+    <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607110791614">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1606796226631" />
-    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603431113502" />
+    <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607110791614" />
+    <state x="438" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1607109924505" />
     <state x="-1224" y="-35" width="670" height="676" key="search.everywhere.popup" timestamp="1604702928752">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
