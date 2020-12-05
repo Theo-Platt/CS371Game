@@ -125,13 +125,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edeed6c0fe0e2914b83698111431daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Aang
-  unitLevel: 1
-  maxHP: 10
-  currentHP: 10
-  attack: 15
-  defense: 35
-  speed: 12
-  accuracy: 45
-  evasiveness: 65
+  unitName: Air Wizard
+  unitLevel: 4
+  maxHP: 38
+  currentHP: 38
+  attack: 24
+  defense: 46
+  speed: 17
+  accuracy: 65
+  evasiveness: 75
   type: 3
