@@ -129,7 +129,7 @@ MonoBehaviour:
   unitLevel: 1
   maxHP: 10
   currentHP: 10
-  attack: 16
+  attack: 10
   defense: 42
   speed: 13
   accuracy: 30
