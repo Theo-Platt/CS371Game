@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64.1, y: 15}
+  m_AnchoredPosition: {x: -64.1, y: 18}
   m_SizeDelta: {x: 409.79395, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55670525
@@ -545,7 +545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lvl
+  m_Text: 'Lvl '
 --- !u!222 &236022435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -708,8 +708,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -1259873533
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: -10
   m_TargetDisplay: 0
 --- !u!224 &428577277
 RectTransform:
@@ -762,11 +762,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 40a936b9309f74343b2c748fbf7c5270, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.544
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1465,7 +1465,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lvl
+  m_Text: 'Lvl '
 --- !u!222 &986002908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1642,7 +1642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -289}
+  m_AnchoredPosition: {x: 0, y: -272}
   m_SizeDelta: {x: 671.4323, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997071332
@@ -1841,7 +1841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fa99f6bd11b436f87aa9cc6a5eaeed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
+  player: {fileID: 2437402163019938657, guid: 68fd4a7c987044b56923f62cd4dbbd93, type: 3}
   playerLocation: {fileID: 1795030084}
   enemyLocation: {fileID: 1620867729}
   dialogueText: {fileID: 55670525}
@@ -1862,14 +1862,14 @@ MonoBehaviour:
     type: 3}
   curseSprite: {fileID: 5616653560558920090, guid: 63d1c88ae981f1047af513a8a39a38b3,
     type: 3}
-  enemy1: {fileID: 5123859975910135495, guid: 8c33b5b0f6944d245ac2a3482df179c0, type: 3}
-  enemy2: {fileID: 5835204429930639245, guid: e07def3d942a43744b16ae75a6a7ba81, type: 3}
-  enemy3: {fileID: 478826527007364477, guid: 5a06e02e9368251479164c15de3d5113, type: 3}
-  enemy4: {fileID: 8058732077169314535, guid: 6e8322c8877b6fa4f9b24f3f8450f92a, type: 3}
-  enemy5: {fileID: 7652070360864771301, guid: eba52bfb498dd1c479c150a27ecf56c6, type: 3}
-  enemy6: {fileID: 1564325416358618672, guid: a92b75860126131458273c63b9c7152b, type: 3}
-  enemy7: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
-  enemy8: {fileID: 7804619728521676330, guid: 4db5d5f9dc091794aba50d0a9f5d36ba, type: 3}
+  enemy1: {fileID: 662895833728191549, guid: 7ffaff83d4f88479b8bf7dc1308892d1, type: 3}
+  enemy2: {fileID: 7391284368579864941, guid: a630a459c8fe8482b8e9247a4589d931, type: 3}
+  enemy3: {fileID: 5126133452123553730, guid: 5a46b86ef9be54c85b02de734b4ab26c, type: 3}
+  enemy4: {fileID: 429433864599057539, guid: 4552bdb51229b4fd38141fdffb5177dd, type: 3}
+  enemy5: {fileID: 380191973841380805, guid: 24ef46961524a4551b13ccd87f3c13c9, type: 3}
+  enemy6: {fileID: 2988310803656522152, guid: 9793364bfaaab4de2be15af8b4ac5953, type: 3}
+  enemy7: {fileID: 6194229604856818017, guid: 46b397ef4dcf24fb9be8ff399565c3c7, type: 3}
+  enemy8: {fileID: 8150258756880770009, guid: 7a78a68e3c61748cc928ad2648e985bf, type: 3}
 --- !u!4 &1025130830
 Transform:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -189}
+  m_AnchoredPosition: {x: 181, y: -161}
   m_SizeDelta: {x: 230.48126, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1774874591
