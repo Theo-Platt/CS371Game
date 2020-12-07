@@ -1869,7 +1869,7 @@ MonoBehaviour:
   enemy5: {fileID: 380191973841380805, guid: 24ef46961524a4551b13ccd87f3c13c9, type: 3}
   enemy6: {fileID: 2988310803656522152, guid: 9793364bfaaab4de2be15af8b4ac5953, type: 3}
   enemy7: {fileID: 6194229604856818017, guid: 46b397ef4dcf24fb9be8ff399565c3c7, type: 3}
-  enemy8: {fileID: 8150258756880770009, guid: 7a78a68e3c61748cc928ad2648e985bf, type: 3}
+  enemy8: {fileID: 6039976730447885907, guid: a1942d3b789a21a4b98f00a17314ad3b, type: 3}
 --- !u!4 &1025130830
 Transform:
   m_ObjectHideFlags: 0
