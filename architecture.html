@@ -11,17 +11,17 @@
 		<h1>Architecture</h1>
    		<h2>CS371Game</h2>
 		<h3> Members: </h3>
-		<p><br>Theo Platt <br>Avery Lee <br>Devin Thaker <br>Maximino Robles</p>
+		<p>Theo Platt <br>Avery Lee <br>Devin Thaker <br>Maximino Robles</p>
 
 		<h2>Project Overview</h2>
-		<p>This project will be a turn-based combat system in which players can fight Non-Playable Characters. It will include a variety of players stats (such as health, speed, evasiveness, and accuracy) as well as different moves that can heal the player, attack the opponent, or manipulate stats. It will have a simple map, which leads the player into our pokemon-style combat encounters.<br></p>
+		<p>This project will be a turn-based combat system in which players can fight Non-Playable Characters. It will include a variety of players stats (such as health, speed, evasiveness, and accuracy) as well as different moves that can heal the player, attack the opponent, or manipulate stats. It will have a simple navigation system which leads the player into our pokemon-style combat encounters.<br></p>
 
 		<h2>Key Architecture Drivers</h2>
 		<p>We need our system to:<br>1. Have a turn-based battle system<br>2. Have a map/world to transition between battles<br>All other requirements fall under these two categories, so we decided to base our architecture designs off these key points.<br></p>
 
 		<h2>Architecture Style Choices</h2>
 		<p>For the battle system, we will implement a <i><b>pipe and filter architecture style.</b></i> The input will be the moves chosen by the fighters in the battle. The move will be modified using filters such as player stats, opponent stats, fighter types, and attack type. Ultimately, all of this information combined will output as total damage dealt.<br>
-		   For our map, we will use a <i><b>repository architecture style.</b></i> The map will act as the data store. Our player character will be the component that reads the data from the map and updates it depending on where the user goes.<br></p>
+		   <br>For our map, we will use a <i><b>repository architecture style.</b></i> The map will act as the data store. Our player character will be the component that reads the data from the map and updates it depending on where the user goes.<br></p>
 
 		<h2>Our Architecture</h2>
 		<p><img src="Architecture.png" alt="Architecture Model" /></p>
@@ -31,7 +31,6 @@
 		One possible issue is that neither architecture works with storing player information. We want the players’ stats, attacks, and experience to be saved between battles, so we would have to find another way to store that data.<br>
 		A question that we have is, how we should connect the two architecture designs together so that they work together?<br>
 </p>
-
 
 		<p> <a href="index.html">back to index</a> <br> </p>
 	</body>
