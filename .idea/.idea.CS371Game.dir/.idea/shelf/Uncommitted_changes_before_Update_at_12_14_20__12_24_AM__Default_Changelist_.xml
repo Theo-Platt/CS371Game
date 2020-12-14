@@ -1,0 +1,624 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]" date="1607930661338" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/shelf/Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/14/20, 12:24 AM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/0f/0f8f7fa5f8f333ca845535cedf200411" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.Mathematics.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/60/600f613014916c79c533b43589575bd8" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4a/4acfff62fabc8cd6dbc96d63484ba67a" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/bc/bc67aa13f2d8946ecba25f649b90c681" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/46/46248475c2c74b1ea2ba5cd05fa504ef" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/9f/9ffccbcc5f35613c93b364109fb7e0de" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/42/42b5e5cf4986673c806ed580319bec3e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/a0/a0ff8fee964e80bec8b4a6d66de8e1bf" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/a9/a905080c987fb49ae00e2c0c6a479716" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/89/89d6ad34325f7a01703e911ae6ec5bcd" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/60/60e8a64557ef0a0600211cd73e1bc7d6" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e1/e1ba6dd7988390dfdc749f83108bd9ca" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/9c/9c76daf8843228560c96e42a38918645" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/SourceAssetDB" />
+    <option name="AFTER_PATH" value="The_Game/Library/SourceAssetDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/shelf/Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]/SourceAssetDB" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e3/e3f0f991e1100b7cbcf92a3d25e49975" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/2f/2f98bf9b6aca5ddf779e041ede05f3d8" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/b3/b3e7102d9e6796f39210331326ce0f93" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/2c/2cb03fddb884331380bb96c71e81ac3a" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/f0/f04a9fb6316b43abeacd042d76aa0e64" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/10/1003f696f4006c872a73a037fb587642" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4f/4f6b927e776cf7ac96324a0f55528c52" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e8/e8c7855f20b1128f23bc097d42f1eb51" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Temp/__Backupscenes/0.backup" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/b0/b046e757970871b1119c520e1b97b40e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ArtifactDB" />
+    <option name="AFTER_PATH" value="The_Game/Library/ArtifactDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/shelf/Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]/ArtifactDB" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/ce/ce60c2f2afb9d7b6fbdba68e0fe7b82a" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/6f/6f9510c252682fda155beeabe436dd2e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/5b/5bfcf00060009d2c57d0a5003f7ced38" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/d2/d22f8d21fe820a55aedbe908a3d76db0" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/82/820798f6b1b0fdc2f307a0778de831d1" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/98/989ef5b4fe6a0463ac7202cb3f09697c" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/d3/d347009eeb271299a0937464d5cb2dcd" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/1f/1f54b51c2f2a9cb673a5b6f74ad1cf93" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e5/e5fcbea0813fe25750d2c8c70e152b25" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/94/9492b928838641a955194a8c08130a16" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4d/4da544a15562c199b372982f959597eb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/91/9180ea693f493e26269706b2cb0978d3" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/88/885f3d1350e25d27bf6a56a59476b21f" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e5/e539e0019069e49a00c0a076756c1119" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/33/333b9da306f7d2527f4cd4f00cf2b49d" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/UnityEngine.UI.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4f/4fe301517b5d07b37b26bd52b45ba7f5" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/d3/d3fb25344fd13bf3b2962c46d427b8a5" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/c7/c730489752a482372ff67ad814dfc906" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/PsdPlugin.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/a7/a7848d106f33e2c70a635ba3ff85eba9" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/0e/0e591ce4adf3badef235bcdd779c3cf2" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/16/1601e01b2421b2d30c79395dcfecca71" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/UnityEditor.UI.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/b2/b2ca38e0ecd24e4ef2b388f0011a2111" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/d0/d0d6084fd2758363bb95ed3571965095" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/6f/6f73b58a164404960098b1aa71405724" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/bd/bd64b08df200b8b0cbac99017cd5b00f" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/6a/6ab62336ab75536c9db1131d62cade1e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/43/43e754f8196ac6323bf12944cba549df" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/15/15d1cc87187b30b6af92e0c3b10f8bc3" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/82/821e563ddf0164e4ee22f90268643aac" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/65/6549b97d54f43201b44aa8318a0c892a" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/be/becadf4ae7b41f564b7c1ab6e1f5182b" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/34/340b0d55523cddb7399c3a19668169b6" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/aa/aae83dde0d2ed7469cce450ccd6dec3f" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/9f/9ffdaaf5822fee81403770e295825d9b" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/f5/f5abb5b8877ebc89fefd2322314a7dfb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/BuiltinAssemblies.stamp" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/04/04f3860ea0c0afd1d0b7bd07b78af006" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/bb/bb17334eb677d4436817d6196d921412" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/9d/9d51fedee17b373cd625322cf3b4cb99" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/14/14695f226a576860fd4803db76f31723" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/24/24f45025d6c43e311216ec434ae35f4c" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/19/19f340e6efe23a771fd88e330db12682" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/8a/8a4aa532de8b0bd997b0fc5972db93fd" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/97/97046719304be07a4dd7f6c1806646d3" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/66/66426c82389621efe73d0f978e01cbf9" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/b7/b7ea5578aa1a91133db1b80be208249d" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.Timeline.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e0/e04713973f1ea7bb927714c5068cdce1" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/21/213d9d6b3623860a59992b392e08e828" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4e/4e97fd49d2e3cc70d2cd568ffdc7c6f8" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/4d/4d07ddff0d3b35e81581ef5bfd50d711" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/36/36a14917c23bc348e9736b78fbe3f263" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/95/95ec5f655e3acb75782b5032a992513b" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="The_Game/Temp/UnityLockfile" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/shelf/Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]/UnityLockfile" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/72/72c3b1dc8cd6d3973689a19463000af9" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/c8/c8630917d22400751396c05caa748988" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/53/5371448e80456e569f2a5a33f4cd2864" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/b8/b8bee4dd4fff6d6b40162be836e94b46" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/ca/caf17cde560264a09a0dde220955bea1" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/8e/8eb10421c6da88f78a3e21cd1da7db0d" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/e2/e20df9cd63ed79ced1c8f7101ae03308" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/c7/c7dd44613c1bea9bae13dc23ecebaa3e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/f8/f833aa8c987e5da08e8ce240609d2c5c" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/46/466a688aff3ac65e670cf88634977fce" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" />
+    <option name="AFTER_PATH" value="The_Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/shelf/Uncommitted_changes_before_Update_at_12_14_20,_12_24_AM_[Default_Changelist]/UnityEngine.TestRunner.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/f2/f200d54cfa2b686dfc84585b3d9eda71" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/80/8063f308d5287e61b007456e985c2cf8" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/73/73b8e46b3a74a5e23338109345a6f0d8" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/44/44225b619a58721ca140608ad63f5dcd" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/f3/f3c19c84c5bd44c25a07597ab9008c9e" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/Artifacts/08/08c1bf454019bb46a718eb1cdce9d870" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="The_Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

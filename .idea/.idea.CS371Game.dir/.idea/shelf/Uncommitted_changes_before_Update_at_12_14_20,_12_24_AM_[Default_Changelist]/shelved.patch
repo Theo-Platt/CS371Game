@@ -1,0 +1,1322 @@
+Index: The_Game/Library/ProtocolInstance.json
+===================================================================
+--- The_Game/Library/ProtocolInstance.json	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/ProtocolInstance.json	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
+@@ -1,1 +0,0 @@
+-[{"Port":53721,"SolutionName":"The_Game"}]
+\ No newline at end of file
+Index: The_Game/Assets/Textures/Attack Sprites/Fire Sprite.meta
+===================================================================
+--- The_Game/Assets/Textures/Attack Sprites/Fire Sprite.meta	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Assets/Textures/Attack Sprites/Fire Sprite.meta	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
+@@ -1,8 +0,0 @@
+-fileFormatVersion: 2
+-guid: e548c464bb42b7346bf6005d847f8161
+-folderAsset: yes
+-DefaultImporter:
+-  externalObjects: {}
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
+Index: The_Game/Library/EditorInstance.json
+===================================================================
+--- The_Game/Library/EditorInstance.json	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/EditorInstance.json	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
+@@ -1,6 +0,0 @@
+-{
+-	"process_id" : 75958,
+-	"version" : "2019.4.11f1",
+-	"app_path" : "/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app",
+-	"app_contents_path" : "/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents"
+-}
+\ No newline at end of file
+Index: The_Game/Library/CurrentLayout-default.dwlt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\n%TAG !u! tag:unity3d.com,2011:\n--- !u!114 &1\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_PixelRect:\n    serializedVersion: 2\n    x: -1867\n    y: -235\n    width: 1780\n    height: 1018\n  m_ShowMode: 4\n  m_Title: \n  m_RootView: {fileID: 2}\n  m_MinSize: {x: 875, y: 300}\n  m_MaxSize: {x: 10000, y: 10000}\n  m_Maximized: 0\n--- !u!114 &2\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 3}\n  - {fileID: 5}\n  - {fileID: 4}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1780\n    height: 1018\n  m_MinSize: {x: 875, y: 300}\n  m_MaxSize: {x: 10000, y: 10000}\n--- !u!114 &3\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1780\n    height: 30\n  m_MinSize: {x: 0, y: 0}\n  m_MaxSize: {x: 0, y: 0}\n  m_LastLoadedLayoutName: \n--- !u!114 &4\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 998\n    width: 1780\n    height: 20\n  m_MinSize: {x: 0, y: 0}\n  m_MaxSize: {x: 0, y: 0}\n--- !u!114 &5\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 6}\n  - {fileID: 11}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 30\n    width: 1780\n    height: 968\n  m_MinSize: {x: 579, y: 492}\n  m_MaxSize: {x: 14002, y: 14042}\n  vertical: 0\n  controlID: 82\n--- !u!114 &6\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 7}\n  - {fileID: 10}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1362\n    height: 968\n  m_MinSize: {x: 303, y: 492}\n  m_MaxSize: {x: 10001, y: 14042}\n  vertical: 1\n  controlID: 83\n--- !u!114 &7\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children:\n  - {fileID: 8}\n  - {fileID: 9}\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1362\n    height: 697\n  m_MinSize: {x: 303, y: 221}\n  m_MaxSize: {x: 8003, y: 4021}\n  vertical: 0\n  controlID: 18\n--- !u!114 &8\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 297\n    height: 697\n  m_MinSize: {x: 201, y: 221}\n  m_MaxSize: {x: 4001, y: 4021}\n  m_ActualView: {fileID: 13}\n  m_Panes:\n  - {fileID: 13}\n  m_Selected: 0\n  m_LastSelected: 0\n--- !u!114 &9\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: GameView\n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 297\n    y: 0\n    width: 1065\n    height: 697\n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_ActualView: {fileID: 14}\n  m_Panes:\n  - {fileID: 12}\n  - {fileID: 14}\n  - {fileID: 15}\n  m_Selected: 1\n  m_LastSelected: 0\n--- !u!114 &10\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: ProjectBrowser\n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 0\n    y: 697\n    width: 1362\n    height: 271\n  m_MinSize: {x: 231, y: 271}\n  m_MaxSize: {x: 10001, y: 10021}\n  m_ActualView: {fileID: 16}\n  m_Panes:\n  - {fileID: 16}\n  - {fileID: 17}\n  - {fileID: 18}\n  m_Selected: 0\n  m_LastSelected: 1\n--- !u!114 &11\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_Children: []\n  m_Position:\n    serializedVersion: 2\n    x: 1362\n    y: 0\n    width: 418\n    height: 968\n  m_MinSize: {x: 276, y: 71}\n  m_MaxSize: {x: 4001, y: 4021}\n  m_ActualView: {fileID: 19}\n  m_Panes:\n  - {fileID: 19}\n  m_Selected: 0\n  m_LastSelected: 0\n--- !u!114 &12\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 200, y: 200}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Scene\n    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1570\n    y: -205\n    width: 1063\n    height: 676\n  m_ViewDataDictionary: {fileID: 0}\n  m_ShowContextualTools: 0\n  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429\n  m_Gizmos: 1\n  m_SceneIsLit: 1\n  m_SceneLighting: 1\n  m_2DMode: 1\n  m_isRotationLocked: 0\n  m_PlayAudio: 0\n  m_AudioPlay: 0\n  m_Position:\n    m_Target: {x: 0.5668841, y: -0.10363738, z: -10.051557}\n    speed: 2\n    m_Value: {x: 0.5668841, y: -0.10363738, z: -10.051557}\n  m_RenderMode: 0\n  m_CameraMode:\n    drawMode: 0\n    name: Shaded\n    section: Shading Mode\n  m_ValidateTrueMetals: 0\n  m_DoValidateTrueMetals: 0\n  m_ExposureSliderValue: 0\n  m_ExposureSliderMax: 10\n  m_SceneViewState:\n    showFog: 1\n    showMaterialUpdate: 0\n    showSkybox: 1\n    showFlares: 1\n    showImageEffects: 1\n    showParticleSystems: 1\n  m_Grid:\n    xGrid:\n      m_Fade:\n        m_Target: 0\n        speed: 2\n        m_Value: 0\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 0, y: 0}\n    yGrid:\n      m_Fade:\n        m_Target: 0\n        speed: 2\n        m_Value: 1\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 1, y: 1}\n    zGrid:\n      m_Fade:\n        m_Target: 0\n        speed: 2\n        m_Value: 1\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\n      m_Pivot: {x: 0, y: 0, z: 0}\n      m_Size: {x: 1, y: 1}\n    m_ShowGrid: 0\n    m_GridAxis: 1\n    m_gridOpacity: 0.5\n  m_Rotation:\n    m_Target: {x: 0, y: 0, z: 0, w: 1}\n    speed: 2\n    m_Value: {x: 0, y: 0, z: 0, w: 1}\n  m_Size:\n    m_Target: 9.490306\n    speed: 2\n    m_Value: 9.490306\n  m_Ortho:\n    m_Target: 1\n    speed: 2\n    m_Value: 1\n  m_CameraSettings:\n    m_Speed: 1\n    m_SpeedNormalized: 0.5\n    m_SpeedMin: 0.001\n    m_SpeedMax: 2\n    m_EasingEnabled: 1\n    m_EasingDuration: 0.4\n    m_AccelerationEnabled: 1\n    m_FieldOfViewHorizontalOrVertical: 60\n    m_NearClip: 0.03\n    m_FarClip: 10000\n    m_DynamicClip: 1\n    m_OcclusionCulling: 0\n  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}\n  m_LastSceneViewOrtho: 0\n  m_ReplacementShader: {fileID: 0}\n  m_ReplacementString: \n  m_SceneVisActive: 1\n  m_LastLockedObject: {fileID: 0}\n  m_ViewIsLockedToObject: 0\n--- !u!114 &13\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 200, y: 200}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Hierarchy\n    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1867\n    y: -205\n    width: 296\n    height: 676\n  m_ViewDataDictionary: {fileID: 0}\n  m_SceneHierarchy:\n    m_TreeViewState:\n      scrollPos: {x: 0, y: 0}\n      m_SelectedIDs: \n      m_LastClickedID: 0\n      m_ExpandedIDs: 5cfbffff\n      m_RenameOverlay:\n        m_UserAcceptedRename: 0\n        m_Name: \n        m_OriginalName: \n        m_EditFieldRect:\n          serializedVersion: 2\n          x: 0\n          y: 0\n          width: 0\n          height: 0\n        m_UserData: 0\n        m_IsWaitingForDelay: 0\n        m_IsRenaming: 0\n        m_OriginalEventType: 11\n        m_IsRenamingFilename: 0\n        m_ClientGUIView: {fileID: 8}\n      m_SearchString: \n    m_ExpandedScenes: []\n    m_CurrenRootInstanceID: 0\n    m_LockTracker:\n      m_IsLocked: 0\n    m_CurrentSortingName: TransformSorting\n  m_WindowGUID: 4c969a2b90040154d917609493e03593\n--- !u!114 &14\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Game\n    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1570\n    y: -205\n    width: 1063\n    height: 676\n  m_ViewDataDictionary: {fileID: 0}\n  m_SerializedViewNames: []\n  m_SerializedViewValues: []\n  m_SerializedCustomFieldsNames: []\n  m_SerializedCustomFieldsValues: []\n  m_PlayModeViewName: GameView\n  m_ShowGizmos: 0\n  m_TargetDisplay: 0\n  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}\n  m_TargetSize: {x: 1063, y: 655}\n  m_TextureFilterMode: 0\n  m_TextureHideFlags: 61\n  m_RenderIMGUI: 1\n  m_MaximizeOnPlay: 0\n  m_UseMipMap: 0\n  m_VSyncEnabled: 0\n  m_Gizmos: 0\n  m_Stats: 0\n  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000\n  m_ZoomArea:\n    m_HRangeLocked: 0\n    m_VRangeLocked: 0\n    hZoomLockedByDefault: 0\n    vZoomLockedByDefault: 0\n    m_HBaseRangeMin: -531.5\n    m_HBaseRangeMax: 531.5\n    m_VBaseRangeMin: -327.5\n    m_VBaseRangeMax: 327.5\n    m_HAllowExceedBaseRangeMin: 1\n    m_HAllowExceedBaseRangeMax: 1\n    m_VAllowExceedBaseRangeMin: 1\n    m_VAllowExceedBaseRangeMax: 1\n    m_ScaleWithWindow: 0\n    m_HSlider: 0\n    m_VSlider: 0\n    m_IgnoreScrollWheelUntilClicked: 0\n    m_EnableMouseInput: 1\n    m_EnableSliderZoomHorizontal: 0\n    m_EnableSliderZoomVertical: 0\n    m_UniformScale: 1\n    m_UpDirection: 1\n    m_DrawArea:\n      serializedVersion: 2\n      x: 0\n      y: 21\n      width: 1063\n      height: 655\n    m_Scale: {x: 1, y: 1}\n    m_Translation: {x: 531.5, y: 327.5}\n    m_MarginLeft: 0\n    m_MarginRight: 0\n    m_MarginTop: 0\n    m_MarginBottom: 0\n    m_LastShownAreaInsideMargins:\n      serializedVersion: 2\n      x: -531.5\n      y: -327.5\n      width: 1063\n      height: 655\n    m_MinimalGUI: 1\n  m_defaultScale: 1\n  m_LastWindowPixelSize: {x: 1063, y: 676}\n  m_ClearInEditMode: 1\n  m_NoCameraWarning: 1\n  m_LowResolutionForAspectRatios: 00000000000000000000\n  m_XRRenderMode: 0\n  m_RenderTexture: {fileID: 0}\n--- !u!114 &15\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Animator\n    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: 215\n    y: 75\n    width: 761\n    height: 413\n  m_ViewDataDictionary: {fileID: 0}\n  m_ViewTransforms:\n    m_KeySerializationHelper:\n    - {fileID: 7801084270574214488, guid: 49f11520d1f724242ba1858df09d0741, type: 2}\n    - {fileID: -1645472912788273321, guid: 095e2691dbe934b279ac38b96ba1f0a1, type: 2}\n    - {fileID: 3718764896041927205, guid: 93f2ae3009de14e02b667db7d95dcc75, type: 2}\n    - {fileID: 4426294859520334908, guid: 231dc654e810241d9af078098e8ce376, type: 2}\n    - {fileID: 3156575895280714449, guid: a018ec863d6114063b169f6cb8af4881, type: 2}\n    m_ValueSerializationHelper:\n    - e00: 1\n      e01: 0\n      e02: 0\n      e03: 0\n      e10: 0\n      e11: 1\n      e12: 0\n      e13: 30\n      e20: 0\n      e21: 0\n      e22: 1\n      e23: 0\n      e30: 0\n      e31: 0\n      e32: 0\n      e33: 1\n    - e00: 1\n      e01: 0\n      e02: 0\n      e03: -14\n      e10: 0\n      e11: 1\n      e12: 0\n      e13: 30\n      e20: 0\n      e21: 0\n      e22: 1\n      e23: 0\n      e30: 0\n      e31: 0\n      e32: 0\n      e33: 1\n    - e00: 1\n      e01: 0\n      e02: 0\n      e03: -15\n      e10: 0\n      e11: 1\n      e12: 0\n      e13: 30\n      e20: 0\n      e21: 0\n      e22: 1\n      e23: 0\n      e30: 0\n      e31: 0\n      e32: 0\n      e33: 1\n    - e00: 1\n      e01: 0\n      e02: 0\n      e03: 0\n      e10: 0\n      e11: 1\n      e12: 0\n      e13: 0\n      e20: 0\n      e21: 0\n      e22: 1\n      e23: 0\n      e30: 0\n      e31: 0\n      e32: 0\n      e33: 1\n    - e00: 0.45052633\n      e01: 0\n      e02: 0\n      e03: -7.5263214\n      e10: 0\n      e11: 0.45052633\n      e12: 0\n      e13: 148.70526\n      e20: 0\n      e21: 0\n      e22: 1\n      e23: 0\n      e30: 0\n      e31: 0\n      e32: 0\n      e33: 1\n  m_PreviewAnimator: {fileID: 0}\n  m_AnimatorController: {fileID: 9100000, guid: 231dc654e810241d9af078098e8ce376,\n    type: 2}\n  m_BreadCrumbs:\n  - m_Target: {fileID: 4426294859520334908, guid: 231dc654e810241d9af078098e8ce376,\n      type: 2}\n    m_ScrollPosition: {x: 0, y: 0}\n  stateMachineGraph: {fileID: 0}\n  stateMachineGraphGUI: {fileID: 0}\n  blendTreeGraph: {fileID: 0}\n  blendTreeGraphGUI: {fileID: 0}\n  m_AutoLiveLink: 1\n  m_MiniTool: 0\n  m_LockTracker:\n    m_IsLocked: 0\n  m_CurrentEditor: 0\n  m_LayerEditor:\n    m_SelectedLayerIndex: 0\n--- !u!114 &16\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 230, y: 250}\n  m_MaxSize: {x: 10000, y: 10000}\n  m_TitleContent:\n    m_Text: Project\n    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1867\n    y: 492\n    width: 1361\n    height: 250\n  m_ViewDataDictionary: {fileID: 0}\n  m_SearchFilter:\n    m_NameFilter: \n    m_ClassNames: []\n    m_AssetLabels: []\n    m_AssetBundleNames: []\n    m_VersionControlStates: []\n    m_SoftLockControlStates: []\n    m_ReferencingInstanceIDs: \n    m_SceneHandles: \n    m_ShowAllHits: 0\n    m_SkipHidden: 0\n    m_SearchArea: 1\n    m_Folders:\n    - Assets/Characters/Player Wizards\n  m_ViewMode: 1\n  m_StartGridSize: 64\n  m_LastFolders:\n  - Assets/Characters/Player Wizards\n  m_LastFoldersGridSize: -1\n  m_LastProjectPath: /Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game\n  m_LockTracker:\n    m_IsLocked: 0\n  m_FolderTreeState:\n    scrollPos: {x: 0, y: 14}\n    m_SelectedIDs: a83c0000\n    m_LastClickedID: 15528\n    m_ExpandedIDs: 00000000943c0000963c0000983c00009a3c00009c3c0000\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 10}\n    m_SearchString: \n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n  m_AssetTreeState:\n    scrollPos: {x: 0, y: 0}\n    m_SelectedIDs: \n    m_LastClickedID: 0\n    m_ExpandedIDs: 00000000943c0000963c0000983c00009a3c00009c3c0000\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 0}\n    m_SearchString: \n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n  m_ListAreaState:\n    m_SelectedInstanceIDs: \n    m_LastClickedInstanceID: 0\n    m_HadKeyboardFocusLastEvent: 0\n    m_ExpandedInstanceIDs: c6230000ee430000fe43000000000000043b0000da6100009a3d0000\n    m_RenameOverlay:\n      m_UserAcceptedRename: 0\n      m_Name: \n      m_OriginalName: \n      m_EditFieldRect:\n        serializedVersion: 2\n        x: 0\n        y: 0\n        width: 0\n        height: 0\n      m_UserData: 0\n      m_IsWaitingForDelay: 0\n      m_IsRenaming: 0\n      m_OriginalEventType: 11\n      m_IsRenamingFilename: 1\n      m_ClientGUIView: {fileID: 0}\n    m_CreateAssetUtility:\n      m_EndAction: {fileID: 0}\n      m_InstanceID: 0\n      m_Path: \n      m_Icon: {fileID: 0}\n      m_ResourceFile: \n    m_NewAssetIndexInList: -1\n    m_ScrollPosition: {x: 0, y: 0}\n    m_GridSize: 64\n  m_SkipHiddenPackages: 0\n  m_DirectoriesAreaWidth: 207\n--- !u!114 &17\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Animation\n    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1868\n    y: 580\n    width: 1413\n    height: 158\n  m_ViewDataDictionary: {fileID: 0}\n  m_LockTracker:\n    m_IsLocked: 0\n  m_LastSelectedObjectID: -75184\n--- !u!114 &18\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 100, y: 100}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Console\n    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -1901\n    y: 496\n    width: 1251\n    height: 250\n  m_ViewDataDictionary: {fileID: 0}\n--- !u!114 &19\nMonoBehaviour:\n  m_ObjectHideFlags: 52\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 0}\n  m_Enabled: 1\n  m_EditorHideFlags: 1\n  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}\n  m_Name: \n  m_EditorClassIdentifier: \n  m_MinSize: {x: 275, y: 50}\n  m_MaxSize: {x: 4000, y: 4000}\n  m_TitleContent:\n    m_Text: Inspector\n    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,\n      type: 0}\n    m_Tooltip: \n  m_Pos:\n    serializedVersion: 2\n    x: -505\n    y: -205\n    width: 417\n    height: 947\n  m_ViewDataDictionary: {fileID: 0}\n  m_OpenAddComponentMenu: 0\n  m_ObjectsLockedBeforeSerialization: []\n  m_InstanceIDsLockedBeforeSerialization: \n  m_LockTracker:\n    m_IsLocked: 0\n  m_PreviewResizer:\n    m_CachedPref: 151\n    m_ControlHash: -371814159\n    m_PrefName: Preview_InspectorPreview\n  m_PreviewWindow: {fileID: 0}\n  m_LastInspectedObjectInstanceID: -1\n  m_LastVerticalScrollValue: 0\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/CurrentLayout-default.dwlt	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/CurrentLayout-default.dwlt	(date 1607321670812)
+@@ -14,9 +14,9 @@
+   m_EditorClassIdentifier: 
+   m_PixelRect:
+     serializedVersion: 2
+-    x: -1867
++    x: -1792
+     y: -235
+-    width: 1780
++    width: 1796
+     height: 1018
+   m_ShowMode: 4
+   m_Title: 
+@@ -44,7 +44,7 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1780
++    width: 1796
+     height: 1018
+   m_MinSize: {x: 875, y: 300}
+   m_MaxSize: {x: 10000, y: 10000}
+@@ -65,7 +65,7 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1780
++    width: 1796
+     height: 30
+   m_MinSize: {x: 0, y: 0}
+   m_MaxSize: {x: 0, y: 0}
+@@ -87,7 +87,7 @@
+     serializedVersion: 2
+     x: 0
+     y: 998
+-    width: 1780
++    width: 1796
+     height: 20
+   m_MinSize: {x: 0, y: 0}
+   m_MaxSize: {x: 0, y: 0}
+@@ -110,12 +110,12 @@
+     serializedVersion: 2
+     x: 0
+     y: 30
+-    width: 1780
++    width: 1796
+     height: 968
+   m_MinSize: {x: 579, y: 492}
+   m_MaxSize: {x: 14002, y: 14042}
+   vertical: 0
+-  controlID: 82
++  controlID: 108
+ --- !u!114 &6
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -135,12 +135,12 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1362
++    width: 1375
+     height: 968
+   m_MinSize: {x: 303, y: 492}
+   m_MaxSize: {x: 10001, y: 14042}
+   vertical: 1
+-  controlID: 83
++  controlID: 109
+ --- !u!114 &7
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -160,12 +160,12 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 1362
+-    height: 697
++    width: 1375
++    height: 596
+   m_MinSize: {x: 303, y: 221}
+   m_MaxSize: {x: 8003, y: 4021}
+   vertical: 0
+-  controlID: 18
++  controlID: 110
+ --- !u!114 &8
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -183,8 +183,8 @@
+     serializedVersion: 2
+     x: 0
+     y: 0
+-    width: 297
+-    height: 697
++    width: 300
++    height: 596
+   m_MinSize: {x: 201, y: 221}
+   m_MaxSize: {x: 4001, y: 4021}
+   m_ActualView: {fileID: 13}
+@@ -207,10 +207,10 @@
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 297
++    x: 300
+     y: 0
+-    width: 1065
+-    height: 697
++    width: 1075
++    height: 596
+   m_MinSize: {x: 100, y: 100}
+   m_MaxSize: {x: 4000, y: 4000}
+   m_ActualView: {fileID: 14}
+@@ -236,9 +236,9 @@
+   m_Position:
+     serializedVersion: 2
+     x: 0
+-    y: 697
+-    width: 1362
+-    height: 271
++    y: 596
++    width: 1375
++    height: 372
+   m_MinSize: {x: 231, y: 271}
+   m_MaxSize: {x: 10001, y: 10021}
+   m_ActualView: {fileID: 16}
+@@ -263,9 +263,9 @@
+   m_Children: []
+   m_Position:
+     serializedVersion: 2
+-    x: 1362
++    x: 1375
+     y: 0
+-    width: 418
++    width: 421
+     height: 968
+   m_MinSize: {x: 276, y: 71}
+   m_MaxSize: {x: 4001, y: 4021}
+@@ -310,9 +310,9 @@
+   m_PlayAudio: 0
+   m_AudioPlay: 0
+   m_Position:
+-    m_Target: {x: 0.5668841, y: -0.10363738, z: -10.051557}
++    m_Target: {x: -0.2772419, y: 1.7917484, z: -17.01611}
+     speed: 2
+-    m_Value: {x: 0.5668841, y: -0.10363738, z: -10.051557}
++    m_Value: {x: -0.2772419, y: 1.7917484, z: -17.01611}
+   m_RenderMode: 0
+   m_CameraMode:
+     drawMode: 0
+@@ -362,9 +362,9 @@
+     speed: 2
+     m_Value: {x: 0, y: 0, z: 0, w: 1}
+   m_Size:
+-    m_Target: 9.490306
++    m_Target: 8.058065
+     speed: 2
+-    m_Value: 9.490306
++    m_Value: 8.058065
+   m_Ortho:
+     m_Target: 1
+     speed: 2
+@@ -410,31 +410,31 @@
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: -1867
++    x: -1792
+     y: -205
+-    width: 296
+-    height: 676
++    width: 299
++    height: 575
+   m_ViewDataDictionary: {fileID: 0}
+   m_SceneHierarchy:
+     m_TreeViewState:
+       scrollPos: {x: 0, y: 0}
+       m_SelectedIDs: 
+       m_LastClickedID: 0
+-      m_ExpandedIDs: 5cfbffff
++      m_ExpandedIDs: 2ceeffff50eeffff5cfbffffda390000e0480000
+       m_RenameOverlay:
+         m_UserAcceptedRename: 0
+-        m_Name: 
+-        m_OriginalName: 
++        m_Name: PlayerBattleStation
++        m_OriginalName: PlayerBattleStation
+         m_EditFieldRect:
+           serializedVersion: 2
+           x: 0
+           y: 0
+           width: 0
+           height: 0
+-        m_UserData: 0
++        m_UserData: 18832
+         m_IsWaitingForDelay: 0
+         m_IsRenaming: 0
+-        m_OriginalEventType: 11
++        m_OriginalEventType: 0
+         m_IsRenamingFilename: 0
+         m_ClientGUIView: {fileID: 8}
+       m_SearchString: 
+@@ -465,10 +465,10 @@
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: -1570
++    x: -1492
+     y: -205
+-    width: 1063
+-    height: 676
++    width: 1073
++    height: 575
+   m_ViewDataDictionary: {fileID: 0}
+   m_SerializedViewNames: []
+   m_SerializedViewValues: []
+@@ -478,7 +478,7 @@
+   m_ShowGizmos: 0
+   m_TargetDisplay: 0
+   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+-  m_TargetSize: {x: 1063, y: 655}
++  m_TargetSize: {x: 1073, y: 554}
+   m_TextureFilterMode: 0
+   m_TextureHideFlags: 61
+   m_RenderIMGUI: 1
+@@ -493,10 +493,10 @@
+     m_VRangeLocked: 0
+     hZoomLockedByDefault: 0
+     vZoomLockedByDefault: 0
+-    m_HBaseRangeMin: -531.5
+-    m_HBaseRangeMax: 531.5
+-    m_VBaseRangeMin: -327.5
+-    m_VBaseRangeMax: 327.5
++    m_HBaseRangeMin: -536.5
++    m_HBaseRangeMax: 536.5
++    m_VBaseRangeMin: -277
++    m_VBaseRangeMax: 277
+     m_HAllowExceedBaseRangeMin: 1
+     m_HAllowExceedBaseRangeMax: 1
+     m_VAllowExceedBaseRangeMin: 1
+@@ -514,23 +514,23 @@
+       serializedVersion: 2
+       x: 0
+       y: 21
+-      width: 1063
+-      height: 655
++      width: 1073
++      height: 554
+     m_Scale: {x: 1, y: 1}
+-    m_Translation: {x: 531.5, y: 327.5}
++    m_Translation: {x: 536.5, y: 277}
+     m_MarginLeft: 0
+     m_MarginRight: 0
+     m_MarginTop: 0
+     m_MarginBottom: 0
+     m_LastShownAreaInsideMargins:
+       serializedVersion: 2
+-      x: -531.5
+-      y: -327.5
+-      width: 1063
+-      height: 655
++      x: -536.5
++      y: -277
++      width: 1073
++      height: 554
+     m_MinimalGUI: 1
+   m_defaultScale: 1
+-  m_LastWindowPixelSize: {x: 1063, y: 676}
++  m_LastWindowPixelSize: {x: 1073, y: 575}
+   m_ClearInEditMode: 1
+   m_NoCameraWarning: 1
+   m_LowResolutionForAspectRatios: 00000000000000000000
+@@ -689,10 +689,10 @@
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: -1867
+-    y: 492
+-    width: 1361
+-    height: 250
++    x: -1792
++    y: 391
++    width: 1374
++    height: 351
+   m_ViewDataDictionary: {fileID: 0}
+   m_SearchFilter:
+     m_NameFilter: 
+@@ -707,34 +707,34 @@
+     m_SkipHidden: 0
+     m_SearchArea: 1
+     m_Folders:
+-    - Assets/Characters/Player Wizards
++    - Assets/Sounds
+   m_ViewMode: 1
+   m_StartGridSize: 64
+   m_LastFolders:
+-  - Assets/Characters/Player Wizards
++  - Assets/Sounds
+   m_LastFoldersGridSize: -1
+   m_LastProjectPath: /Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game
+   m_LockTracker:
+     m_IsLocked: 0
+   m_FolderTreeState:
+-    scrollPos: {x: 0, y: 14}
+-    m_SelectedIDs: a83c0000
+-    m_LastClickedID: 15528
++    scrollPos: {x: 0, y: 0}
++    m_SelectedIDs: ae3c0000
++    m_LastClickedID: 15534
+     m_ExpandedIDs: 00000000943c0000963c0000983c00009a3c00009c3c0000
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+-      m_Name: 
+-      m_OriginalName: 
++      m_Name: Water
++      m_OriginalName: Water
+       m_EditFieldRect:
+         serializedVersion: 2
+         x: 0
+         y: 0
+         width: 0
+         height: 0
+-      m_UserData: 0
++      m_UserData: 15526
+       m_IsWaitingForDelay: 0
+       m_IsRenaming: 0
+-      m_OriginalEventType: 11
++      m_OriginalEventType: 0
+       m_IsRenamingFilename: 1
+       m_ClientGUIView: {fileID: 10}
+     m_SearchString: 
+@@ -775,7 +775,7 @@
+   m_ListAreaState:
+     m_SelectedInstanceIDs: 
+     m_LastClickedInstanceID: 0
+-    m_HadKeyboardFocusLastEvent: 0
++    m_HadKeyboardFocusLastEvent: 1
+     m_ExpandedInstanceIDs: c6230000ee430000fe43000000000000043b0000da6100009a3d0000
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+@@ -880,9 +880,9 @@
+     m_Tooltip: 
+   m_Pos:
+     serializedVersion: 2
+-    x: -505
++    x: -417
+     y: -205
+-    width: 417
++    width: 420
+     height: 947
+   m_ViewDataDictionary: {fileID: 0}
+   m_OpenAddComponentMenu: 0
+Index: The_Game/Library/LastSceneManagerSetup.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>sceneSetups:\n- path: Assets/Scenes/MainMenu.unity\n  isLoaded: 1\n  isActive: 1\n  isSubScene: 0\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/LastSceneManagerSetup.txt	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/LastSceneManagerSetup.txt	(date 1607321670819)
+@@ -1,5 +1,5 @@
+ sceneSetups:
+-- path: Assets/Scenes/MainMenu.unity
++- path: Assets/Scenes/GameArea.unity
+   isLoaded: 1
+   isActive: 1
+   isSubScene: 0
+Index: The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"m_ExpandedPrefabGameObjectFileIDs\":[],\"m_ExpandedSceneGameObjectInstanceIDs\":[-4564,-4528,-1188,14810,18656],\"m_ScrollY\":0.0,\"m_LastClickedFileID\":0,\"m_LastClickedInstanceID\":0}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/StateCache/Hierarchy/4c969a-mainStage.json	(date 1607321671947)
+@@ -1,1 +1,1 @@
+-{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[-4564,-4528,-1188,14810,18656],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":0}
+\ No newline at end of file
++{"m_ExpandedPrefabGameObjectFileIDs":[],"m_ExpandedSceneGameObjectInstanceIDs":[],"m_ScrollY":0.0,"m_LastClickedFileID":0,"m_LastClickedInstanceID":0}
+\ No newline at end of file
+Index: The_Game/Library/shadercompiler-UnityShaderCompiler2.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'\nCmd: initializeCompiler\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/shadercompiler-UnityShaderCompiler2.log	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/shadercompiler-UnityShaderCompiler2.log	(date 1607321672695)
+@@ -1,2 +1,4 @@
+ Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'
+ Cmd: initializeCompiler
++
++Quitting shader compiler process
+Index: The_Game/Temp/UnityTempFile-18acd885c316b46e28c772b0fce6089c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Temp/UnityTempFile-18acd885c316b46e28c772b0fce6089c	(date 1607930624259)
++++ The_Game/Temp/UnityTempFile-18acd885c316b46e28c772b0fce6089c	(date 1607930624259)
+@@ -0,0 +1,396 @@
++/target:library
++/nowarn:0169
++/out:"Temp/UnityEngine.TestRunner.dll"
++/debug:portable
++/optimize-
++/nostdlib+
++/preferreduilang:en-US
++/langversion:latest
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
++/reference:"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
++/define:UNITY_2019_4_11
++/define:UNITY_2019_4
++/define:UNITY_2019
++/define:UNITY_5_3_OR_NEWER
++/define:UNITY_5_4_OR_NEWER
++/define:UNITY_5_5_OR_NEWER
++/define:UNITY_5_6_OR_NEWER
++/define:UNITY_2017_1_OR_NEWER
++/define:UNITY_2017_2_OR_NEWER
++/define:UNITY_2017_3_OR_NEWER
++/define:UNITY_2017_4_OR_NEWER
++/define:UNITY_2018_1_OR_NEWER
++/define:UNITY_2018_2_OR_NEWER
++/define:UNITY_2018_3_OR_NEWER
++/define:UNITY_2018_4_OR_NEWER
++/define:UNITY_2019_1_OR_NEWER
++/define:UNITY_2019_2_OR_NEWER
++/define:UNITY_2019_3_OR_NEWER
++/define:UNITY_2019_4_OR_NEWER
++/define:UNITY_INCLUDE_TESTS
++/define:ENABLE_AR
++/define:ENABLE_AUDIO
++/define:ENABLE_CACHING
++/define:ENABLE_CLOTH
++/define:ENABLE_EVENT_QUEUE
++/define:ENABLE_MICROPHONE
++/define:ENABLE_MULTIPLE_DISPLAYS
++/define:ENABLE_PHYSICS
++/define:ENABLE_TEXTURE_STREAMING
++/define:ENABLE_UNET
++/define:ENABLE_LZMA
++/define:ENABLE_UNITYEVENTS
++/define:ENABLE_VR
++/define:ENABLE_WEBCAM
++/define:ENABLE_UNITYWEBREQUEST
++/define:ENABLE_WWW
++/define:ENABLE_CLOUD_SERVICES
++/define:ENABLE_CLOUD_SERVICES_COLLAB
++/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
++/define:ENABLE_CLOUD_SERVICES_ADS
++/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
++/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
++/define:ENABLE_CLOUD_SERVICES_PURCHASING
++/define:ENABLE_CLOUD_SERVICES_ANALYTICS
++/define:ENABLE_CLOUD_SERVICES_UNET
++/define:ENABLE_CLOUD_SERVICES_BUILD
++/define:ENABLE_CLOUD_LICENSE
++/define:ENABLE_EDITOR_HUB_LICENSE
++/define:ENABLE_WEBSOCKET_CLIENT
++/define:ENABLE_DIRECTOR_AUDIO
++/define:ENABLE_DIRECTOR_TEXTURE
++/define:ENABLE_MANAGED_JOBS
++/define:ENABLE_MANAGED_TRANSFORM_JOBS
++/define:ENABLE_MANAGED_ANIMATION_JOBS
++/define:ENABLE_MANAGED_AUDIO_JOBS
++/define:INCLUDE_DYNAMIC_GI
++/define:ENABLE_MONO_BDWGC
++/define:ENABLE_SCRIPTING_GC_WBARRIERS
++/define:PLATFORM_SUPPORTS_MONO
++/define:RENDER_SOFTWARE_CURSOR
++/define:ENABLE_VIDEO
++/define:PLATFORM_STANDALONE
++/define:PLATFORM_STANDALONE_WIN
++/define:UNITY_STANDALONE_WIN
++/define:UNITY_STANDALONE
++/define:ENABLE_RUNTIME_GI
++/define:ENABLE_MOVIES
++/define:ENABLE_NETWORK
++/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
++/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
++/define:ENABLE_CLUSTER_SYNC
++/define:ENABLE_CLUSTERINPUT
++/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
++/define:ENABLE_WEBSOCKET_HOST
++/define:ENABLE_MONO
++/define:NET_STANDARD_2_0
++/define:ENABLE_PROFILER
++/define:DEBUG
++/define:TRACE
++/define:UNITY_ASSERTIONS
++/define:UNITY_EDITOR
++/define:UNITY_EDITOR_64
++/define:UNITY_EDITOR_OSX
++/define:ENABLE_UNITY_COLLECTIONS_CHECKS
++/define:ENABLE_BURST_AOT
++/define:UNITY_TEAM_LICENSE
++/define:ENABLE_CUSTOM_RENDER_TEXTURE
++/define:ENABLE_DIRECTOR
++/define:ENABLE_LOCALIZATION
++/define:ENABLE_SPRITES
++/define:ENABLE_TERRAIN
++/define:ENABLE_TILEMAP
++/define:ENABLE_TIMELINE
++/define:ENABLE_LEGACY_INPUT_MANAGER
++/define:CSHARP_7_OR_LATER
++/define:CSHARP_7_3_OR_NEWER
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/AssemblyInfo.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/InvalidSignatureException.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/Is.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogAssert.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogScope/ILogScope.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogScope/LogEvent.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogScope/LogMatch.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/LogScope/LogScope.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/UnexpectedLogMessageException.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/UnhandledLogMessageException.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Assertions/UnityTestTimeoutException.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/ActionDelegator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/ConditionalIgnoreAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestMustExpectAllLogsAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityCombinatorialStrategy.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityPlatformAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnitySetUpAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityTearDownAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityTestAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/BaseDelegator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandState.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableApplyChangesToContextCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableRepeatedTestCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableRetryTestCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/ImmediateEnumerableCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/OuterUnityTestActionCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/TestActionCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Commands/TestCommandPcHelper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/ConstructDelegator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Filters/AssemblyNameFilter.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Filters/CategoryFilterExtended.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/IAsyncTestAssemblyBuilder.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/IStateSerializer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/CoroutineTestWorkItem.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/FailCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/IEnumerableTestMethodCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/PlaymodeWorkItemFactory.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/RestoreTestContextAfterDomainReload.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/TestCommandBuilder.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityTestAssemblyRunner.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityTestExecutionContext.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityWorkItem.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityWorkItemDataHolder.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/Runner/WorkItemFactory.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/TestExtensions.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/TestResultExtensions.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/NUnitExtensions/UnityTestAssemblyBuilder.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/PlayModeRunnerCallback.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/PlayerQuitHandler.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/RemoteTestResultSender.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/TestResultRenderer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Callbacks/TestResultRendererCallback.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/ITestRunnerListener.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/Messages/IEditModeTestYieldInstruction.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/PlaymodeTestsControllerSettings.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/IRemoteTestResultDataFactory.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/PlayerConnectionMessageIds.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/RemoteTestData.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/RemoteTestResultData.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/RemoteTestResultDataFactory.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/RemoteHelpers/RemoteTestResultDataWithTestData.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/SynchronousFilter.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestEnumeratorWrapper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestListenerWrapper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestPlatform.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/TestRunner/TestRunnerFilter.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/AssemblyLoadProxy.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/AssemblyWrapper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IAssemblyLoadProxy.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IAssemblyWrapper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/IScriptingRuntimeProxy.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/ITestAssemblyProvider.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/PlayerTestAssemblyProvider.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AssemblyProvider/ScriptingRuntimeProxy.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/AttributeHelper.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/ColorEqualityComparer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/CoroutineRunner.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/FloatEqualityComparer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/IOuterUnityTestAction.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/IPostBuildCleanup.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/IPrebuildSceneSetup.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/ITestRunCallback.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/MonoBehaviourTest/IMonoBehaviourTest.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/MonoBehaviourTest/MonoBehaviourTest.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/PostBuildCleanupAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/PrebuildSceneSetupAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/QuaternionEqualityComparer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/StacktraceFilter.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/TestRunCallbackAttribute.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/TestRunCallbackListener.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Utils.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector2ComparerWithEqualsOperator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector2EqualityComparer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector3ComparerWithEqualsOperator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector3EqualityComparer.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector4ComparerWithEqualsOperator.cs"
++"/Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Library/PackageCache/com.unity.test-framework@1.1.16/UnityEngine.TestRunner/Utils/Vector4EqualityComparer.cs"
+Index: The_Game/Temp/UnityTempFile-634df073a3d7945ebbde49eac8160df5
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Temp/UnityTempFile-634df073a3d7945ebbde49eac8160df5	(date 1607930624327)
++++ The_Game/Temp/UnityTempFile-634df073a3d7945ebbde49eac8160df5	(date 1607930624327)
+@@ -0,0 +1,375 @@
++/target:library
++/nowarn:0169
++/out:"Temp/UnityEngine.UI.dll"
++/debug:portable
++/optimize-
++/nostdlib+
++/preferreduilang:en-US
++/langversion:latest
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.dll"
++/reference:"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
++/define:UNITY_2019_4_11
++/define:UNITY_2019_4
++/define:UNITY_2019
++/define:UNITY_5_3_OR_NEWER
++/define:UNITY_5_4_OR_NEWER
++/define:UNITY_5_5_OR_NEWER
++/define:UNITY_5_6_OR_NEWER
++/define:UNITY_2017_1_OR_NEWER
++/define:UNITY_2017_2_OR_NEWER
++/define:UNITY_2017_3_OR_NEWER
++/define:UNITY_2017_4_OR_NEWER
++/define:UNITY_2018_1_OR_NEWER
++/define:UNITY_2018_2_OR_NEWER
++/define:UNITY_2018_3_OR_NEWER
++/define:UNITY_2018_4_OR_NEWER
++/define:UNITY_2019_1_OR_NEWER
++/define:UNITY_2019_2_OR_NEWER
++/define:UNITY_2019_3_OR_NEWER
++/define:UNITY_2019_4_OR_NEWER
++/define:UNITY_INCLUDE_TESTS
++/define:ENABLE_AR
++/define:ENABLE_AUDIO
++/define:ENABLE_CACHING
++/define:ENABLE_CLOTH
++/define:ENABLE_EVENT_QUEUE
++/define:ENABLE_MICROPHONE
++/define:ENABLE_MULTIPLE_DISPLAYS
++/define:ENABLE_PHYSICS
++/define:ENABLE_TEXTURE_STREAMING
++/define:ENABLE_UNET
++/define:ENABLE_LZMA
++/define:ENABLE_UNITYEVENTS
++/define:ENABLE_VR
++/define:ENABLE_WEBCAM
++/define:ENABLE_UNITYWEBREQUEST
++/define:ENABLE_WWW
++/define:ENABLE_CLOUD_SERVICES
++/define:ENABLE_CLOUD_SERVICES_COLLAB
++/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
++/define:ENABLE_CLOUD_SERVICES_ADS
++/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
++/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
++/define:ENABLE_CLOUD_SERVICES_PURCHASING
++/define:ENABLE_CLOUD_SERVICES_ANALYTICS
++/define:ENABLE_CLOUD_SERVICES_UNET
++/define:ENABLE_CLOUD_SERVICES_BUILD
++/define:ENABLE_CLOUD_LICENSE
++/define:ENABLE_EDITOR_HUB_LICENSE
++/define:ENABLE_WEBSOCKET_CLIENT
++/define:ENABLE_DIRECTOR_AUDIO
++/define:ENABLE_DIRECTOR_TEXTURE
++/define:ENABLE_MANAGED_JOBS
++/define:ENABLE_MANAGED_TRANSFORM_JOBS
++/define:ENABLE_MANAGED_ANIMATION_JOBS
++/define:ENABLE_MANAGED_AUDIO_JOBS
++/define:INCLUDE_DYNAMIC_GI
++/define:ENABLE_MONO_BDWGC
++/define:ENABLE_SCRIPTING_GC_WBARRIERS
++/define:PLATFORM_SUPPORTS_MONO
++/define:RENDER_SOFTWARE_CURSOR
++/define:ENABLE_VIDEO
++/define:PLATFORM_STANDALONE
++/define:PLATFORM_STANDALONE_WIN
++/define:UNITY_STANDALONE_WIN
++/define:UNITY_STANDALONE
++/define:ENABLE_RUNTIME_GI
++/define:ENABLE_MOVIES
++/define:ENABLE_NETWORK
++/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
++/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
++/define:ENABLE_CLUSTER_SYNC
++/define:ENABLE_CLUSTERINPUT
++/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
++/define:ENABLE_WEBSOCKET_HOST
++/define:ENABLE_MONO
++/define:NET_STANDARD_2_0
++/define:ENABLE_PROFILER
++/define:DEBUG
++/define:TRACE
++/define:UNITY_ASSERTIONS
++/define:UNITY_EDITOR
++/define:UNITY_EDITOR_64
++/define:UNITY_EDITOR_OSX
++/define:ENABLE_UNITY_COLLECTIONS_CHECKS
++/define:ENABLE_BURST_AOT
++/define:UNITY_TEAM_LICENSE
++/define:ENABLE_CUSTOM_RENDER_TEXTURE
++/define:ENABLE_DIRECTOR
++/define:ENABLE_LOCALIZATION
++/define:ENABLE_SPRITES
++/define:ENABLE_TERRAIN
++/define:ENABLE_TILEMAP
++/define:ENABLE_TIMELINE
++/define:ENABLE_LEGACY_INPUT_MANAGER
++/define:PACKAGE_PHYSICS
++/define:PACKAGE_PHYSICS2D
++/define:PACKAGE_ANIMATION
++/define:CSHARP_7_OR_LATER
++/define:CSHARP_7_3_OR_NEWER
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/AxisEventData.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/BaseEventData.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventData/PointerEventData.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventHandle.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventInterfaces.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventTrigger.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventTriggerType.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInputModule.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/PointerInputModule.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/TouchInputModule.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/MoveDirection.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/RaycastResult.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/RaycasterManager.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/BaseRaycaster.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/Physics2DRaycaster.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/Raycasters/PhysicsRaycaster.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/Properties/AssemblyInfo.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Animation/CoroutineTween.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/AnimationTriggers.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/CanvasUpdateRegistry.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ColorBlock.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/ClipperRegistry.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/Clipping.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/IClipRegion.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/RectangularVertexClipper.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/DefaultControls.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Dropdown.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/FontData.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/FontUpdateTracker.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRebuildTracker.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRegistry.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IGraphicEnabledDisabled.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IMask.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/IMaskable.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/InputField.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/AspectRatioFitter.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/ILayoutElement.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutRebuilder.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutUtility.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Mask.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskUtilities.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaterialModifiers/IMaterialModifier.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Misc.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MultipleDisplayUtilities.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Navigation.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RawImage.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SetPropertyUtility.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SpecializedCollections/IndexedSet.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SpriteState.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/StencilMaterial.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ListPool.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ObjectPool.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ReflectionMethodsCache.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/VertexHelper.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/BaseMeshEffect.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/IMeshModifier.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Outline.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/PositionAsUV1.cs"
++"/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Shadow.cs"
+Index: The_Game/Library/shadercompiler-UnityShaderCompiler1.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'\nCmd: initializeCompiler\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- The_Game/Library/shadercompiler-UnityShaderCompiler1.log	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ The_Game/Library/shadercompiler-UnityShaderCompiler1.log	(date 1607321672693)
+@@ -1,2 +1,4 @@
+ Base path: '/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines'
+ Cmd: initializeCompiler
++
++Quitting shader compiler process
+Index: .idea/.idea.CS371Game.dir/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"580c4fad-6071-4b1d-993e-d429863abe01\" name=\"Default Changelist\" comment=\"Updated README.md\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/The_Game/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/The_Game/Assets/BattleHUD.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/The_Game/Assets/Unit.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/The_Game/Assets/Characters/Character.cs\" />\n        <option value=\"$PROJECT_DIR$/The_Game/Assets/Game States/GameSys.cs\" />\n        <option value=\"$PROJECT_DIR$/The_Game/Assets/Battle System.cs\" />\n        <option value=\"$PROJECT_DIR$/The_Game/Assets/BattleHUD.cs\" />\n        <option value=\"$PROJECT_DIR$/The_Game/Assets/BattleSystem.cs\" />\n        <option value=\"$PROJECT_DIR$/README.md\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1if4iZVzFJDUgt3nP8rmAaE7tF5\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"CodeLensConfigurable\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"580c4fad-6071-4b1d-993e-d429863abe01\" name=\"Default Changelist\" comment=\"\" />\n      <created>1602285443733</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1602285443733</updated>\n      <workItem from=\"1602285456351\" duration=\"377000\" />\n      <workItem from=\"1602297949436\" duration=\"260000\" />\n      <workItem from=\"1603412160958\" duration=\"6659000\" />\n      <workItem from=\"1603422668183\" duration=\"7480000\" />\n      <workItem from=\"1604093205313\" duration=\"1954000\" />\n      <workItem from=\"1604692233539\" duration=\"9207000\" />\n      <workItem from=\"1606767565571\" duration=\"3350000\" />\n      <workItem from=\"1606883970586\" duration=\"2474000\" />\n      <workItem from=\"1607151215578\" duration=\"2324000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <created>1602285502612</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602285502612</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <created>1602285649971</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602285649971</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Added Fire Heavy Attack sprite sheet and attack\">\n      <created>1602285789343</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1602285789343</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Created BattleSystem that will hold game states\">\n      <created>1603430054233</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603430054234</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Created BattleSystem that will hold game states\">\n      <created>1603430133531</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603430133531</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Created BattleSystem that will hold game states\">\n      <created>1603430253378</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603430253378</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Created BattleSystem that will hold game states\">\n      <created>1603430258857</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603430258857</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Edited does hit so player and enemy hit more frequently and added air attack animation\">\n      <created>1604702965432</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604702965432</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Tweaked HUD slightly, retouched fire and air animations. HP now will not go past 0.\">\n      <created>1604907082500</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604907082500</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Added Earth spritesheet, animation, and controller.\">\n      <created>1604953150102</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1604953150102</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Added Water Attack Spritesheet and animation.\">\n      <created>1606797179336</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606797179336</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Added Enchant Spritesheet and animations.\">\n      <created>1606884039979</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606884039979</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"Added Various Enemies and Changed Player Sprites. Sounds have been added as well as music for the battle scene and main menu.\">\n      <created>1607206711602</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607206711603</updated>\n    </task>\n    <task id=\"LOCAL-00014\" summary=\"Updated README.md\">\n      <created>1607207777164</created>\n      <option name=\"number\" value=\"00014\" />\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607207777164</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"15\" />\n    <servers />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"NUnit\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"Added Fire Heavy Attack sprite sheet and attack\" />\n    <MESSAGE value=\"Created BattleSystem that will hold game states\" />\n    <MESSAGE value=\"Edited does hit so player and enemy hit more frequently and added air attack animation\" />\n    <MESSAGE value=\"Tweaked HUD slightly, retouched fire and air animations. HP now will not go past 0.\" />\n    <MESSAGE value=\"Added Earth spritesheet, animation, and controller.\" />\n    <MESSAGE value=\"Added Water Attack Spritesheet and animation.\" />\n    <MESSAGE value=\"Added Enchant Spritesheet and animations.\" />\n    <MESSAGE value=\"Added Various Enemies and Changed Player Sprites. Sounds have been added as well as music for the battle scene and main menu.\" />\n    <MESSAGE value=\"Updated README.md\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Updated README.md\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"276\" y=\"173\" key=\"MultipleFileMergeDialog\" timestamp=\"1603430166104\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"276\" y=\"173\" key=\"MultipleFileMergeDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1603430166104\" />\n    <state x=\"148\" y=\"50\" key=\"SettingsEditor\" timestamp=\"1603420034732\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"777\" />\n    </state>\n    <state x=\"148\" y=\"50\" key=\"SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1603420034732\" />\n    <state x=\"-1557\" y=\"-88\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1607207779105\">\n      <screen x=\"-1920\" y=\"-257\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"-1557\" y=\"-88\" key=\"Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057\" timestamp=\"1607207779105\" />\n    <state x=\"242\" y=\"147\" key=\"Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1604953154734\" />\n    <state x=\"-1263\" y=\"159\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1607110791614\">\n      <screen x=\"-1920\" y=\"-257\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"-1263\" y=\"159\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057\" timestamp=\"1607110791614\" />\n    <state x=\"438\" y=\"329\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777\" timestamp=\"1607109924505\" />\n    <state x=\"-1224\" y=\"-35\" width=\"670\" height=\"676\" key=\"search.everywhere.popup\" timestamp=\"1604702928752\">\n      <screen x=\"-1920\" y=\"-257\" width=\"1920\" height=\"1057\" />\n    </state>\n    <state x=\"-1224\" y=\"-35\" width=\"670\" height=\"676\" key=\"search.everywhere.popup/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057\" timestamp=\"1604702928752\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.CS371Game.dir/.idea/workspace.xml	(revision 2a55c4d9b97a25983cb3ee90c54ea2cd4ddfabdc)
++++ .idea/.idea.CS371Game.dir/.idea/workspace.xml	(date 1607313890867)
+@@ -24,7 +24,13 @@
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Updated README.md" />
++    <list default="true" id="580c4fad-6071-4b1d-993e-d429863abe01" name="Default Changelist" comment="Toned down sound effect volume.">
++      <change afterPath="$PROJECT_DIR$/The_Game/Library/Artifacts/43/43a259c058ce6bab508524c9b0850225" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS371Game.dir/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Assets/Textures/Attack Sprites/Fire Sprite.meta" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Library/ProtocolInstance.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/The_Game/Temp/__Backupscenes/0.backup" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -82,6 +88,7 @@
+       <workItem from="1606767565571" duration="3350000" />
+       <workItem from="1606883970586" duration="2474000" />
+       <workItem from="1607151215578" duration="2324000" />
++      <workItem from="1607310227359" duration="2070000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added Fire Heavy Attack sprite sheet and attack">
+       <created>1602285502612</created>
+@@ -181,7 +188,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1607207777164</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="Toned down sound effect volume.">
++      <created>1607310369219</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1607310369220</updated>
++    </task>
++    <option name="localTasksCounter" value="16" />
+     <servers />
+   </component>
+   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+@@ -210,21 +224,31 @@
+     <MESSAGE value="Added Enchant Spritesheet and animations." />
+     <MESSAGE value="Added Various Enemies and Changed Player Sprites. Sounds have been added as well as music for the battle scene and main menu." />
+     <MESSAGE value="Updated README.md" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
++    <MESSAGE value="Toned down sound effect volume." />
++    <option name="LAST_COMMIT_MESSAGE" value="Toned down sound effect volume." />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="276" y="173" key="MultipleFileMergeDialog" timestamp="1603430166104">
+-      <screen x="0" y="23" width="1280" height="777" />
++    <state x="-1652" y="-135" key="MergeDialog" timestamp="1607310425265">
++      <screen x="-1920" y="-257" width="1920" height="1057" />
++    </state>
++    <state x="-1652" y="-135" key="MergeDialog/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607310425265" />
++    <state x="-1506" y="-53" key="MultipleFileMergeDialog" timestamp="1607310432222">
++      <screen x="-1920" y="-257" width="1920" height="1057" />
+     </state>
++    <state x="-1506" y="-53" key="MultipleFileMergeDialog/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607310432222" />
+     <state x="276" y="173" key="MultipleFileMergeDialog/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603430166104" />
++    <state x="-1333" y="13" key="Rider.ProjectTemplateDialog.Size" timestamp="1607310665404">
++      <screen x="-1920" y="-257" width="1920" height="1057" />
++    </state>
++    <state x="-1333" y="13" key="Rider.ProjectTemplateDialog.Size/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607310665404" />
+     <state x="148" y="50" key="SettingsEditor" timestamp="1603420034732">
+       <screen x="0" y="23" width="1280" height="777" />
+     </state>
+     <state x="148" y="50" key="SettingsEditor/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1603420034732" />
+-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1607207779105">
++    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2" timestamp="1607310460382">
+       <screen x="-1920" y="-257" width="1920" height="1057" />
+     </state>
+-    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607207779105" />
++    <state x="-1557" y="-88" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@-1920.-257.1920.1057" timestamp="1607310460382" />
+     <state x="242" y="147" key="Vcs.Push.Dialog.v2/-1920.-257.1920.1057/0.23.1280.777@0.23.1280.777" timestamp="1604953154734" />
+     <state x="-1263" y="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607110791614">
+       <screen x="-1920" y="-257" width="1920" height="1057" />
+diff --git The_Game/Library/CrashedAssetImports.txt The_Game/Library/CrashedAssetImports.txt
+new file mode 100644
