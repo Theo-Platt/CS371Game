@@ -942,4 +942,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/PlayerPageEarth.unity
   - Assets/Scenes/PlayerPageAir.unity
   - Assets/Scenes/PlayerPageWater.unity
-  playerPath: /Users/devin_thaker/Downloads/Element Wars.app
+  playerPath: /Users/devin_thaker/RiderProjects/Projects/CS371Game/The_Game/Element
+    Wars (Mac).app
